@@ -1,0 +1,12 @@
+// ROPCScontainer.jsx
+// Container component for the ROP CS site
+import React from 'react';
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <h1>Welcome to ROP Computer Science's class web site</h1>
+    );
+  }
+}
+

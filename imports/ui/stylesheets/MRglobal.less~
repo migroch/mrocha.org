@@ -1,0 +1,6 @@
+// MRglobal.less
+// mrocha.org global stylesheet
+
+.title{
+  text-align: center
+}
