@@ -8,18 +8,19 @@ export default class App extends React.Component {
       <div className="container syllabus">
 	<div className="container-fluid rop-header">
 	  <a href="http://www.rop.santacruz.k12.ca.us/">
-	    <img className="img-responsive" src="rop_header.gif" height="90" />
+	    <img className="img-responsive" src="rop_header.gif" />
 	  </a>
 	</div>
+	
 	<div className="container text-center">
 	  <h1>Welcome to ROP Computer Science!</h1>
 	  <h2><small>Miguel Rocha - mrocha@scottsvalleyusd.org</small></h2>
 	</div>
-	<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on!</h4></div>
+	<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>
 
 	<div className="container thisweek">
-	  <h2><small>This week</small></h2>
-	  <div className="panel panel-primary col-sm-4">
+	  <h2><small>This week 08/21-24/17</small></h2>
+	  <div className="panel panel-primary col-md-4">
 	    <div className="panel-heading">
 	      <h3 className="panel-title">Monday</h3>
 	    </div>
@@ -36,22 +37,23 @@ export default class App extends React.Component {
 	    </div>
 	  </div>
 	  
-	  <div className="panel panel-primary col-sm-4">
+	  <div className="panel panel-primary col-md-4">
 	    <div className="panel-heading">
 	      <h3 className="panel-title">Tuesday</h3>
 	    </div>
 	    <div className="panel-body">
 	      <ol>
-		<li>Typing games! <a href="http://www.typinggames.zone/" target="_blank">typinggames.zone</a> <a href="http://games.sense-lang.org/EN.php" target="_blank">sense-lang.org</a>
+		<li>Typing games! <a href="http://www.typinggames.zone/" target="_blank">typinggames.zone</a>, <a href="http://games.sense-lang.org/EN.php" target="_blank">sense-lang.org</a>
 		</li>
-		<li>What is Computer Science?</li>
-		<li>What jobs can you get as a Computer Scientist?</li>
+		<li><a href="http://slides.com/miguelrocha-1/deck/fullscreen" target="_blank">
+		  What is Computer Science? and
+		  What jobs can you get as a Computer Scientist?</a> - <a href="https://slides.com/miguelrocha-1/deck/live" target="_blank">Live</a></li>
 		<li><a href="https://codehs.com" target="_blank">CodeHS</a></li>
 	      </ol>
 	    </div>
 	  </div>
 	  
-	  <div className="panel panel-primary col-sm-4">
+	  <div className="panel panel-primary col-md-4">
 	    <div className="panel-heading">
 	      <h3 className="panel-title">Thursday</h3>
 	    </div>
