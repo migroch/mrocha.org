@@ -2,7 +2,7 @@
 // Container component for the RopCS page
 import { Meteor } from 'meteor/meteor';
 import { createContainer } from 'meteor/react-meteor-data';
-import { Syllabi } from '../../api/syllabi/syllabi.js';
+//import { Syllabi } from '../../api/syllabi/syllabi.js';
 import RopCS  from '../pages/RopCS.jsx';
 
 export default RopCScontainer = createContainer(() => {
