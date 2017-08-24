@@ -6,14 +6,14 @@ import { Syllabi } from '../../api/syllabi/syllabi.js';
 import RopCS  from '../pages/RopCS.jsx';
 
 export default RopCScontainer = createContainer(() => {
-  const syllabusHandle = Meteor.subscribe('syllabi');
-  const loading = !syllabusHandle.ready();
-  const syllabus = Syllabi.findOne();
-  const syllExists = !loading && !!syllabus;
+  //const syllabusHandle = Meteor.subscribe('syllabi');
+  //const loading = !syllabusHandle.ready();
+  //const syllabus = Syllabi.findOne();
+  //const syllExists = !loading && !!syllabus;
   return {
-    loading,
-    syllabus: syllExists ? syllabus.fetch() : [],
-    syllExists
+    //loading,
+    //syllabus: syllExists ? syllabus.fetch() : [],
+    //syllExists
   };
 }, RopCS);
 
