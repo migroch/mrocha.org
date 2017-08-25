@@ -2,6 +2,7 @@
 // Container component for the RopCS page
 import React from 'react';
 import {Helmet} from "react-helmet";
+import PropTypes from 'prop-types';
 
 export default class RopCS extends React.Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class RopCS extends React.Component {
   }
   
   render() {
-    const { loading, syllabus, syllExists } = this.props;
+    const { loading, syllExists, syllabus } = this.props;
     return (
       <div className="container syllabus">
 	<Helmet>
@@ -157,8 +158,7 @@ export default class RopCS extends React.Component {
 
 
 RopCS.propTypes = {
-  list: React.PropTypes.object,
-  todos: React.PropTypes.array,
-  loading: React.PropTypes.bool,
-  listExists: React.PropTypes.bool,
+  loading: PropTypes.bool,
+  syllExists: PropTypes.bool,
+  syllabus: PropTypes.object
 };
