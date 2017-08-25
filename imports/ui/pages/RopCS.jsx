@@ -1,65 +1,85 @@
-// ROPCScontainer.jsx
-// Container component for the ROP CS site
+// RopCS.jsx
+// Container component for the RopCS page
 import React from 'react';
+import {Helmet} from "react-helmet";
 
-export default class App extends React.Component {
+export default class RopCS extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  
   render() {
+    const { loading, syllabus, syllExists } = this.props;
     return (
       <div className="container syllabus">
+	<Helmet>
+          <title>ROP Explorign Computer Science Syllabus</title>
+        </Helmet>
+	
 	<div className="container-fluid rop-header">
 	  <a href="http://www.rop.santacruz.k12.ca.us/">
-	    <img className="img-responsive" src="rop_header.gif" height="90" />
+	    <img className="img-responsive" src="rop_header.gif" />
 	  </a>
 	</div>
+	
 	<div className="container text-center">
 	  <h1>Welcome to ROP Computer Science!</h1>
 	  <h2><small>Miguel Rocha - mrocha@scottsvalleyusd.org</small></h2>
 	</div>
-	<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on!</h4></div>
+	<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>
 
 	<div className="container thisweek">
-	  <h2><small>This week</small></h2>
-	  <div className="panel panel-primary col-sm-4">
-	    <div className="panel-heading">
-	      <h3 className="panel-title">Monday</h3>
-	    </div>
-	    <div className="panel-body">
-	      <ol>
-		<li><button type="button" className="btn btn-default" data-toggle="modal" data-target="#meetQ">Getting to know each other</button>
-		</li>
-		<li>Syllabus</li>
-		<li><button type="button" className="btn btn-default" data-toggle="modal" data-target="#assessQ">Assessment questionnarie</button>
-		</li>
-		<li>A bit about ROP classes</li>
-		<li><a href="https://www.timeanddate.com/eclipse/in/@z-us-95065" target="_blank"> Eclipse!?</a></li>
-	      </ol>
-	    </div>
-	  </div>
-	  
-	  <div className="panel panel-primary col-sm-4">
-	    <div className="panel-heading">
-	      <h3 className="panel-title">Tuesday</h3>
-	    </div>
-	    <div className="panel-body">
-	      <ol>
-		<li>Typing games! <a href="http://www.typinggames.zone/" target="_blank">typinggames.zone</a> <a href="http://games.sense-lang.org/EN.php" target="_blank">sense-lang.org</a>
-		</li>
-		<li>What is Computer Science?</li>
-		<li>What jobs can you get as a Computer Scientist?</li>
-		<li><a href="https://codehs.com" target="_blank">CodeHS</a></li>
-	      </ol>
+	  <h2><small>This week 08/21-24/17</small></h2>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Monday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li><button type="button" className="btn btn-default" data-toggle="modal" data-target="#meetQ">Getting to know each other</button>
+		  </li>
+		  <li>Syllabus</li>
+		  <li><button type="button" className="btn btn-default" data-toggle="modal" data-target="#assessQ">Assessment questionnarie</button>
+		  </li>
+		  <li>A bit about ROP classes</li>
+		  <li><a href="https://www.timeanddate.com/eclipse/in/@z-us-95065" target="_blank"> Eclipse!?</a></li>
+		</ol>
+	      </div>
 	    </div>
 	  </div>
-	  
-	  <div className="panel panel-primary col-sm-4">
-	    <div className="panel-heading">
-	      <h3 className="panel-title">Thursday</h3>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Tuesday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li>Typing games! <a href="http://www.typinggames.zone/" target="_blank">typinggames.zone</a>, <a href="http://games.sense-lang.org/EN.php" target="_blank">sense-lang.org</a>
+		  </li>
+		  <li><a href="http://slides.com/migroch/deck/fullscreen" target="_blank">
+		    What is Computer Science? and
+		    What jobs can you get as a Computer Scientist?</a> - <a href="https://slides.com/migroch/deck/live" target="_blank">Live</a></li>
+		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
+		</ol>
+	      </div>
 	    </div>
-	    <div className="panel-body">
-	      <ol>
-		<li>Typing games!</li>
-		<li><a href="https://codehs.com" target="_blank">CodeHS</a></li>
-	      </ol>
+	  </div>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Thursday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li>Typing games!</li>
+		  <li><a href="http://slides.com/migroch/deck-1/fullscreen" target="_blank">Programming (AKA Coding)</a> - <a href="https://slides.com/migroch/deck-1/live" target="_blank">Live</a></li>
+		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
+		</ol>
+	      </div>
 	    </div>
 	  </div>
 	</div>
@@ -76,6 +96,7 @@ export default class App extends React.Component {
 	    <li><h3>Programming guide lines for open source applications</h3></li>
 	    <li> <h3>Data analysis and visualization (Matplotlib and D3.js)</h3></li>
 	    <li><h3>Machine Intelligence - what the heck is AI?</h3></li>
+	    <li><h3>Cyber Security</h3></li>
 	  </ul>
 	  <h2 className="text-center"><small className="text-danger">More details coming soon...</small></h2>
 	</div>
@@ -134,3 +155,10 @@ export default class App extends React.Component {
   }
 }
 
+
+RopCS.propTypes = {
+  list: React.PropTypes.object,
+  todos: React.PropTypes.array,
+  loading: React.PropTypes.bool,
+  listExists: React.PropTypes.bool,
+};
