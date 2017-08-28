@@ -1,15 +1,19 @@
 // ROPCScontainer.jsx
-// Container component for the ROP CS site
-import React from 'react';
+// Container component for the Phys1 site
+import { Meteor } from 'meteor/meteor';
+import { createContainer } from 'meteor/react-meteor-data';
+import { Syllabi } from '../../api/syllabi/syllabi.js';
+import Phys1  from '../pages/Phys1.jsx';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div className="container">
-	<h1>Welcome to Physics 1 class web site</h1>
-	<p>More coming soon ...</p>
-      </div>
-    );
-  }
-}
-
+export default Phys1Container = createContainer(() => {
+  const syllabusHandle = Meteor.subscribe('syllabi');
+  const loading = !syllabusHandle.ready();
+  const syllabus = Syllabi.findOne({name:"Phys1"});
+  const syllExists = !loading && !!syllabus;
+  //console.log(syllabus);
+  return {
+    loading,
+    syllExists,
+    syllabus: syllExists ? syllabus.syllabus : {}
+  };
+}, Phys1);

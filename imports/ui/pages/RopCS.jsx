@@ -1,5 +1,5 @@
 // RopCS.jsx
-// Container component for the RopCS page
+// Page component for the RopCS page
 import React from 'react';
 import {Helmet} from "react-helmet";
 import PropTypes from 'prop-types';
@@ -25,12 +25,64 @@ export default class RopCS extends React.Component {
 	
 	<div className="container text-center">
 	  <h1>Welcome to ROP Computer Science!</h1>
-	  <h2><small>Miguel Rocha - mrocha@scottsvalleyusd.org</small></h2>
+	  <h2><small>Miguel Rocha - mrocha@scottsvalleyusd.org - <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></small></h2>
 	</div>
-	<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>
+	{/*<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>*/}
 
 	<div className="container thisweek">
-	  <h2><small>This week 08/21-24/17</small></h2>
+	  <h2><small>Week1 (this week) How Computers Work & Learning to Code</small></h2>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Monday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li>RopCS site updates</li>
+		  <li>Week Overview</li>
+		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
+		</ol>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Tuesday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li>Week0 Quiz</li>
+		  <li><a href="http://slides.com/migroch/deck-2/fullscreen" target="_blank">How Computers Work</a> - <a href="https://slides.com/migroch/deck-2/live" target="_blank">Live</a></li>
+		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
+		</ol>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div className="container col-md-4">
+	    <div className="panel panel-primary">
+	      <div className="panel-heading">
+		<h3 className="panel-title">Thursday</h3>
+	      </div>
+	      <div className="panel-body">
+		<ol>
+		  <li><a href="http://slides.com/migroch/deck-1-3/fullscreen" target="_blank">Thinking Binary</a> - <a href="https://slides.com/migroch/deck-1-3/live" target="_blank">Live</a></li>
+		  <li>Computer History</li>
+		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
+		  <li>Work of the week due: CodeHS</li>
+		</ol>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	
+	
+	<div className="container thisweek">
+	  <h2><small>Week0 Introduction and Setting Up</small></h2>
 
 	  <div className="container col-md-4">
 	    <div className="panel panel-primary">
@@ -88,20 +140,44 @@ export default class RopCS extends React.Component {
 	<div className="jumbotron ">
 	  <h2 className="text-center">Learning Objectives! </h2>
 	  <ul>
-	    <li><h3>Introduction to programming (JavaScript and Python)</h3></li>
-	    <li><h3>The unix terminal and text editors</h3></li>
-	    <li><h3>How the internet works</h3></li>
-	    <li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS)</h3></li>
-	    <li><h3>From websites to platform independent responsive and reactive standalone applications</h3></li>
-	    <li><h3>Using Git repositories and GitHub for version control and collaborative programming</h3></li>
-	    <li><h3>Programming guide lines for open source applications</h3></li>
-	    <li> <h3>Data analysis and visualization (Matplotlib and D3.js)</h3></li>
-	    <li><h3>Machine Intelligence - what the heck is AI?</h3></li>
-	    <li><h3>Cyber Security</h3></li>
+	    <li><h3>Learning to code (JavaScript and Python) - <i className="text-success">Weeks: 0-3</i></h3></li>
+	    <li><h3>How computers work and history of computing - <i className="text-warning">Week 1</i></h3></li>
+	    <li><h3>How the internet works - <i className="text-danger">Week 2</i></h3></li>
+	    <li><h3>The unix terminal and text editors - <i className="text-danger">Week 3</i></h3></li>
+	    <li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-danger">Week 3</i></h3></li>
+	    <li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-danger">Weeks 4-5</i></h3></li>
+	    <li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 6-8</i></h3></li>
+	    
+	    <li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 8</i></h3></li>
+	    <li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 9-10</i></h3></li>
+	    <li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 11-12</i></h3></li>
+	    <li><h3>Cyber Security - <i className="text-danger">Week 13</i></h3></li>
 	  </ul>
-	  <h2 className="text-center"><small className="text-danger">More details coming soon...</small></h2>
 	</div>
 
+	<div className="jumbotron ">
+	  <h2 className="text-center">Homework</h2>
+	  <p>Your weekly work is due Thursday of every week. If you are focus during class hours you may not have any homework!</p>
+	</div>
+
+	<div className="alert alert-success text-center" role="alert"><h4>Tip for Success: Do your work during class!</h4></div>
+	
+	<div className="jumbotron ">
+	  <h2 className="text-center">Projects</h2>
+	  <p>Your final project is a portfolio of one or more applications you developed during the year. You will have to write a documentation and do a presentation for at least one application. Collaboration is allowed and encoraged but I will be grading based on each individual effort.</p>
+	</div>
+
+	<div className="jumbotron ">
+	  <h2 className="text-center">Grading</h2>
+	  <ul>
+	    <li><p>Projects: 40%</p></li>
+	    <li><p>Weekly Work: 30%</p></li>
+	    <li><p>Quizes: 20%</p></li>
+	    <li><p>Being Present: 10%</p></li>
+	  </ul>
+	</div>
+
+	<div className="alert alert-danger text-center" role="alert"><h4>Honesty: Students are expected to exercise academic honesty and integrity. Violations such as cheating and plagiarism will result in disciplinary action which may include recommendation for dismissal.</h4></div>
 	
 	<div className="modal fade" id="meetQ"  role="dialog" aria-labelledby="myModalLabel">
 	  <div className="modal-dialog" role="document">

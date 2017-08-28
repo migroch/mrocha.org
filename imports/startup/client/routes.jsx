@@ -8,8 +8,8 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 // route components
 import AppContainer from '../../ui/containers/AppContainer.jsx';
-import MRcontainer from '../../ui/containers/MRcontainer.jsx';
-import RopCScontainer from '../../ui/containers/RopCScontainer.jsx';
+import MRContainer from '../../ui/containers/MRContainer.jsx';
+import RopCSContainer from '../../ui/containers/RopCSContainer.jsx';
 import Phys1Container from '../../ui/containers/Phys1Container.jsx';
 
 const browserHistory = createBrowserHistory();
@@ -18,9 +18,9 @@ export const renderRoutes = () => (
   <Router history={browserHistory}>
     <div>
       <Route exact path="/" component={AppContainer}/>
-      <Route path="/ropcs" component={RopCScontainer}/>
+      <Route path="/ropcs" component={RopCSContainer}/>
       <Route path="/phys1" component={Phys1Container}/>
-      <Route path="/mrocha" component={MRcontainer}/>
+      <Route path="/mrocha" component={MRContainer}/>
     </div>
   </Router>
 );
