@@ -59,11 +59,16 @@ export default class Phys1 extends React.Component {
 	    <p>{syllabus.CourseDescription}</p>
 	    <p>{motive.mrocha}</p>
 	  </div>
-
+	  
 	  <div className="container">
-	    <h2>Homework</h2>
-	    <p>{syllabus.Homework}</p>
-	  </div>
+	    <h2>Text</h2>
+	    <p>{syllabus.RequiredText}</p>
+	 </div>
+
+	 <div className="container">
+	   <h2>Homework</h2>
+	   <p>{syllabus.Homework}</p>
+	 </div>
 
 	  <div className="container">
 	    <h2>Labs</h2>
