@@ -30,7 +30,7 @@ export default class RopCS extends React.Component {
 	{/*<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>*/}
 
 	<div className="container thisweek">
-	  <h2><small>Week1 (this week) How Computers Work & Learning to Code</small></h2>
+	  <h2><small>Week 1</small> <small className="text-success">(this week)</small> <small>How Computers Work & Learning to Code</small></h2>
 
 	  <div className="container col-md-4">
 	    <div className="panel panel-primary">
@@ -54,7 +54,6 @@ export default class RopCS extends React.Component {
 	      </div>
 	      <div className="panel-body">
 		<ol>
-		  <li>Week0 Quiz</li>
 		  <li><a href="http://slides.com/migroch/deck-2/fullscreen" target="_blank">How Computers Work</a> - <a href="https://slides.com/migroch/deck-2/live" target="_blank">Live</a></li>
 		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
 		</ol>
@@ -69,10 +68,11 @@ export default class RopCS extends React.Component {
 	      </div>
 	      <div className="panel-body">
 		<ol>
+		  <li>Week 0 Quiz</li>
 		  <li><a href="http://slides.com/migroch/deck-1-3/fullscreen" target="_blank">Thinking Binary</a> - <a href="https://slides.com/migroch/deck-1-3/live" target="_blank">Live</a></li>
 		  <li>Computer History</li>
 		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
-		  <li>Work of the week due: CodeHS</li>
+		  <li className="bg-danger">Work of the week due: CodeHS - Control Structures</li>
 		</ol>
 	      </div>
 	    </div>
@@ -82,7 +82,7 @@ export default class RopCS extends React.Component {
 	
 	
 	<div className="container thisweek">
-	  <h2><small>Week0 Introduction and Setting Up</small></h2>
+	  <h2><small>Week 0 Introduction and Setting Up</small></h2>
 
 	  <div className="container col-md-4">
 	    <div className="panel panel-primary">
@@ -177,7 +177,7 @@ export default class RopCS extends React.Component {
 	  </ul>
 	</div>
 
-	<div className="alert alert-danger text-center" role="alert"><h4>Honesty: Students are expected to exercise academic honesty and integrity. Violations such as cheating and plagiarism will result in disciplinary action which may include recommendation for dismissal.</h4></div>
+	<div className="alert alert-danger text-center" role="alert"><p>Honesty: Students are expected to exercise academic honesty and integrity. Violations such as cheating and plagiarism will result in disciplinary action which may include recommendation for dismissal.</p></div>
 	
 	<div className="modal fade" id="meetQ"  role="dialog" aria-labelledby="myModalLabel">
 	  <div className="modal-dialog" role="document">
