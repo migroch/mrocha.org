@@ -139,7 +139,7 @@ export default class Phys1 extends React.Component {
 
 	  <div className="container">
 	    <h2>ADA Accomodation Statement</h2>
-	    <p>{syllabus.AttendancePolicy}</p>
+	    <p>{syllabus.ADA}</p>
 	  </div>
 	  
 	</div>
