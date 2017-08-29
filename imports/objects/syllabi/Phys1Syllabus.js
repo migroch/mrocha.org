@@ -45,7 +45,7 @@ export default  Phys1Syllabus ={
 	"week 12":["Chapters: 29, 30, 31", "HW/Lab 11 due"],
 	"week 13":["Chapters: 32, 33, 34", "HW/Lab 12 due"],
 	"week 14":["Chapters: 35, 36", "HW/Lab 13 due"],
-	"week 15":["Chapters: project", "HW/Lab 14 due", "Final (Ch 22-36)"]
+	"week 15":["HW/Lab 14 due", "Final (Ch 22-36)"]
     },
     Homework:"Your homeworks and lab reports are due Thursdays at 6:30 pm",
     Labs:"You must get your data on the designated lab hours, NO MAKEUP LABS!",
@@ -53,7 +53,7 @@ export default  Phys1Syllabus ={
     Grading:{"Homework":"20%", "Lab Reports":"20%", "Exams":"20% each, 60% Total"},
     GradeScale:"https://i0.wp.com/greatcollegeadvice.com/wp-content/uploads/2008/11/slide15.jpg",
     ExtraCredit:"There will be extra credit oportunities within your homeworks, labs and lectures",
-    SuccesTip:"Read the text, do not memorize, UNDERSTAND!",
+    SuccessTip:"READ the text, do not memorize, UNDERSTAND!",
     Honesty:"Students are expected to exercise academic honesty and integrity. Violations such as cheating and plagiarism will result in disciplinary action which may include recommendation for dismissal.",
     AttendancePolicy:"Students missing one more class hour than the unit value for particular course, without making prior arrangements may, at the instructor’s option, be dropped without possibility of credit.",
     ADA:"Students requiring special services or arrangements because of hearing, visual, or other disability should contact their instructor, counselor, or the Disability Resource Center.",
