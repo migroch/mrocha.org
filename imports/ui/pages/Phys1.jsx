@@ -114,7 +114,7 @@ export default class Phys1 extends React.Component {
 		      <dd>
 			{
 			  syllabus.CourseSchedule[key].map((txt, index)=>{
-			    return <p key={index}>{txt}</p>
+			    return <p key={index} dangerouslySetInnerHTML={{__html: txt}}></p>
 			  })
 			}
 		      </dd>

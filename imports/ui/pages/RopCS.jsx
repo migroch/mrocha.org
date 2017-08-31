@@ -68,9 +68,9 @@ export default class RopCS extends React.Component {
 	      </div>
 	      <div className="panel-body">
 		<ol>
-		  <li>Week 0 Quiz</li>
-		  <li><a href="http://slides.com/migroch/deck-1-3/fullscreen" target="_blank">Thinking Binary</a> - <a href="https://slides.com/migroch/deck-1-3/live" target="_blank">Live</a></li>
-		  <li>Computer History</li>
+		  <li><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz0">Week 0 Quiz</button></li>
+		  <li><a href="http://slides.com/migroch/deck-1-3/fullscreen" target="_blank">Thinking Binary</a> - <a href="https://slides.com/migroch/deck-1-3/live"  target="_blank" >Live</a></li>
+		  <li><a href="https://youtu.be/O5nskjZ_GoI?t=148" target="_blank">Computer History</a></li>
 		  <li><a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a></li>
 		  <li className="bg-danger">Work of the week due: CodeHS - Control Structures</li>
 		</ol>
@@ -218,6 +218,69 @@ export default class RopCS extends React.Component {
 		  <h3><li>Have you used a Unix terminal?</li></h3>
 		  <h3><li>Have you used Git or Github before?</li></h3>
 		  <h3><li>Have you plot or visualize data with anything other than Excel or its equivalents?</li></h3>
+		</ol>
+	      </div>
+	      <div className="modal-footer">
+		<button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div className="modal fade" id="Quiz0"  role="dialog" aria-labelledby="myModalLabel">
+	  <div className="modal-dialog" role="document">
+	    <div className="modal-content">
+	      <div className="modal-header">
+		<button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<h4 className="modal-title" id="myModalLabel">Week 0 Quiz</h4>
+	      </div>
+	      <div className="modal-body">
+		<ol>
+		  <h3><li>Who knows more about how computers are built?
+		    <ul className="list-inline">
+		      <li>a) Electrical Engineers</li>
+		      <li>b) Computer Scientists</li>
+		    </ul>
+		  </li></h3>
+		  <h3><li>
+		    Computer Engeneers don't study anything related to computer hardware.
+		    <ul className="list-inline">
+		      <li>a) True</li>
+		      <li>b) False</li>
+		    </ul>
+		  </li></h3>
+		  <h3><li>
+		    Computer Science is all about 
+		    <ul>
+		      <li>a) Coding</li>
+		      <li>b) Coding and problem solving</li>
+		      <li>b) Building computer software and hardware</li>
+		    </ul>
+		  </li></h3>
+		  <h3><li>
+		    Making video games is not considered a Computer Science job.
+		    <ul className="list-inline">
+		      <li>a) True</li>
+		      <li>b) False</li>
+		    </ul>
+		  </li></h3>
+		  <h3><li>
+		    Answering this question could be considered a boolean operation.
+		    <ul className="list-inline">
+		      <li>a) True</li>
+		      <li>b) False</li>
+		    </ul>
+		  </li></h3>
+		  <h3><li>
+		    Which of the following is a control flow statements.
+		    <ul className="list-inline">
+		      <li>a) break</li>
+		      <li>b) for</li>
+		      <li>c) while</li>
+		      <li>d) exit</li>
+		      <li>d) All of the above</li>
+		    </ul>
+		  </li></h3>
 		</ol>
 	      </div>
 	      <div className="modal-footer">
