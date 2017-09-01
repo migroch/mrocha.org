@@ -14,7 +14,7 @@ export default  Phys1Syllabus ={
     Time: "TR 2:30-5:30 pm",
     OfficeHour: "Thursdays 5:30-6:30 pm",
     InstructorName: "Miguel E. Rocha",
-    InstructorEmail: "mrocha@gavillan.edu",
+    InstructorEmail: "mrocha@gavilan.edu",
     RequiredText: "Conceptual Physics 12th Edition by Paul G. Hewitt",
     CourseDescription: "This course is an introduction to the fundamental physical principles that control the world around us. Students will explore the fundamental principles of physics, their historical development, their application to everyday phenomena, and their impact upon political, social, and environmental issues. Laboratory exercises will explore the everyday world. ADVISORY: Mathematics 430. ",
     CourseMotive: {mrocha:"Physics is all about trying to understand the mysteries of the universe, and after each discovery realize how much more there is to know.", heisenberg:"Not only is the Universe stranger than we think, it is stranger than we can think."},    
