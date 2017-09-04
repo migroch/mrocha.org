@@ -32,7 +32,7 @@ export default  Phys1Syllabus ={
     ],
     CourseSchedule:{
 	"week 1":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4' target='_blank'>Lecture<\a>"],
-	"week 2":["Chapters: 2, 3, 4, 5", "<a href='Phys1-HW1.pdf' target='_blank'>HW/Lab 1 due<\a>"],
+	"week 2":["Chapters: 2, 3, 4, 5", "<a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1 due<\a>"],
 	"week 3":["Chapters: 6, 7", "HW/Lab 2 due"],
 	"week 4":["Chapters: 8, 9, 10", "HW/Lab 3 due"],
 	"week 5":["Chapters: 11, 13, 14", "HW/Lab 4 due", "Mid Term (Ch 1-10)"],
