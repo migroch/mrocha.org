@@ -53,6 +53,22 @@ export default class Phys1 extends React.Component {
 	      <footer>Werner Heisenberg</footer>
 	    </blockquote>
 	  </div>
+
+	  <div className="container-fluid row bpadding">
+
+	    <div className="container-fluid col-md-6 announcements bpadding">
+	      <h3 className="bg-info text-center">Announcements</h3>
+	      <p><a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1 updated</a></p>
+	      <p>This week we are covering Newton's Laws of Motion <a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <p>Tuesday's Lab: <a href='Lab-WalkingThePlank.pdf' target='_blank'>Lab 2: Walking the Plank</a></p>
+	      <p className="text-warning"><a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1</a> due Thursday</p>
+	    </div>
+	    
+	    <div className="container-fluid col-md-6 calendar">
+	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ko0gmi48tb2rbh591cuu8qnb80%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="250" frameBorder="0" scrolling="no" fontSize="500"></iframe>
+	    </div>
+	    
+	  </div>
 	  
 	  <div className="container">
 	    <h2>Description</h2>
