@@ -4,7 +4,7 @@
 export default  RopCSSyllabus ={
     ShortName: "RopCS",
     SchoolName: "SVHS",
-    CourseName: "ROP Computer Science 1: Exploring Computer Science",
+    CourseName: "ROP Exploring Computer Science",
     CourseLink: "https://mrocha.org/ropcs",
     SectionCode: "None",
     SectionLink: "None",
@@ -34,7 +34,7 @@ export default  RopCSSyllabus ={
     CourseSchedule:{
 	"week 0":{
 	    overview: "Introduction and Setting Up",
-	    Monday:['<button type="button" className="btn btn-default" data-toggle="modal" data-target="#meetQ">Getting to know each other</button>', "Syllabus", '<button type="button" className="btn btn-default" data-toggle="modal" data-target="#assessQ">Assessment questionnarie</button>', "A bit about ROP classes" ],
+	    Monday:['<button type="button" className="btn btn-default" data-toggle="modal" data-target="#meetQ">Getting to know each other</button>', "Syllabus", '<button type="button" className="btn btn-default" data-toggle="modal" data-target="#assessQ">Assessment questionnaire</button>', "A bit about ROP classes" ],
 	    Tuesday:['Typing games! <a href="http://www.typinggames.zone/" target="_blank">typinggames.zone</a>, <a href="http://games.sense-lang.org/EN.php" target="_blank">sense-lang.org</a>','<a href="http://slides.com/migroch/deck/fullscreen" target="_blank">	What is Computer Science? and What jobs can you get as a Computer Scientist?</a> - <a href="https://slides.com/migroch/deck/live" target="_blank">Live</a>', '<a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a>'] ,
 	    Thursday:["Typing games!", '<a href="http://slides.com/migroch/deck-1/fullscreen" target="_blank">Programming (AKA Coding)</a> - <a href="https://slides.com/migroch/deck-1/live" target="_blank">Live</a>','<a href="codehs.com/go/AB996" target="_blank">CodeHS AB996</a>']
 	},
