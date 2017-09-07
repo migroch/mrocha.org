@@ -58,10 +58,9 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Announcements</h3>
-	      <p><a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1 updated</a></p>
 	      <p>This week we are covering Newton's Laws of Motion <a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Lecture Slides</a></p>
-	      <p>Tuesday's Lab: <a href='Lab-WalkingThePlank.pdf' target='_blank'>Lab 2: Walking the Plank</a></p>
-	      <p className="text-warning"><a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1</a> due Thursday</p>
+	      <p>Thursday's Lab: <a href='TerminalVelocityLab.pdf' target='_blank'>Lab 3: Terminal Velocity</a>, <a href='22ATerminalVelocity1.ds' target='_blank'>22ATerminalVelocity1.ds</a>, <a href='22BTerminalVelocity2.ds' target='_blank'>22BTerminalVelocity2.ds</a></p>
+	      <p className="text-danger"><a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1</a> due Today</p>
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">

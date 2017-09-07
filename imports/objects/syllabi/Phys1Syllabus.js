@@ -32,8 +32,8 @@ export default  Phys1Syllabus ={
     ],
     CourseSchedule:{
 	"week 1":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>Lecture Slides</a>"],
-	"week 2":["Chapters: 2, 3, 4, 5", "<a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Lecture Slides</a>","<a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1</a>  due Thursday"],
-	"week 3":["Chapters: 6, 7", "HW and <a href='Lab-WalkingThePlank.pdf' target='_blank'>Lab 2</a> due Thursday"],
+	"week 2":["Chapters: 2, 3, 4, 5", "<a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Lecture Slides</a>","<a href='Phys1-HW1andLab1.pdf' target='_blank'>HW/Lab 1</a> due Thursday"],
+	"week 3":["Chapters: 6, 7", "HW, <a href='Lab-WalkingThePlank.pdf' target='_blank'>Lab 2</a> and <a href='TerminalVelocityLab.pdf' target='_blank'>Lab 3</a> due Thursday" ],
 	"week 4":["Chapters: 8, 9, 10", "HW/Lab 3 due"],
 	"week 5":["Chapters: 11, 13, 14", "HW/Lab 4 due", "Mid Term (Ch 1-10)"],
 	"week 6":["Chapters: 15, 16", "HW/Lab 5 due"],

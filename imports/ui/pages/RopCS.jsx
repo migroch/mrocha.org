@@ -38,8 +38,9 @@ export default class RopCS extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Announcements</h3>
-	      <p>Congratulations! Everyone did great on last week Quiz! <button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz0">Week 0 Quiz Answers</button></p>
-	      <p className="text-success">60% Finished last weeks assigned work</p>
+	      <p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz1">Week 1 Quiz</button></p>
+	      <p className="text-danger">I need your ROP registration scantrons today! <a href="http://www.rop.santacruz.k12.ca.us/resources/attendance/registration/instructions.pdf">Instructions</a> Desired Class: 324670</p>
+	      {/* <p className="text-success">60% Finished last weeks assigned work</p> */}
 	      <p className="text-warning">This weeks assigned work is to complete the Intro to Python's Control Flow module. ONLY the Control Flow module, ignore any preceding modules.</p>
 	    </div>
 	    
@@ -192,6 +193,81 @@ export default class RopCS extends React.Component {
 			<li>d) exit</li>
 			<li className="bg-success">e) All of the above</li>
 		      </ul>
+		    </li></h3>
+		  </ol>
+		</div>
+		<div className="modal-footer">
+		  <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+
+
+	  <div className="modal fade" id="Quiz1"  role="dialog" aria-labelledby="myModalLabel">
+	    <div className="modal-dialog" role="document">
+	      <div className="modal-content">
+		<div className="modal-header">
+		  <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  <h4 className="modal-title" id="myModalLabel">Week 1 Quiz</h4>
+		</div>
+		<div className="modal-body">
+		  <ol>
+		    <h3><li>Which one is a type of switch that you can use to make a computer?
+		      <ul className="list-inline">
+			<li>a) Relay</li>
+			<li>b) Vacuum Tube</li>
+			<li>c) Transistor</li>
+			<li>d) All of the above</li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      A transistor is just a switch that you can turn on and off by applying a current to the base/gate.
+		      <ul className="list-inline">
+			<li>a) True</li>
+			<li>b) False</li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      If my inputs are 1 and 1, which logic gate will give me a 1 as an output?
+		      <ul className="list-inline">
+			<li>a) AND</li>
+			<li>b) OR</li>
+			<li>c) XOR</li><br />
+			<li>d) All of the above</li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      How would you write the number 5 in binary?
+		      <ul className="list-inline">
+			<li>a) 111</li>
+			<li>b) 100</li>
+			<li>c) 101</li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      What is the highest number you can represent with 3 bits?
+		      <ul className="list-inline">
+			<li>a) 100</li>
+			<li>b) 5 </li>
+			<li>c) 7 </li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      How many bits is a byte?
+		      <ul className="list-inline">
+			<li>a) 16</li>
+			<li>b) 32</li>
+			<li>c) 8</li>
+		      </ul>
+		    </li></h3>
+		    <h3><li>
+		      Order the types of memory in a computer from fast access to slow access, i.e. fastest to access first, slowest to access last. 
+		    <ul className="list-inline">
+		      <li>a) Storage, RAM, Cache</li>
+		      <li>b) Storage, Cache, RAM</li>
+		      <li>c) Cache, RAM, Storage</li>
+		    </ul>
 		    </li></h3>
 		  </ol>
 		</div>
