@@ -17,13 +17,13 @@ export default class MrNavbar extends React.Component {
             </span>
             
             <button type="button" className="navbar-toggle collapsed" id="menu-button"
-                    data-toggle="collapse" data-target="#navbarlist-right">
+                    data-toggle="collapse" data-target="#navbarlist">
               <span className="glyphicon glyphicon-menu-hamburger"></span>
             </button>
 	  </div>
 
 
-	  <div className="collapse navbar-collapse navbar-right" id="navbar-collapse">
+	  <div className="collapse navbar-collapse navbar-right" id="navbarlist">
 	    <ul className="nav navbar-nav navbar-right">
 
               <li className="dropdown">

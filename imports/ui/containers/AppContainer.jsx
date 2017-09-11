@@ -6,7 +6,11 @@ import MrNavbar from '../components/MrNavbar.jsx';
 export default class App extends React.Component {
   render() {
     return (
-      <MrNavbar />
+      <div>
+	<MrNavbar />
+	<div id='aboutMR'>
+	</div>
+      </div>
     );
   }
 }
