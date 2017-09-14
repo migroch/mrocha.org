@@ -39,7 +39,9 @@ export default class RopCS extends React.Component {
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Announcements</h3>
-		
+
+		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz2">Week 2 Quiz</button></p>
+	
 		<p className="text-success">You will get full credit for CodeHS work whenever you finish. Do it at your own time.</p>
 
 		<p>This week we are starting with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
@@ -51,9 +53,6 @@ export default class RopCS extends React.Component {
 		<p><a href="https://ide.c9.io/migroch/html5" target="_blank">Cloud9  HTML5 example workspace</a></p>
 
 		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
-		
-		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz1">Week 1 Quiz Answers</button></p>
-		
 
 	      </div>
 	      
@@ -295,6 +294,79 @@ export default class RopCS extends React.Component {
 		</div>
 	      </div>
 	    </div>
+
+
+	    <div className="modal fade" id="Quiz2"  role="dialog" aria-labelledby="myModalLabel">
+	      <div className="modal-dialog" role="document">
+		<div className="modal-content">
+		  <div className="modal-header">
+		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 className="modal-title" id="myModalLabel">Week 2 Quiz</h4>
+		  </div>
+		  <div className="modal-body">
+		    <ol>
+		      <h3><li>Python and JavaScript are both examples of
+			<ul className="list-inline">
+			  <li>a) Compiled Languages</li>
+			  <li>b) Interpreted Languages</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The biggest advantage of interpreted languages is
+			<ul className="list-inline">
+			  <li>a) Speed of execution</li>
+			  <li>b) Speed of development</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The biggest advantage of compiled languages is
+			<ul className="list-inline">
+			  <li>a) Speed of execution</li>
+			  <li>b) Speed of development</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			Which is the most used programming language today?
+			<ul className="list-inline">
+			  <li>a) Python</li>
+			  <li>b) JavaScript</li>
+			  <li>c) C/C++</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			You can use Python on the client side of your web application.
+			<ul className="list-inline">
+			  <li>a) True</li>
+			  <li>b) False</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			Which language would you use on the server side of your application if you care about
+			speed of development?
+			<ul className="list-inline">
+			  <li>a) Python</li>
+			  <li>b) JavaScript</li>
+			  <li>c) C/C++</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			Which language would you use on the server side of your application if you care about
+			speed of execution?
+			<ul className="list-inline">
+			  <li>a) Python</li>
+			  <li>b) JavaScript</li>
+			  <li>c) C/C++</li>
+			</ul>
+		      </li></h3>
+		    </ol>
+		  </div>
+		  <div className="modal-footer">
+		    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	    
 	    
 	  </div>
 	</div>
