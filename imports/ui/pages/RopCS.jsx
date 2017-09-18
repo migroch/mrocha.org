@@ -40,20 +40,18 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Announcements</h3>
 
-		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz2">Week 2 Quiz</button></p>
-	
-		<p className="text-success">You will get full credit for CodeHS work whenever you finish. Do it at your own time.</p>
+		<p>This week we are continuing with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
 
-		<p>This week we are starting with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
-
-		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/10" target="_blank">How to setup Cloud9</a></p>
-
+		<p>We are also gonna learn to use the Unix terminal. <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix cheat sheet</a></p>
+		
 		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11" target="_blank">Cloud9 Exercise</a></p>
 
 		<p><a href="https://ide.c9.io/migroch/html5" target="_blank">Cloud9  HTML5 example workspace</a></p>
 
 		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
 
+		{/* <p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz2">Week 2 Quiz Answers</button></p> */ }
+		
 	      </div>
 	      
 	      <div className="container-fluid col-md-6 calendar">
@@ -308,20 +306,20 @@ export default class RopCS extends React.Component {
 		      <h3><li>Python and JavaScript are both examples of
 			<ul className="list-inline">
 			  <li>a) Compiled Languages</li>
-			  <li>b) Interpreted Languages</li>
+			  <li  className="bg-success">b) Interpreted Languages</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			The biggest advantage of interpreted languages is
 			<ul className="list-inline">
 			  <li>a) Speed of execution</li>
-			  <li>b) Speed of development</li>
+			  <li  className="bg-success">b) Speed of development</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			The biggest advantage of compiled languages is
 			<ul className="list-inline">
-			  <li>a) Speed of execution</li>
+			  <li  className="bg-success">a) Speed of execution</li>
 			  <li>b) Speed of development</li>
 			</ul>
 		      </li></h3>
@@ -329,7 +327,7 @@ export default class RopCS extends React.Component {
 			Which is the most used programming language today?
 			<ul className="list-inline">
 			  <li>a) Python</li>
-			  <li>b) JavaScript</li>
+			  <li  className="bg-success">b) JavaScript</li>
 			  <li>c) C/C++</li>
 			</ul>
 		      </li></h3>
@@ -337,25 +335,23 @@ export default class RopCS extends React.Component {
 			You can use Python on the client side of your web application.
 			<ul className="list-inline">
 			  <li>a) True</li>
-			  <li>b) False</li>
+			  <li  className="bg-success">b) False</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
-			Which language would you use on the server side of your application if you care about
-			speed of development?
+			Which language would you use on the server side of your application if you care about speed of development?
 			<ul className="list-inline">
-			  <li>a) Python</li>
+			  <li  className="bg-success">a) Python</li>
 			  <li>b) JavaScript</li>
 			  <li>c) C/C++</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
-			Which language would you use on the server side of your application if you care about
-			speed of execution?
+			Which language would you use on the server side of your application if you care about speed of execution?
 			<ul className="list-inline">
 			  <li>a) Python</li>
 			  <li>b) JavaScript</li>
-			  <li>c) C/C++</li>
+			  <li  className="bg-success">c) C/C++</li>
 			</ul>
 		      </li></h3>
 		    </ol>
@@ -366,7 +362,7 @@ export default class RopCS extends React.Component {
 		</div>
 	      </div>
 	    </div>
-	    
+  
 	    
 	  </div>
 	</div>
