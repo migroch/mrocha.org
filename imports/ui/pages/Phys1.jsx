@@ -58,10 +58,11 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Announcements</h3>
-	      <p>This week we are covering Momentum and Energy conservation - <a href='http://slides.com/migroch/deck-1-3-7/fullscreen' target='_blank'>Lecture Slides</a></p>
-	      <p>Tuesday's Lab: <a href='Lab4_ConservationOfMomentum.pdf' target='_blank'>Lab 4: Conservation of Momentum</a></p>
-	      <p>Thursday's Lab: <a href='Lab5_ConservationOfEnergy.pdf' target='_blank'>Lab 5: Conservation of Energy</a></p>
-	      <p className="bg-danger"> <a href='https://ilearn.gavilan.edu/courses/2425/assignments/19079' target='_blank'>HW 2</a>, <a href='Lab-WalkingThePlank.pdf' target='_blank'>Lab 2</a> and <a href='TerminalVelocityLab.pdf' target='_blank'>Lab 3</a> are due Thursday</p>
+	      <p>This week Rotational Motion, Gravity and Projectile Motion - <a href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <p>Tuesday's Lab: <a href='RotInertia_Lab.pdf' target='_blank'>Lab 6: Rotational Inertia</a></p>
+	      <p>No lab on Thursday, we are doing a midterm prep during lab hours</p>
+	      <p className="bg-warning"> <a href='https://ilearn.gavilan.edu/courses/2425/assignments/19395' target='_blank'>HW 3</a>, <a href='Lab4_ConservationOfMomentum.pdf' target='_blank'>Lab 4</a> and <a href='Lab5_ConservationOfEnergy.pdf' target='_blank'>Lab 5</a>  are due Thursday</p>
+	      <p className="bg-danger">Midterm 1 is next Tuesday Sept 26!</p>
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
