@@ -42,7 +42,7 @@ export default class RopCS extends React.Component {
 
 		<p>This week we are continuing with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
 
-		<p>We are also gonna learn to use the Unix terminal. <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix cheat sheet</a></p>
+		<p>We are also gonna learn to use the Unix terminal. <a href="https://slides.com/migroch/deck-2-6-10/fullscreen" target="_blank">What is Unix</a>, <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
 		
 		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11" target="_blank">Cloud9 Exercise</a></p>
 
