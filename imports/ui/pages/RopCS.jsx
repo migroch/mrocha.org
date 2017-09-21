@@ -40,6 +40,8 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Announcements</h3>
 
+		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz: Intro to web development</button></p>
+
 		<p>This week we are continuing with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
 
 		<p>We are also gonna learn to use the Unix terminal. <a href="https://slides.com/migroch/deck-2-6-10/fullscreen" target="_blank">What is Unix</a>, <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
@@ -362,7 +364,79 @@ export default class RopCS extends React.Component {
 		</div>
 	      </div>
 	    </div>
-  
+
+	    <div className="modal fade" id="Quiz3"  role="dialog" aria-labelledby="myModalLabel">
+	      <div className="modal-dialog" role="document">
+		<div className="modal-content">
+		  <div className="modal-header">
+		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 className="modal-title" id="myModalLabel">Week 3 Quiz</h4>
+		  </div>
+		  <div className="modal-body">
+		    <ol>
+		      <h3><li>
+			What language do we use for the structure of a web document?
+			<ul className="list-inline">
+			  <li>a) HTML</li>
+			  <li >b) CSS</li>
+			  <li >c) JavaScript</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			What language do we use for the style of a web document?
+			<ul className="list-inline">
+			  <li>a) HTML</li>
+			  <li >b) CSS</li>
+			  <li >c) JavaScript</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			What language do we use for the logic of a web document?
+			<ul className="list-inline">
+			  <li>a) HTML</li>
+			  <li >b) CSS</li>
+			  <li >c) JavaScript</li>
+		      </li></h3>
+		      <h3><li>
+			What are the 3 required elements that every HTML document must have?
+			<ul className="list-inline">
+			  <li>a) <html>(document), <head> and <body></li>
+			  <li>b) <p>, <div> and <button>
+			  <li>c) <script>,<link> and <a></li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			You can select HTML elements in CSS and JavaScript by their
+			<ul className="list-inline">
+			  <li>a) type</li>
+			  <li >b) id</li>
+			  <li >c) class</li>
+			  <li >d) All of the above</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			To select an HTML element with id="thisid", which syntax would you use?
+			<ul className="list-inline">
+			  <li>a) .thisid</li>
+			  <li>b) #thisid</li>
+			  <li>c) thisid</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			To select an HTML element with class="thisclass", which syntax would you use?
+			<ul className="list-inline">
+			  <li>a) .thisclass</li>
+			  <li>b) #thisclass</li>
+			  <li>c) thisclass</li>
+		      </li></h3>
+		    </ol>
+		  </div>
+		  <div className="modal-footer">
+		    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
 	    
 	  </div>
 	</div>
