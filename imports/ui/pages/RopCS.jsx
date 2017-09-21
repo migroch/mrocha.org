@@ -370,7 +370,7 @@ export default class RopCS extends React.Component {
 		<div className="modal-content">
 		  <div className="modal-header">
 		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		    <h4 className="modal-title" id="myModalLabel">Week 3 Quiz</h4>
+		    <h4 className="modal-title" id="myModalLabel">Week 3 Quiz: Intro to web development</h4>
 		  </div>
 		  <div className="modal-body">
 		    <ol>
@@ -396,13 +396,14 @@ export default class RopCS extends React.Component {
 			  <li>a) HTML</li>
 			  <li >b) CSS</li>
 			  <li >c) JavaScript</li>
+			</ul>
 		      </li></h3>
 		      <h3><li>
 			What are the 3 required elements that every HTML document must have?
 			<ul className="list-inline">
-			  <li>a) <html>(document), <head> and <body></li>
-			  <li>b) <p>, <div> and <button>
-			  <li>c) <script>,<link> and <a></li>
+			  <li>a) html (document), head and body</li> <br />
+			  <li>b) p, div and button</li> <br />
+			  <li>c) script, link and a</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
@@ -410,7 +411,7 @@ export default class RopCS extends React.Component {
 			<ul className="list-inline">
 			  <li>a) type</li>
 			  <li >b) id</li>
-			  <li >c) class</li>
+			  <li >c) class</li> <br />
 			  <li >d) All of the above</li>
 			</ul>
 		      </li></h3>
@@ -428,6 +429,7 @@ export default class RopCS extends React.Component {
 			  <li>a) .thisclass</li>
 			  <li>b) #thisclass</li>
 			  <li>c) thisclass</li>
+			</ul>	
 		      </li></h3>
 		    </ol>
 		  </div>
