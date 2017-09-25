@@ -38,21 +38,19 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Announcements</h3>
+		<h3 className="bg-info text-center">Week 5 Announcements</h3>
 
-		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz: Intro to web development</button></p>
+		<p>This week we are going to learn how to do data-driven web development <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Intro to Web Development 2: Working With Data </a></p>
 
-		<p>This week we are continuing with <a href="http://slides.com/migroch/deck-1-3-8/fullscreen" target="_blank">intro to web development!</a></p>
-
-		<p>We are also gonna learn to use the Unix terminal. <a href="https://slides.com/migroch/deck-2-6-10/fullscreen" target="_blank">What is Unix</a>, <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
-		
-		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11" target="_blank">Cloud9 Exercise</a></p>
-
-		<p><a href="https://ide.c9.io/migroch/html5" target="_blank">Cloud9  HTML5 example workspace</a></p>
+		<p>We are also gonna be using the Unix terminal.  <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
+	
+		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Cloud9 data-driven REACT app example</a></p>
 
 		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
 
-		{/* <p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz2">Week 2 Quiz Answers</button></p> */ }
+		{/*<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11" target="_blank">Cloud9 Exercise</a></p>*/}
+
+		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz Answers</button></p> 
 		
 	      </div>
 	      
@@ -68,13 +66,13 @@ export default class RopCS extends React.Component {
 		<li><h3>Learning to code (JavaScript and Python) - <i className="text-success">Weeks: 0-3</i></h3></li>
 		<li><h3>How computers work and history of computing - <i className="text-success">Week 1</i></h3></li>
 
-		<li><h3>The unix terminal and text editors - <i className="text-warning">Week 3</i></h3></li>
+		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
+							
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-5</i></h3></li>
 
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 3</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 4</i></h3></li>
 		
-		<li><h3>How the internet works - <i className="text-danger">Week 4</i></h3></li>
-			
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-danger">Weeks 4-5</i></h3></li>
+		<li><h3>How the internet works - <i className="text-danger">Week 5</i></h3></li>
 		
 		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 6-8</i></h3></li>
 		
@@ -377,7 +375,7 @@ export default class RopCS extends React.Component {
 		      <h3><li>
 			What language do we use for the structure of a web document?
 			<ul className="list-inline">
-			  <li>a) HTML</li>
+			  <li className="bg-success">a) HTML</li>
 			  <li >b) CSS</li>
 			  <li >c) JavaScript</li>
 			</ul>
@@ -386,7 +384,7 @@ export default class RopCS extends React.Component {
 			What language do we use for the style of a web document?
 			<ul className="list-inline">
 			  <li>a) HTML</li>
-			  <li >b) CSS</li>
+			  <li className="bg-success">b) CSS</li>
 			  <li >c) JavaScript</li>
 			</ul>
 		      </li></h3>
@@ -395,14 +393,14 @@ export default class RopCS extends React.Component {
 			<ul className="list-inline">
 			  <li>a) HTML</li>
 			  <li >b) CSS</li>
-			  <li >c) JavaScript</li>
+			  <li className="bg-success">c) JavaScript</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			What are the 3 required elements that every HTML document must have?
 			<ul className="list-inline">
 			  <li>a) html (document), head and body</li> <br />
-			  <li>b) p, div and button</li> <br />
+			  <li className="bg-success">b) p, div and button</li> <br />
 			  <li>c) script, link and a</li>
 			</ul>
 		      </li></h3>
@@ -412,21 +410,21 @@ export default class RopCS extends React.Component {
 			  <li>a) type</li>
 			  <li >b) id</li>
 			  <li >c) class</li> <br />
-			  <li >d) All of the above</li>
+			  <li className="bg-success">d) All of the above</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			To select an HTML element with id="thisid", which syntax would you use?
 			<ul className="list-inline">
 			  <li>a) .thisid</li>
-			  <li>b) #thisid</li>
+			  <li className="bg-success">b) #thisid</li>
 			  <li>c) thisid</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			To select an HTML element with class="thisclass", which syntax would you use?
 			<ul className="list-inline">
-			  <li>a) .thisclass</li>
+			  <li className="bg-success">a) .thisclass</li>
 			  <li>b) #thisclass</li>
 			  <li>c) thisclass</li>
 			</ul>	
