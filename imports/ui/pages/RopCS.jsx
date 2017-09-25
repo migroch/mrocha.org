@@ -40,7 +40,7 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 5 Announcements</h3>
 
-		<p><a href="https://ide.c9.io/testst/html5-cloned" target="_blank">Multiple pages example </a></p>
+		<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Multiple pages example </a></p>
 
 		<p>This week we are going to learn how to do data-driven web development <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Intro to Web Development 2: Working With Data </a></p>
 
