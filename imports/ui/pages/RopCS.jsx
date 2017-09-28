@@ -40,18 +40,22 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 5 Announcements</h3>
 
-		<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Multiple pages example </a></p>
+		<p>This week we are going to learn data driven web development <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Intro to Web Development 2: Data Driven Web Development </a></p>
+		
+		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Assignment 5: Data driven REACT app example in C9</a></p>
+		
+		<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Assignment 4: Multiple page website example in C9</a></p>
 
-		<p>This week we are going to learn how to do data-driven web development <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Intro to Web Development 2: Working With Data </a></p>
-
-		<p>We are also gonna be using the Unix terminal.  <a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
+	        <p><a href="https://facebook.github.io/react/" target="_blank">React</a></p>
 	
-		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Cloud9 data-driven REACT app example</a></p>
-
 		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
 
-		{/*<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11" target="_blank">Cloud9 Exercise</a></p>*/}
+		<p><a href="http://getbootstrap.com/docs/3.3/" target="_blank">Bootstrap</a></p>
 
+		<p><a href="https://api.jquery.com/" target="_blank">jQuery</a></p>
+
+		<p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
+		
 		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz Answers</button></p> 
 		
 	      </div>
@@ -401,8 +405,8 @@ export default class RopCS extends React.Component {
 		      <h3><li>
 			What are the 3 required elements that every HTML document must have?
 			<ul className="list-inline">
-			  <li>a) html (document), head and body</li> <br />
-			  <li className="bg-success">b) p, div and button</li> <br />
+			  <li className="bg-success">a) html (document), head and body</li> <br />
+			  <li>b) p, div and button</li> <br />
 			  <li>c) script, link and a</li>
 			</ul>
 		      </li></h3>
