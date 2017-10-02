@@ -38,13 +38,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 5 Announcements</h3>
+		<h3 className="bg-info text-center">Week 6</h3>
 
-		<p>This week we are going to learn data driven web development <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Intro to Web Development 2: Data Driven Web Development </a></p>
+		<p>This week we are going to learn about data structures and <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Data Driven Web Development </a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Assignment 5: Data driven REACT app example in C9</a></p>
+		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Assignment 5: Data driven REACT app in C9</a></p>
 		
-		<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Assignment 4: Multiple page website example in C9</a></p>
+		{/*<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Assignment 4: Multiple page website example in C9</a></p>*/}
 
 	        <p><a href="https://facebook.github.io/react/" target="_blank">React</a></p>
 	
@@ -56,7 +56,7 @@ export default class RopCS extends React.Component {
 
 		<p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
 		
-		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz Answers</button></p> 
+		{/*<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz Answers</button></p>*/} 
 		
 	      </div>
 	      
@@ -74,18 +74,20 @@ export default class RopCS extends React.Component {
 
 		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
 							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-5</i></h3></li>
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-6</i></h3></li>
 
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 4</i></h3></li>
+		<li><h3>Data Structures  - <i className="text-warning">Week 6</i></h3></li>
 		
-		<li><h3>How the internet works - <i className="text-danger">Week 5</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 6</i></h3></li>
 		
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 6-8</i></h3></li>
+		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 7</i></h3></li>
 		
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 8</i></h3></li>
-		<li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 9-10</i></h3></li>
-		<li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 11-12</i></h3></li>
-		<li><h3>Cyber Security - <i className="text-danger">Week 13</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 7-9</i></h3></li>
+		
+		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 9</i></h3></li>
+		<li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 10-11</i></h3></li>
+		<li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 12-13</i></h3></li>
+		<li><h3>Cyber Security - <i className="text-danger">Week 14</i></h3></li>
 	      </ul>
 	    </div>
 
