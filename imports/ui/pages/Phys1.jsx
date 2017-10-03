@@ -58,12 +58,11 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Announcements</h3>
-	      <p>This week we are covering Rotational Motion (<a href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Lecture Slides</a>), Gravity and Projectile Motion (<a href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Lecture Slides</a>) </p>
-	      <p>Tuesday's Lab: <a href='RotInertia_Lab.pdf' target='_blank'>Lab 6: Rotational Inertia</a></p>
-	      <p>No lab on Thursday, we are doing a midterm prep during lab hours</p>
-	      <p className="bg-warning"> <a href='https://ilearn.gavilan.edu/courses/2425/assignments/19395' target='_blank'>HW 3</a>, <a href='Lab4_ConservationOfMomentum.pdf' target='_blank'>Lab 4</a> and <a href='Lab5_ConservationOfEnergy.pdf' target='_blank'>Lab 5</a>  are due Thursday</p>
-	      <p className="bg-danger">Midterm 1 is next Tuesday Sept 26!</p>
-	      <a className="bg-success" href='https://slides.com/migroch/deck-2-4-9-12' target='_blank'>Summary of Equations</a>
+	      <p>This week we are covering Matter and States of Matter - <a href='https://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <p>Lab 7: Watch the documentary <a href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and answer the questions here <a href='' target='_blank'>Lab 7 Questionnaire</a></p>
+	  
+	      {/*<p className="bg-warning"> <a href='https://ilearn.gavilan.edu/courses/2425/assignments/19395' target='_blank'>HW 3</a>, <a href='Lab4_ConservationOfMomentum.pdf' target='_blank'>Lab 4</a> and <a href='Lab5_ConservationOfEnergy.pdf' target='_blank'>Lab 5</a>  are due Thursday</p>*/}
+	 
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
