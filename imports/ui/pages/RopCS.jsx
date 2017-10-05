@@ -40,9 +40,11 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 6</h3>
 
+		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz6">Week 6 Quiz</button></p>
+
 		<p>This week we are going to learn about data structures and <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Data Driven Web Development </a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/simple-react-data-app" target="_blank">Assignment 5: Data driven REACT app in C9</a></p>
+		<p><a href="https://ide.c9.io/migroch/assignment_5#openfile-README.md" target="_blank">Assignment 5: Data driven REACT app in C9</a></p>
 		
 		{/*<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Assignment 4: Multiple page website example in C9</a></p>*/}
 
@@ -55,8 +57,6 @@ export default class RopCS extends React.Component {
 		<p><a href="https://api.jquery.com/" target="_blank">jQuery</a></p>
 
 		<p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
-		
-		{/*<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz3">Week 3 Quiz Answers</button></p>*/} 
 		
 	      </div>
 	      
@@ -445,6 +445,87 @@ export default class RopCS extends React.Component {
 		</div>
 	      </div>
 	    </div>
+
+	    <div className="modal fade" id="Quiz6"  role="dialog" aria-labelledby="myModalLabel">
+	      <div className="modal-dialog modal-lg" role="document">
+		<div className="modal-content">
+		  <div className="modal-header">
+		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 className="modal-title" id="myModalLabel">Week 6 Quiz: Data Driven Web Development</h4>
+		  </div>
+		  <div className="modal-body">
+		    <ol>
+		      <h3><li>
+			If I define the variable
+			<pre><code>const list = &#91;"Coffe", "Milk", "Sugar", "Chocolate"&#93;</code></pre>
+		       <code>list</code> would be an example of
+			<ul className="list-inline">
+			  <li>a) an object</li>
+			  <li >b) an array</li>
+			  <li >c) a class</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			If <code>list</code> is defined as in Question 1 above, what would <code>list[3]</code> return?
+			<ul className="list-inline">
+			  <li>a) Coffe</li>
+			  <li>b) Milk</li>
+			  <li >c) Sugar</li>
+			  <li >c) Chocolate</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			If I define the variable
+			<pre><code>person = &#123;name: "Panfilo", age: 22&#125;</code></pre>
+                        <code>person</code> would be an example of
+			<ul className="list-inline">
+			  <li>a) an object</li>
+			  <li >b) an array</li>
+			  <li >c) a class</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			If <code>person</code> is defined as in Question 3 above, what would you write in your code to get person's
+			name <em>Panfilo</em>
+			<ul className="list-inline">
+			  <li>a) <code>person&#123;name&#125;</code></li> 
+			  <li>b) <code>person(name)</code></li>
+			  <li>c) <code>person.name</code></li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			If you want to create multiple instances (e.g. person1, person2, person3) of the data structure <code>person</code>, the best type of data structure to use would be 
+			<ul className="list-inline">
+			  <li>a) an object</li>
+			  <li >b) an array</li>
+			  <li >c) a class</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			What tool are we going to use in order to create HTML elements as we iterate over data structures?
+			<ul className="list-inline">
+			  <li>a) React</li>
+			  <li>b) Angular</li>
+			  <li>c) SpaceBars/Blaze</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The React framework   
+			<ul className="list-unstyled">
+			  <li>a) exteds JavaScript so that we can write HTML within JavaScript</li>
+			  <li>b) extends HTML so that we can use JavaScript functionality/logic within HTML</li>
+			</ul>	
+		      </li></h3>
+		    </ol>
+		  </div>
+		  <div className="modal-footer">
+		    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+
+
 	    
 	  </div>
 	</div>
