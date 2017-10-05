@@ -60,6 +60,9 @@ export default class Phys1 extends React.Component {
 	      <h3 className="bg-info text-center">Announcements</h3>
 	      <p>This week we are covering Matter and States of Matter - <a href='https://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Lecture Slides</a></p>
 	      <p>Lab 7: Watch the documentary <a href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and answer the questions here <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a></p>
+
+	      <p>Lab 8: Play with this  <a href='https://phet.colorado.edu/sims/mass-spring-lab/mass-spring-lab_en.html' target='_blank'>Mass and Springs Simulated Lab</a> and complete the <a href='Phys1-Lab8.pdf' target='_blank'>Spring to Another World</a> lab</p>
+	      
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">

@@ -37,7 +37,7 @@ export default  Phys1Syllabus ={
 	"week 4":["Chapters: 8, 9, 10", "<a href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Rotational Motion Slides</a>, <a href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Gravity and Projectile Motion Slides</a>","<a href='https://ilearn.gavilan.edu/courses/2425/assignments/19395' target='_blank'>HW 3</a>, <a href='Lab4_ConservationOfMomentum.pdf' target='_blank'>Lab 4</a> and <a href='Lab5_ConservationOfEnergy.pdf' target='_blank'>Lab 5</a> due Thursday"],
 	"week 5":[ "<a href='Phys1-Midterm1.pdf' target='_blank'>Mid Term (Ch 1-10)</a>"],
 	"week 6":["Chapters: 11-14", "<a href='https://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Lecture Slides</a", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/19760' target='_blank'>HW 4</a> and <a href='Lab6_RotationalInertia.pdf' target='_blank'>Lab 6</a> due Tuesday"],
-	"week 7":["Chapters: 15, 16", "<a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a> due Thursday"],
+	"week 7":["Chapters: 15, 16", "HW5, <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a>,  <a href='Phys1-Lab8.pdf' target='_blank'>Lab 8</a> due Thursday"],
 	"week 8":["Chapters: 17, 18", "HW/Lab due"],
 	"week 9":["Chapters: 19, 20, 21", "HW/Lab due"],
 	"week 10":["Chapters: 22, 23", "HW/Lab due",  "Mid Term (Ch 11-21)"],
