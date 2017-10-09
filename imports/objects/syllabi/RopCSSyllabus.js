@@ -70,5 +70,39 @@ export default  RopCSSyllabus ={
     Honesty:"Students are expected to exercise academic honesty and integrity. Violations such as cheating and plagiarism will result in disciplinary action which may include recommendation for dismissal.",
     AttendancePolicy:"None",
     ADA:"None",
-    OV:"None"        
+    OV:"None",
+    Lectures:[
+	{name: "What is Computer Science", link:"http://slides.com/migroch/deck/fullscreen"},
+	{name: "Programming (A.K.A Coding)", link:"http://slides.com/migroch/deck-1/fullscreen"},
+	{name: "How Computers Work", link:"http://slides.com/migroch/deck-2/fullscreen"},
+	{name: "Thinking Binary", link:"http://slides.com/migroch/deck-1-3/fullscreen"},
+	{name: "Programming Languages", link:"http://slides.com/migroch/deck-2-6/fullscreen"},
+	{name: "Intro to Web Development", link:"http://slides.com/migroch/deck-1-3-8/fullscreen"},
+	{name: "The Unix Terminal", link:"http://slides.com/migroch/deck-2-6-10/fullscreen"},
+	{name: "Data Driven Web Development", link:"http://slides.com/migroch/deck-1-3-7-11-14/fullscreen"},
+	{name: "GUI Components", link:"https://slides.com/migroch/deck-2-4-9-12-15/fullscreen"},
+    ],
+    Quizzes: [
+	{id: "Quiz0", name:"Week 0"},
+	{id: "Quiz1", name:"Week 1"},
+	{id: "Quiz2", name:"Week 2"},
+	{id: "Quiz3", name:"Week 3"},
+	{id: "Quiz6", name:"Week 6"},
+    ],
+    Assignments:[
+	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"codehs.com/go/AB996"},
+	{id:"2", shortDescription:"CodeHS Intro to Python", link:"codehs.com/go/AB996"},
+	{id:"3", shortDescription:"Setup C9 and modify the hml5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
+	{id:"4", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
+	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
+	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6" },
+    ],
+    ToolLinks:[
+	{name:"CodeHS", link:"codehs.com/go/AB996"},
+	{name:"Cloud9", link:"https://c9.io"},
+	{name:"W3Schools", link:"https://www.w3schools.com/"},
+	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
+	{name:"jQuery", link:"https://api.jquery.com/"},
+	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
+    ]
 };

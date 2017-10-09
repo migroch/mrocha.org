@@ -3,6 +3,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import PropTypes from 'prop-types';
+import RopCSNavbar from '../components/RopCSNavbar.jsx'
 
 export default class RopCS extends React.Component {
   constructor(props) {
@@ -19,35 +20,32 @@ export default class RopCS extends React.Component {
       return (
 	<div className="container-fluid nopadding">
 	  <Helmet>
-            <title>ROP Exploring Computer Science Syllabus</title>
+            <title>ROP Exploring Computer Science</title>
+	    <meta name="description" content="Page for Miguel Rocha's  ROP Exploring Computer Science class"/>
           </Helmet>
+
+	<RopCSNavbar syllabus={syllabus} />
 	  
-	  <div className="container-fluid rop-header nopadding">
-	    <a href="http://www.rop.santacruz.k12.ca.us/">
-	      <img className="img-responsive" src="rop_header.gif" />
-	    </a>
-	  </div>
-	  
-	  <div className= "container-fluid syllabus">
-	    <div className="container text-center bpadding">
+	  <div className="container-fluid rop-header nopadding bpadding">
+	    <div className="container text-center">
 	      <h1 className="title">{syllabus.CourseName}</h1>
 	      <h2 className="teacherInfo"><small>Miguel Rocha - mrocha@scottsvalleyusd.org - <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></small></h2>
 	    </div>
+	  </div>
+	  
+	  <div className= "container-fluid syllabus">
+	    
 	    {/*<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>*/}
 
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 6</h3>
+		<h3 className="bg-info text-center">Week 7</h3>
 
-		<p><button type="button" className="btn btn-default" data-toggle="modal" data-target="#Quiz6">Week 6 Quiz</button></p>
-
-		<p>This week we are going to learn about data structures and <a href="https://slides.com/migroch/deck-1-3-7-11-14/fullscreen" target="_blank">Data Driven Web Development </a></p>
+		<p>This week we are going to learn about GUI components - <a href="https://slides.com/migroch/deck-2-4-9-12-15/fullscreen" target="_blank">GUI Components</a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/assignment_5#openfile-README.md" target="_blank">Assignment 5: Data driven REACT app in C9</a></p>
+		<p><a href="https://ide.c9.io/migroch/assignment_6" target="_blank">Assignment 6: Data driven REACT App 2</a></p>
 		
-		{/*<p><a href="https://ide.c9.io/testst/html5-cloned2" target="_blank">Assignment 4: Multiple page website example in C9</a></p>*/}
-
 	        <p><a href="https://facebook.github.io/react/" target="_blank">React</a></p>
 	
 		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
@@ -74,19 +72,19 @@ export default class RopCS extends React.Component {
 
 		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
 							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-6</i></h3></li>
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-7</i></h3></li>
 
-		<li><h3>Data Structures  - <i className="text-warning">Week 6</i></h3></li>
+		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
 		
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 6</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 7</i></h3></li>
 		
-		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 7</i></h3></li>
+		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 8</i></h3></li>
 		
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 7-9</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 9-10</i></h3></li>
 		
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 9</i></h3></li>
-		<li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 10-11</i></h3></li>
-		<li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 12-13</i></h3></li>
+		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 10</i></h3></li>
+		<li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 11-12</i></h3></li>
+		<li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 13</i></h3></li>
 		<li><h3>Cyber Security - <i className="text-danger">Week 14</i></h3></li>
 	      </ul>
 	    </div>
@@ -457,21 +455,21 @@ export default class RopCS extends React.Component {
 		    <ol>
 		      <h3><li>
 			If I define the variable
-			<pre><code>const list = &#91;"Coffe", "Milk", "Sugar", "Chocolate"&#93;</code></pre>
+			<pre><code>const list = &#91;"Coffee", "Milk", "Sugar", "Chocolate"&#93;</code></pre>
 		       <code>list</code> would be an example of
 			<ul className="list-inline">
 			  <li>a) an object</li>
-			  <li >b) an array</li>
+			  <li  className="bg-success">b) an array</li>
 			  <li >c) a class</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			If <code>list</code> is defined as in Question 1 above, what would <code>list[3]</code> return?
 			<ul className="list-inline">
-			  <li>a) Coffe</li>
+			  <li>a) Coffee</li>
 			  <li>b) Milk</li>
 			  <li >c) Sugar</li>
-			  <li >c) Chocolate</li>
+			  <li  className="bg-success">d) Chocolate</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
@@ -479,18 +477,17 @@ export default class RopCS extends React.Component {
 			<pre><code>person = &#123;name: "Panfilo", age: 22&#125;</code></pre>
                         <code>person</code> would be an example of
 			<ul className="list-inline">
-			  <li>a) an object</li>
+			  <li  className="bg-success">a) an object</li>
 			  <li >b) an array</li>
 			  <li >c) a class</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
-			If <code>person</code> is defined as in Question 3 above, what would you write in your code to get person's
-			name <em>Panfilo</em>
+			If <code>person</code> is defined as in Question 3 above, what would you write in your code to get person's	name <em>Panfilo</em>
 			<ul className="list-inline">
 			  <li>a) <code>person&#123;name&#125;</code></li> 
 			  <li>b) <code>person(name)</code></li>
-			  <li>c) <code>person.name</code></li>
+			  <li  className="bg-success">c) <code>person.name</code></li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
@@ -498,13 +495,13 @@ export default class RopCS extends React.Component {
 			<ul className="list-inline">
 			  <li>a) an object</li>
 			  <li >b) an array</li>
-			  <li >c) a class</li>
+			  <li  className="bg-success">c) a class</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			What tool are we going to use in order to create HTML elements as we iterate over data structures?
 			<ul className="list-inline">
-			  <li>a) React</li>
+			  <li  className="bg-success">a) React</li>
 			  <li>b) Angular</li>
 			  <li>c) SpaceBars/Blaze</li>
 			</ul>
@@ -512,7 +509,7 @@ export default class RopCS extends React.Component {
 		      <h3><li>
 			The React framework   
 			<ul className="list-unstyled">
-			  <li>a) exteds JavaScript so that we can write HTML within JavaScript</li>
+			  <li  className="bg-success">a) exteds JavaScript so that we can write HTML within JavaScript</li>
 			  <li>b) extends HTML so that we can use JavaScript functionality/logic within HTML</li>
 			</ul>	
 		      </li></h3>
