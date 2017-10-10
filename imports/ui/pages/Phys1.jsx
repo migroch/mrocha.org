@@ -58,11 +58,9 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Announcements</h3>
-	      <p>This week we are covering Matter and States of Matter - <a href='https://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Lecture Slides</a></p>
-	      <p>Lab 7: Watch the documentary <a href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and answer the questions here <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a></p>
+	      <p>This week we are covering Heat, Phases of Matter and Thermodynamics - <a href='https://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Lecture Slides</a></p>
 
-	      <p>Lab 8: Play with this  <a href='https://phet.colorado.edu/sims/mass-spring-lab/mass-spring-lab_en.html' target='_blank'>Mass and Springs Simulated Lab</a> and complete the <a href='Phys1-Lab8.pdf' target='_blank'>Spring to Another World</a> lab</p>
-	      
+	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a>, <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a> and <a href='Phys1-Lab8.pdf' target='_blank'>Lab 8</a> due Thursday</p>
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
