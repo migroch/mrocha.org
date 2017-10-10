@@ -95,14 +95,15 @@ export default  RopCSSyllabus ={
 	{id:"3", shortDescription:"Setup C9 and modify the hml5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
 	{id:"4", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
 	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
-	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6" },
+	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
     ],
     ToolLinks:[
-	{name:"CodeHS", link:"codehs.com/go/AB996"},
+	{name:"React", link:"https://reactjs.org/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
 	{name:"jQuery", link:"https://api.jquery.com/"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
+	{name:"CodeHS", link:"https://codehs.com/go/AB996"},
     ]
 };

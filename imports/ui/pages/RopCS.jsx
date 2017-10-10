@@ -44,7 +44,7 @@ export default class RopCS extends React.Component {
 
 		<p>This week we are going to learn about GUI components - <a href="https://slides.com/migroch/deck-2-4-9-12-15/fullscreen" target="_blank">GUI Components</a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/assignment_6" target="_blank">Assignment 6: Data driven REACT App 2</a></p>
+		<p><a href="https://ide.c9.io/migroch/assignment_6#openfile-README.md" target="_blank">Assignment 6: Data driven REACT App 2</a></p>
 		
 	        <p><a href="https://facebook.github.io/react/" target="_blank">React</a></p>
 	

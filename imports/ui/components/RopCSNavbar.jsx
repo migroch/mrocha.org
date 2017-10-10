@@ -82,9 +82,11 @@ class RopCSNavbar  extends React.Component {
 		  }
 		</ul>
               </li>
-	      
+
+	      <li><a href="https://docs.google.com/spreadsheets/d/1HlOVIzJSxBOpVKxs677mUnELnBJd8ic0rLoZX2U01us/edit#gid=177394119">RobuxBalances</a></li>
 	    </ul>
 
+	    
 	  </div>
 	</div>
       </nav>
