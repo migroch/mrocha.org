@@ -60,6 +60,8 @@ export default class Phys1 extends React.Component {
 	      <h3 className="bg-info text-center">Announcements</h3>
 	      <p>This week we are covering Heat, Phases of Matter and Thermodynamics - <a href='https://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Lecture Slides</a></p>
 
+	      <p><a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a></p>
+	      
 	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a>, <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a> and <a href='Phys1-Lab8.pdf' target='_blank'>Lab 8</a> due Thursday</p>
 	    </div>
 	    
