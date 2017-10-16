@@ -80,7 +80,8 @@ export default  RopCSSyllabus ={
 	{name: "Intro to Web Development", link:"http://slides.com/migroch/deck-1-3-8/fullscreen"},
 	{name: "The Unix Terminal", link:"http://slides.com/migroch/deck-2-6-10/fullscreen"},
 	{name: "Data Driven Web Development", link:"http://slides.com/migroch/deck-1-3-7-11-14/fullscreen"},
-	{name: "GUI Components", link:"https://slides.com/migroch/deck-2-4-9-12-15/fullscreen"},
+	{name: "GUI Components with REACT", link:"https://slides.com/migroch/deck-2-4-9-12-15/fullscreen"},
+	{name: "How the Internet Works, Servers, Node.js and Meteor", link:"https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0"},
@@ -88,6 +89,7 @@ export default  RopCSSyllabus ={
 	{id: "Quiz2", name:"Week 2"},
 	{id: "Quiz3", name:"Week 3"},
 	{id: "Quiz6", name:"Week 6"},
+	{id: "Quiz7", name:"Week 7"},
     ],
     Assignments:[
 	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"codehs.com/go/AB996"},
@@ -96,14 +98,17 @@ export default  RopCSSyllabus ={
 	{id:"4", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
 	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
 	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
+	{id:"7", shortDescription:"Simple HTTP server with Node.js", description:"Simple HTTP server with Node.js", link:"https://ide.c9.io/migroch/assignment_7#openfile-README.md" }
     ],
     ToolLinks:[
+	{name:"Meteor", link:"https://www.meteor.com/"},
 	{name:"React", link:"https://reactjs.org/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
-	{name:"jQuery", link:"https://api.jquery.com/"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
+	{name:"Node.js", link:"https://nodejs.org/en/"},
+	{name:"jQuery", link:"https://api.jquery.com/"},
 	{name:"CodeHS", link:"https://codehs.com/go/AB996"},
     ]
 };

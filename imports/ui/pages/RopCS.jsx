@@ -42,20 +42,18 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 7</h3>
 
-		<p>This week we are going to learn about GUI components - <a href="https://slides.com/migroch/deck-2-4-9-12-15/fullscreen" target="_blank">GUI Components</a></p>
+		<p>This week we are going to learn about  - <a href="https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen" target="_blank">How the Internet Works, Servers, Node.js and Meteor</a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/assignment_6#openfile-README.md" target="_blank">Assignment 6: Data driven REACT App 2</a></p>
-		
-	        <p><a href="https://facebook.github.io/react/" target="_blank">React</a></p>
-	
-		<p><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></p>
+		<p><a href="https://ide.c9.io/migroch/assignment_7#openfile-README.md" target="_blank">Assignment 7: Simple HTTP server with Node.js</a></p>
 
-		<p><a href="http://getbootstrap.com/docs/3.3/" target="_blank">Bootstrap</a></p>
-
-		<p><a href="https://api.jquery.com/" target="_blank">jQuery</a></p>
-
-		<p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p>
-		
+		<p>Useful links for this week:</p>
+		<ul>
+		  <li><p><a href="https://www.meteor.com/" target="_blank">Meteor</a></p></li>
+		  <li><p><a href="https://facebook.github.io/react/" target="_blank">React</a></p></li>
+		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
+		  <li><p><a href="https://nodejs.org/en/" target="_blank">Node.js</a></p></li>
+		</ul>
+				
 	      </div>
 	      
 	      <div className="container-fluid col-md-6 calendar">
@@ -522,7 +520,87 @@ export default class RopCS extends React.Component {
 	      </div>
 	    </div>
 
-
+	    <div className="modal fade" id="Quiz7"  role="dialog" aria-labelledby="myModalLabel">
+	      <div className="modal-dialog modal-lg" role="document">
+		<div className="modal-content">
+		  <div className="modal-header">
+		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 className="modal-title" id="myModalLabel">Week 7 Quiz: GUI Components with REACT</h4>
+		  </div>
+		  <div className="modal-body">
+		    <ol>
+		      <h3><li>
+			The job of smart components is to
+			<ul className="list-inline">
+			  <li>a) control everthing in the App.</li>
+			  <li>b) manipulate and pass data to reusable components.</li>
+			  <li>c) do smart decisions for the user.</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The job of reusable components is to pass data to child components.
+			<ul className="list-inline">
+			  <li>a) True</li>
+			  <li>b) False</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			If the App component passes some data to the Category component in the following way
+			<pre><code>&lt;Category cool_data=&#123;some_data&#125; /&gt;</code></pre>
+                        how would you access that data from within the Category component?
+			<ul className="list-inline">
+			  <li  >a) by calling <code>this.props.some_data</code></li>
+			  <li >b) by calling <code>this.cool_data</code></li>
+			  <li >c) by calling <code>this.props.cool_data</code></li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			Why would you add a <strong className="text-primary">state</strong> to a REACT component?
+			<ul className="list-inline">
+			  <li>a) To add reactivity to the component (i.e. to re-render the component if the state changes)</li> 
+			  <li>b) To add responsiveness to the component (i.e. to adapt to the screen size/resolution)</li>
+			  <li>c) Because in REACT all components must have a <strong className="text-primary">state</strong></li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			How would you change the <strong className="text-primary">state</strong> of a REACT component?
+			<ul className="list-inline">
+			  <li>a) <code>this.state = new_state</code></li>
+			  <li >b) <code>this.setState(new_state}</code></li>
+			  <li >c) <code>this.state.new_state</code></li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			In a REACT component, <code>this.state</code> is 
+			<ul className="list-inline">
+			  <li >a) a variable that can have only one value</li>
+			  <li>b) an array with a list of multiple values</li>
+			  <li>c) an object with one or more named values</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			<strong className="text-primary">Handlers</strong> are methods/functions that extend the <code>React.Component</code>
+			class, and we can access them anywhere within a component by calling <code>this.handlerName</code> 
+			<ul className="list-unstyled">
+			  <li >a) True</li>
+			  <li>b) False</li>
+			</ul>	
+		      </li></h3>
+		      <h3><li>
+		        <strong className="text-primary">Handlers</strong> defined in a parent component can not be passed to child components.
+			<ul className="list-unstyled">
+			  <li >a) True</li>
+			  <li>b) False</li>
+			</ul>	
+		      </li></h3>
+		    </ol>
+		  </div>
+		  <div className="modal-footer">
+		    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
 	    
 	  </div>
 	</div>
