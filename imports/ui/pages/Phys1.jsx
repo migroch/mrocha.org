@@ -60,7 +60,7 @@ export default class Phys1 extends React.Component {
 	      <h3 className="bg-info text-center">Announcements</h3>
 	      <p>This week we are covering Waves and Sound - <a href='https://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Lecture Slides</a></p>
 
-	      <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Waves</a></p>
+	      <p>Play wtih the PHET <a href='https://phet.colorado.edu/en/simulation/legacy/wave-interference' target='_blank'>Wave Interference Simulation</a> and complete <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Waves</a></p>
 	      
 	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21013' target='_blank'>HW 6</a>, and <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9</a> due Thursday</p>
 	    </div>
