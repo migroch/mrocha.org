@@ -44,7 +44,7 @@ export default class RopCS extends React.Component {
 
 		<p>This week we are going to learn about  - <a href="https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen" target="_blank">How the Internet Works, Servers, Node.js and Meteor</a></p>
 		
-		<p><a href="https://ide.c9.io/migroch/assignment_7#openfile-README.md" target="_blank">Assignment 7: Simple HTTP server with Node.js</a></p>
+		<p><a href="https://c9.io/migroch/assigment_7" target="_blank">Assignment 7: Simple HTTP server with Node.js</a></p>
 
 		<p>Useful links for this week:</p>
 		<ul>

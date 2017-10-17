@@ -38,7 +38,7 @@ export default  Phys1Syllabus ={
 	"week 5":[ "<a href='Phys1-Midterm1.pdf' target='_blank'>Mid Term (Ch 1-10)</a>"],
 	"week 6":["Chapters: 11-14", "<a href='https://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Lecture Slides</a", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/19760' target='_blank'>HW 4</a> and <a href='Lab6_RotationalInertia.pdf' target='_blank'>Lab 6</a> due Tuesday"],
 	"week 7":["Chapters: 15-18", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a>, <a href='Lab7_Questionnaire.pdf' target='_blank'>Lab 7 Questionnaire</a>,  <a href='Phys1-Lab8.pdf' target='_blank'>Lab 8</a> due Thursday"],
-	"week 8":["Chapters: 19-21", "HW 6, <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9</a> due Thursday"],
+	"week 8":["Chapters: 19-21", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/21013' target='_blank'>HW 6</a>, <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9</a> due Thursday"],
 	"week 9":["Chapters: 22-23", "HW/Lab due"],
 	"week 10":["Chapters: 24-25", "HW/Lab due",  "Mid Term (Ch 11-21)"],
 	"week 11":["Chapters: 26-28", "HW/Lab  due"],
