@@ -1,12 +1,13 @@
 // RopCSNavbar.jsx
 // Navbar component for RopCS
 import React from 'react';
+import AccountsUIWrapper from './AccountsUIWrapper.jsx';
 
 class RopCSNavbar  extends React.Component {
   constructor(props){
     super(props);
   }
-  
+
   render() {
     const syllabus = this.props.syllabus;
     return (
@@ -47,8 +48,8 @@ class RopCSNavbar  extends React.Component {
 		<ul className="dropdown-menu">
 		  {
 		     syllabus.Quizzes.map((quiz)=>(
-		      <li key={quiz.id}>
-		        <button type="button" className="btn btn-primary btn-block" data-toggle="modal" data-target={"#"+quiz.id}><p>{quiz.name}</p></button>
+		      <li key={quiz.id} className="text-center">
+		        <a href=""  data-toggle="modal" data-target={"#"+quiz.id}><p className="text-primary">{quiz.name}</p></a>
 		      </li>
 		     ))
 		  }
@@ -83,7 +84,11 @@ class RopCSNavbar  extends React.Component {
 		</ul>
               </li>
 
-	      <li><a href="https://docs.google.com/spreadsheets/d/1HlOVIzJSxBOpVKxs677mUnELnBJd8ic0rLoZX2U01us/edit#gid=177394119">RobuxBalances</a></li>
+	      <li className="navbar-text">
+		<AccountsUIWrapper  />
+	      </li>
+	      
+	      {/*<li><a href="https://docs.google.com/spreadsheets/d/1HlOVIzJSxBOpVKxs677mUnELnBJd8ic0rLoZX2U01us/edit#gid=177394119">RobuxBalances</a></li>*/}
 	    </ul>
 
 	    

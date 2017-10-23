@@ -9,9 +9,24 @@ export default class RopCS extends React.Component {
   constructor(props) {
     super(props);
   }
+
+  userInfo(user){
+    if (user){
+      return (
+	<div className="container text-center alert alert-success alert-dismissible" role="alert">
+	  <button type="button" className="close" data-dismiss="alert" aria-label="Close">
+	    <span aria-hidden="true">&times;</span>
+	  </button>
+	  <p><strong>Hello {user.profile.First}!</strong> your current balance is: <strong>{user.profile.Robux} K</strong>  Robux</p>
+	</div>
+      )
+    } else {
+      return
+    }
+  }
   
   render() {
-    const { loading, syllExists, syllabus } = this.props;
+    const {user, loading, syllExists, syllabus } = this.props;
     if(loading){
       return(
 	<p>loading ...</p>
@@ -24,7 +39,9 @@ export default class RopCS extends React.Component {
 	    <meta name="description" content="Page for Miguel Rocha's  ROP Exploring Computer Science class"/>
           </Helmet>
 
-	<RopCSNavbar syllabus={syllabus} />
+	  <RopCSNavbar syllabus={syllabus} />
+
+	  {this.userInfo(user)}
 	  
 	  <div className="container-fluid rop-header nopadding bpadding">
 	    <div className="container text-center">
@@ -40,18 +57,17 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 7</h3>
+		<h3 className="bg-info text-center">Week 8</h3>
 
-		<p>This week we are going to learn about  - <a href="https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen" target="_blank">How the Internet Works, Servers, Node.js and Meteor</a></p>
+		<p>This week it is all  about  <a href="https://www.meteor.com/" target="_blank">Meteor</a></p>
 		
-		<p><a href="https://c9.io/migroch/assigment_7" target="_blank">Assignment 7: Simple HTTP server with Node.js</a></p>
+		<p><a href="https://www.meteor.com/tutorials/react/creating-an-app" target="_blank">Assignment 8: Todo App with Meteor and React</a></p>
 
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://www.meteor.com/" target="_blank">Meteor</a></p></li>
 		  <li><p><a href="https://facebook.github.io/react/" target="_blank">React</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
-		  <li><p><a href="https://nodejs.org/en/" target="_blank">Node.js</a></p></li>
 		</ul>
 				
 	      </div>
@@ -70,26 +86,27 @@ export default class RopCS extends React.Component {
 
 		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
 							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-warning">Weeks 4-7</i></h3></li>
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-success">Weeks 4-7</i></h3></li>
 
 		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
+
+		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 		
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 7</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 8</i></h3></li>
+
+		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-warning">Week 8-10</i></h3></li>
 		
-		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 8</i></h3></li>
+		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 9</i></h3></li>
 		
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-danger">Week 9-10</i></h3></li>
-		
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 10</i></h3></li>
-		<li> <h3>Data analysis and visualization (Matplotlib and D3.js) - <i className="text-danger">Week 11-12</i></h3></li>
-		<li><h3>Machine Intelligence and automation - what the heck is AI? - <i className="text-danger">Week 13</i></h3></li>
-		<li><h3>Cyber Security - <i className="text-danger">Week 14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-danger">Week 11-12</i></h3></li>
+		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13</i></h3></li>
+		<li><h3>Cybersecurity - <i className="text-danger">Week 14</i></h3></li>
 	      </ul>
 	    </div>
 
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Homework</h2>
-	      <p>Your weekly work is due Thursday of every week. If you are focus during class hours you may not have any homework!</p>
+	      <p>Your weekly work is due Thursday of every week. If you are focused during class hours you may not have any homework!</p>
 	    </div>
 
 	    <div className="alert alert-success text-center" role="alert"><h4>Tip for Success: Do your work during class!</h4></div>
@@ -533,7 +550,7 @@ export default class RopCS extends React.Component {
 			The job of smart components is to
 			<ul className="list-inline">
 			  <li>a) control everthing in the App.</li>
-			  <li>b) manipulate and pass data to reusable components.</li>
+			  <li  className="bg-success">b) manipulate and pass data to reusable components.</li>
 			  <li>c) do smart decisions for the user.</li>
 			</ul>
 		      </li></h3>
@@ -541,7 +558,7 @@ export default class RopCS extends React.Component {
 			The job of reusable components is to pass data to child components.
 			<ul className="list-inline">
 			  <li>a) True</li>
-			  <li>b) False</li>
+			  <li  className="bg-success">b) False</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
@@ -551,13 +568,13 @@ export default class RopCS extends React.Component {
 			<ul className="list-inline">
 			  <li  >a) by calling <code>this.props.some_data</code></li>
 			  <li >b) by calling <code>this.cool_data</code></li>
-			  <li >c) by calling <code>this.props.cool_data</code></li>
+			  <li  className="bg-success">c) by calling <code>this.props.cool_data</code></li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			Why would you add a <strong className="text-primary">state</strong> to a REACT component?
 			<ul className="list-inline">
-			  <li>a) To add reactivity to the component (i.e. to re-render the component if the state changes)</li> 
+			  <li  className="bg-success">a) To add reactivity to the component (i.e. to re-render the component if the state changes)</li> 
 			  <li>b) To add responsiveness to the component (i.e. to adapt to the screen size/resolution)</li>
 			  <li>c) Because in REACT all components must have a <strong className="text-primary">state</strong></li>
 			</ul>
@@ -566,7 +583,7 @@ export default class RopCS extends React.Component {
 			How would you change the <strong className="text-primary">state</strong> of a REACT component?
 			<ul className="list-inline">
 			  <li>a) <code>this.state = new_state</code></li>
-			  <li >b) <code>this.setState(new_state}</code></li>
+			  <li  className="bg-success">b) <code>this.setState(new_state)</code></li>
 			  <li >c) <code>this.state.new_state</code></li>
 			</ul>
 		      </li></h3>
@@ -575,14 +592,14 @@ export default class RopCS extends React.Component {
 			<ul className="list-inline">
 			  <li >a) a variable that can have only one value</li>
 			  <li>b) an array with a list of multiple values</li>
-			  <li>c) an object with one or more named values</li>
+			  <li  className="bg-success">c) an object with one or more named values</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			<strong className="text-primary">Handlers</strong> are methods/functions that extend the <code>React.Component</code>
 			class, and we can access them anywhere within a component by calling <code>this.handlerName</code> 
 			<ul className="list-unstyled">
-			  <li >a) True</li>
+			  <li  className="bg-success">a) True</li>
 			  <li>b) False</li>
 			</ul>	
 		      </li></h3>
@@ -590,7 +607,7 @@ export default class RopCS extends React.Component {
 		        <strong className="text-primary">Handlers</strong> defined in a parent component can not be passed to child components.
 			<ul className="list-unstyled">
 			  <li >a) True</li>
-			  <li>b) False</li>
+			  <li  className="bg-success">b) False</li>
 			</ul>	
 		      </li></h3>
 		    </ol>
@@ -610,9 +627,10 @@ export default class RopCS extends React.Component {
 }
 
 RopCS.propTypes = {
+  user: PropTypes.object,
   loading: PropTypes.bool,
   syllExists: PropTypes.bool,
-  syllabus: PropTypes.object
+  syllabus: PropTypes.object,
 };
 
 
