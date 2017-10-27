@@ -58,13 +58,13 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 9</h3>
-	      <p>This week we are covering Electricity - <a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      {/* <p>This week we are covering Electricity - <a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Lecture Slides</a></p>
 
 	      <p><a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a></p>
-	      	      	      
-	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10</a> and  <a href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a>due Thursday</p>
+	      
+	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10</a> and  <a href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a>due Thursday</p> */}
 
-	      <p className="bg-danger">Midterm 2 is next Tuesday October 31st</p>
+	      <p className="bg-danger">Midterm 2 is next Thursday November 2</p>
 	      
 	    </div>
 	    
