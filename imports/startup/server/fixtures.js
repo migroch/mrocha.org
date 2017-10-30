@@ -32,15 +32,18 @@ Meteor.startup(() => {
     // Create users from the RopCS list of students
     RopCSStudents.students.forEach((student) =>{
 	let username = student.First+student.Last[0];
-	if (!Accounts.findUserByUsername(username)){
+	let user = Accounts.findUserByUsername(username);
+	if (!user){
 	    console.log("Creating user "+ username);
 	    Accounts.createUser({username: username,
 				 email: student.email,
 				 password:"funRobux",
 				 profile:{First:student.First, Last:student.Last, Robux:student.Robux}
 				});
+	} else if (user.profile.Robux != student.Robux){
+	    console.log("updating Robux balance for user " + username);
+	    Meteor.users.update(user._id, {$set:{ "profile.Robux": student.Robux}} );
 	}
-
     });
 });
 

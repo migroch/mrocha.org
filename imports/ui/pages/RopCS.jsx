@@ -57,9 +57,9 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 8</h3>
+		<h3 className="bg-info text-center">Week 10</h3>
 
-		<p>This week it is all  about  <a href="https://www.meteor.com/" target="_blank">Meteor</a></p>
+		<p>This week we will continue with  <a href="https://www.meteor.com/" target="_blank">Meteor</a></p>
 		
 		<p><a href="https://www.meteor.com/tutorials/react/creating-an-app" target="_blank">Assignment 8: Todo App with Meteor and React</a></p>
 
