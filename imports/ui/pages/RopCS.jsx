@@ -93,12 +93,14 @@ export default class RopCS extends React.Component {
 		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
 
 		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
-		
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 8</i></h3></li>
 
 		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-warning">Week 8-10</i></h3></li>
+
+		<li><h3>Databases - <i className="text-warning">Week 10</i></h3></li>
+
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 10</i></h3></li>
 		
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week 9</i></h3></li>
+		<li><h3>Programming guide lines for open source applications - <i className="text-warning">Week 10</i></h3></li>
 		
 		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-danger">Week 11-12</i></h3></li>
 		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13</i></h3></li>
