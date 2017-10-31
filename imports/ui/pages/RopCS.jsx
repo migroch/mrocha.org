@@ -88,7 +88,7 @@ export default class RopCS extends React.Component {
 
 		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
 							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-success">Weeks 4-7</i></h3></li>
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-success">Week 4-7</i></h3></li>
 
 		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
 
