@@ -59,7 +59,7 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 10</h3>
 
-		<p>This week we will continue with  <a href="https://www.meteor.com/" target="_blank">Meteor</a></p>
+		<p>This week we will continue with <a href="https://www.meteor.com/" target="_blank">Meteor</a>, and also  learn about <a href="https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen" target="_blank">Databases</a> </p>
 		
 		<p><a href="https://www.meteor.com/tutorials/react/creating-an-app" target="_blank">Assignment 8: Todo App with Meteor and React</a></p>
 
@@ -68,6 +68,8 @@ export default class RopCS extends React.Component {
 		  <li><p><a href="https://www.meteor.com/" target="_blank">Meteor</a></p></li>
 		  <li><p><a href="https://facebook.github.io/react/" target="_blank">React</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
+		  <li><p><a  href="https://docs.mongodb.com/" target="_blank">MongoDB</a></p></li>
+		  
 		</ul>
 				
 	      </div>

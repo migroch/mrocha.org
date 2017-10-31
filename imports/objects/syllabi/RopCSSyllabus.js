@@ -81,7 +81,8 @@ export default  RopCSSyllabus ={
 	{name: "The Unix Terminal", link:"http://slides.com/migroch/deck-2-6-10/fullscreen"},
 	{name: "Data Driven Web Development", link:"http://slides.com/migroch/deck-1-3-7-11-14/fullscreen"},
 	{name: "GUI Components with REACT", link:"https://slides.com/migroch/deck-2-4-9-12-15/fullscreen"},
-	{name: "How the Internet Works, Servers, Node.js and Meteor", link:"https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"}
+	{name: "How the Internet Works, Servers, Node.js and Meteor", link:"https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"},
+	{name: "Databases", link:"https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0"},
@@ -104,6 +105,7 @@ export default  RopCSSyllabus ={
     ToolLinks:[
 	{name:"Meteor", link:"https://www.meteor.com/"},
 	{name:"React", link:"https://reactjs.org/"},
+	{name:"MongoDB", link:"https://docs.mongodb.com/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
