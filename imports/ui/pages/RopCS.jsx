@@ -622,6 +622,85 @@ export default class RopCS extends React.Component {
 		</div>
 	      </div>
 	    </div>
+
+	    <div className="modal fade" id="Quiz10"  role="dialog" aria-labelledby="myModalLabel">
+	      <div className="modal-dialog modal-lg" role="document">
+		<div className="modal-content">
+		  <div className="modal-header">
+		    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 className="modal-title" id="myModalLabel">Week 10 Quiz: The Internet, Servers and Databases</h4>
+		  </div>
+		  <div className="modal-body">
+		    <ol>
+		      <h3><li>
+			Every computer connected to the internet must have a
+			<ul className="list-inline">
+			  <li>a) server program.</li>
+			  <li>b) internet Protocol (IP) address.</li>
+			  <li>c) name.</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The job of a Domain Name Server (DNS) is 
+			<ul className="list-unstyled">
+			  <li>a) to translate domain names (such as google.com) to IP addresses. </li>
+			  <li>b) to assing  domain names to people.</li>
+			  <li>c) to create new domain names.</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			To create a web server (or HTTP server) you need special and sophisticated computers.
+			<ul className="list-inline">
+			  <li >a) True</li>
+			  <li >b) False</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			What do we use Node.js for?
+			<ul className="list-unstyled">
+			  <li>a) To be able to run JavaScript prgrams on the server side of our applications.</li> 
+			  <li>b) To create HTTP server programs that run efficiently.</li>
+			  <li>c) All of the above.</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			To request some data from a database you need to
+			<ul className="list-unstyled">
+			  <li>a) submit a query to the database.</li>
+			  <li >b) send an HTTP request to the database.</li>
+			  <li >c) just knock on the right PORT.</li>
+			</ul>
+		      </li></h3>
+		      <h3><li>
+			The data model for Relational Databases is
+			<ul className="list-inline">
+			  <li >a) tables</li>
+			  <li>b) &#123;key:value&#125; pairs</li>
+			</ul>	
+		      </li></h3>
+		      <h3><li>
+		        The data model for Document Databases is
+			<ul className="list-inline">
+			  <li >a) tables</li>
+			  <li>b) &#123;key:value&#125; pairs</li>
+			</ul>	
+		      </li></h3>
+		      <h3><li>
+			Why do we call to all databases that are not Relational Databases "NoSQL Databases" ?
+			<ul className="list-unstyled">
+			  <li >a) Because SQL is the query language of all Relational Databases. </li>
+			  <li>b)  Because the query language of Non-Relational Database is everything but SQL. </li>
+			  <li>c) All of the above.</li>
+			</ul>
+		      </li></h3>
+		    </ol>
+		  </div>
+		  <div className="modal-footer">
+		    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
 	    
 	  </div>
 	</div>

@@ -91,6 +91,7 @@ export default  RopCSSyllabus ={
 	{id: "Quiz3", name:"Week 3"},
 	{id: "Quiz6", name:"Week 6"},
 	{id: "Quiz7", name:"Week 7"},
+	{id: "Quiz10", name:"Week 10"}
     ],
     Assignments:[
 	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"codehs.com/go/AB996"},
