@@ -57,21 +57,39 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
-	      <h3 className="bg-info text-center">Week 9</h3>
-	      {/* <p>This week we are covering Electricity - <a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <h3 className="bg-info text-center">Week 11</h3>
+	      <p>This week we are covering Magnetism and Electromagnetic Induction </p> {/* - <a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Lecture Slides</a></p>*/}
+ 
+	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21933' target='_blank'>HW 8</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a>  due Thursday</p>
 
-	      <p><a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a></p>
-	      
-	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10</a> and  <a href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a>due Thursday</p> */}
-
-	      <p className="bg-danger">Midterm 2 is next Thursday November 2</p>
-	      
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
 	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ko0gmi48tb2rbh591cuu8qnb80%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="250" frameBorder="0" scrolling="no" fontSize="500"></iframe>
 	    </div>
 	    
+	  </div>
+
+	  <div className="container">
+	    <h2>Tentative Schedule</h2>
+	    <dl className="dl-horizontal">
+	      {
+		Object.keys(syllabus.CourseSchedule).map((key, index) =>{
+		  return (
+		    <div key={index}>
+		      <dt><p>{key}</p></dt>
+		      <dd>
+			{
+			  syllabus.CourseSchedule[key].map((txt, index)=>{
+			    return <p key={index} dangerouslySetInnerHTML={{__html: txt}}></p>
+			  })
+			}
+		      </dd>
+		    </div>
+		  );
+		})
+	      }
+	    </dl>
 	  </div>
 	  
 	  <div className="container">
@@ -120,29 +138,6 @@ export default class Phys1 extends React.Component {
 		})
 	      }
 	    </ul>
-	  </div>
-
-	 	  
-	  <div className="container">
-	    <h2>Tentative Schedule</h2>
-	    <dl className="dl-horizontal">
-	      {
-		Object.keys(syllabus.CourseSchedule).map((key, index) =>{
-		  return (
-		    <div key={index}>
-		      <dt><p>{key}</p></dt>
-		      <dd>
-			{
-			  syllabus.CourseSchedule[key].map((txt, index)=>{
-			    return <p key={index} dangerouslySetInnerHTML={{__html: txt}}></p>
-			  })
-			}
-		      </dd>
-		    </div>
-		  );
-		})
-	      }
-	    </dl>
 	  </div>
 	   
 	  <div className="container">

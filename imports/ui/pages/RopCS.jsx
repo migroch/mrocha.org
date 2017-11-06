@@ -57,15 +57,16 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 10</h3>
+		<h3 className="bg-info text-center">Week 11</h3>
 
-		<p>This week we will continue with <a href="https://www.meteor.com/" target="_blank">Meteor</a>, and also  learn about <a href="https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen" target="_blank">Databases</a> </p>
+		<p>This week we will continue with <a href="https://www.meteor.com/" target="_blank">Meteor</a>, and also learn about <a href="https://github.com/" target="_blank">GitHub</a> </p>
 		
 		<p><a href="https://www.meteor.com/tutorials/react/creating-an-app" target="_blank">Assignment 8: Todo App with Meteor and React</a></p>
 
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://www.meteor.com/" target="_blank">Meteor</a></p></li>
+		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
 		  <li><p><a href="https://facebook.github.io/react/" target="_blank">React</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
 		  <li><p><a  href="https://docs.mongodb.com/" target="_blank">MongoDB</a></p></li>
@@ -94,17 +95,17 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-warning">Week 8-10</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-warning">Week 8-11</i></h3></li>
 
-		<li><h3>Databases - <i className="text-warning">Week 10</i></h3></li>
+		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
 
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 10</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 11</i></h3></li>
 		
-		<li><h3>Programming guide lines for open source applications - <i className="text-warning">Week 10</i></h3></li>
+		<li><h3>Programming guide lines for open source applications - <i className="text-warning">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-danger">Week 11-12</i></h3></li>
-		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13</i></h3></li>
-		<li><h3>Cybersecurity - <i className="text-danger">Week 14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-danger">Week 12-14</i></h3></li>
+		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13-14</i></h3></li>
+		<li><h3>Cybersecurity - <i className="text-danger">Week 15-16</i></h3></li>
 	      </ul>
 	    </div>
 
@@ -636,14 +637,14 @@ export default class RopCS extends React.Component {
 			Every computer connected to the internet must have a
 			<ul className="list-inline">
 			  <li>a) server program.</li>
-			  <li>b) internet Protocol (IP) address.</li>
+			  <li  className="bg-success">b) Internet Protocol (IP) address.</li>
 			  <li>c) name.</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			The job of a Domain Name Server (DNS) is 
 			<ul className="list-unstyled">
-			  <li>a) to translate domain names (such as google.com) to IP addresses. </li>
+			  <li  className="bg-success">a) to translate domain names (such as google.com) to IP addresses. </li>
 			  <li>b) to assing  domain names to people.</li>
 			  <li>c) to create new domain names.</li>
 			</ul>
@@ -652,7 +653,7 @@ export default class RopCS extends React.Component {
 			To create a web server (or HTTP server) you need special and sophisticated computers.
 			<ul className="list-inline">
 			  <li >a) True</li>
-			  <li >b) False</li>
+			  <li  className="bg-success">b) False</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
@@ -660,13 +661,13 @@ export default class RopCS extends React.Component {
 			<ul className="list-unstyled">
 			  <li>a) To be able to run JavaScript prgrams on the server side of our applications.</li> 
 			  <li>b) To create HTTP server programs that run efficiently.</li>
-			  <li>c) All of the above.</li>
+			  <li  className="bg-success">c) All of the above.</li>
 			</ul>
 		      </li></h3>
 		      <h3><li>
 			To request some data from a database you need to
 			<ul className="list-unstyled">
-			  <li>a) submit a query to the database.</li>
+			  <li  className="bg-success">a) submit a query to the database.</li>
 			  <li >b) send an HTTP request to the database.</li>
 			  <li >c) just knock on the right PORT.</li>
 			</ul>
@@ -674,7 +675,7 @@ export default class RopCS extends React.Component {
 		      <h3><li>
 			The data model for Relational Databases is
 			<ul className="list-inline">
-			  <li >a) tables</li>
+			  <li  className="bg-success">a) tables</li>
 			  <li>b) &#123;key:value&#125; pairs</li>
 			</ul>	
 		      </li></h3>
@@ -682,7 +683,7 @@ export default class RopCS extends React.Component {
 		        The data model for Document Databases is
 			<ul className="list-inline">
 			  <li >a) tables</li>
-			  <li>b) &#123;key:value&#125; pairs</li>
+			  <li  className="bg-success">b) &#123;key:value&#125; pairs</li>
 			</ul>	
 		      </li></h3>
 		      <h3><li>
@@ -690,7 +691,7 @@ export default class RopCS extends React.Component {
 			<ul className="list-unstyled">
 			  <li >a) Because SQL is the query language of all Relational Databases. </li>
 			  <li>b)  Because the query language of Non-Relational Database is everything but SQL. </li>
-			  <li>c) All of the above.</li>
+			  <li  className="bg-success">c) All of the above.</li>
 			</ul>
 		      </li></h3>
 		    </ol>

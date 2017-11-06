@@ -5,7 +5,7 @@ export default RopCSStudents = {
     class: "SCVHS 2017-2018",
     students: [
 	{First: "Gabriel", Last: "Aiello", email:"aiello591@scottsvalleyusd.org", Robux: 60},
-	{First: "Stryker", Last: "Buffington", email:"strykerbuffington@gmail.com", Robux: 135},
+	{First: "Stryker", Last: "Buffington", email:"strykerbuffington@gmail.com", Robux: 155},
 	{First: "Zephyr", Last: "Christensen", email:"christen596@scottsvalleyusd.org", Robux: 20},
 	{First: "Shaemus", Last: "Cullen", email:"cullensh@scottsvalleyusd.org", Robux: 75},
 	{First: "Rania", Last: "Davis", email:"davisr@scottsvalleyusd.org", Robux: 35},
@@ -28,7 +28,7 @@ export default RopCSStudents = {
 	{First: "Antonio", Last: "Ruiz Gonzalez", email:"ruizgona@scottsvalleyusd.org", Robux: 15},
 	{First: "Suki", Last: "Shields", email:"shieldss@scottsvalleyusd.org", Robux: 175},
 	{First: "Maile", Last: "Sussman", email:"sussmanm00@gmail.com", Robux: 75},
-	{First: "James", Last: "Thompson", email:"thompsonjam@scottsvalleyusd.org", Robux: 125},
+	{First: "James", Last: "Thompson", email:"thompsonjam@scottsvalleyusd.org", Robux: 150},
 	{First: "Charlotte", Last: "Wimp", email:"wimpc@scottsvalleyusd.org", Robux: 95},
 	{First: "David", Last: "Yanez", email:"yanezd@scottsvalleyusd.org", Robux: 180},
     ]
