@@ -58,8 +58,12 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 11</h3>
-	      <p>This week we are covering Magnetism and Electromagnetic Induction </p> {/* - <a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Lecture Slides</a></p>*/}
- 
+	      <p>This week we are covering Magnetism and Electromagnetic Induction  - <a href='https://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Lecture Slides</a></p>
+
+	      <p><a href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a></p>
+
+	      <p><a href='Phys1-Midterm2_answers.pdf' target='_blank'>Midterm 2 Answers</a></p>
+	      
 	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/21933' target='_blank'>HW 8</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a>  due Thursday</p>
 
 	    </div>
