@@ -59,18 +59,16 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 11</h3>
 
-		<p>This week we will continue with <a href="https://www.meteor.com/" target="_blank">Meteor</a>, and also learn about <a href="https://github.com/" target="_blank">GitHub</a> </p>
+		<p>This week we will learn about <a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen" target="_blank">Version Control Systems</a> (<a href="https://git-scm.com/" target="_blank">git</a> and <a href="https://github.com/" target="_blank">GitHub</a>)</p>
 		
-		<p><a href="https://www.meteor.com/tutorials/react/creating-an-app" target="_blank">Assignment 8: Todo App with Meteor and React</a></p>
+		<p><a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">How to add a project to GitHub </a></p>
+
+		<p>Then we will move to Data Analyisis and Visualization</p>
 
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://www.meteor.com/" target="_blank">Meteor</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
-		  <li><p><a href="https://facebook.github.io/react/" target="_blank">React</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
-		  <li><p><a  href="https://docs.mongodb.com/" target="_blank">MongoDB</a></p></li>
-		  
 		</ul>
 				
 	      </div>

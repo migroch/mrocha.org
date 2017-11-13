@@ -82,7 +82,8 @@ export default  RopCSSyllabus ={
 	{name: "Data Driven Web Development", link:"http://slides.com/migroch/deck-1-3-7-11-14/fullscreen"},
 	{name: "GUI Components with REACT", link:"https://slides.com/migroch/deck-2-4-9-12-15/fullscreen"},
 	{name: "How the Internet Works, Servers, Node.js and Meteor", link:"https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"},
-	{name: "Databases", link:"https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen"}
+	{name: "Databases", link:"https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen"},
+	{name: "Version Control Systems", link: "https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0"},
