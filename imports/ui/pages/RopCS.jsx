@@ -57,7 +57,7 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 11</h3>
+		<h3 className="bg-info text-center">Week 12</h3>
 
 		<p>This week we will learn about <a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen" target="_blank">Version Control Systems</a> (<a href="https://git-scm.com/" target="_blank">git</a> and <a href="https://github.com/" target="_blank">GitHub</a>)</p>
 		
@@ -93,11 +93,11 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-warning">Week 8-11</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-success">Week 8-11</i></h3></li>
 
 		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
 
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-warning">Week 11</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
 		<li><h3>Programming guide lines for open source applications - <i className="text-warning">Week 11</i></h3></li>
 		
