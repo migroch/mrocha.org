@@ -23,13 +23,13 @@ export default RopCSStudents = {
 	{First: "Esak", Last: "Ordonez", email:"ordonezgarciae@scottsvalleyusd.org", Robux: 35},
 	{First: "Neil", Last: "Pacella", email:"pacellan@scottsvalleyusd.org", Robux: 30},
 	{First: "Liam", Last: "Parrish", email:"parrishl@scottsvalleyusd.org", Robux: 95},
-	{First: "Alexander", Last: "Polland", email:"pollanda@scottsvalleyusd.org", Robux: 155},
+	{First: "Alexander", Last: "Polland", email:"pollanda@scottsvalleyusd.org", Robux: 205},
 	{First: "Adam", Last: "Rammaha", email:"rammahaa@scottsvalleyusd.org", Robux: 60},
 	{First: "Antonio", Last: "Ruiz Gonzalez", email:"ruizgona@scottsvalleyusd.org", Robux: 15},
 	{First: "Suki", Last: "Shields", email:"shieldss@scottsvalleyusd.org", Robux: 175},
 	{First: "Maile", Last: "Sussman", email:"sussmanm00@gmail.com", Robux: 75},
-	{First: "James", Last: "Thompson", email:"thompsonjam@scottsvalleyusd.org", Robux: 150},
+	{First: "James", Last: "Thompson", email:"thompsonjam@scottsvalleyusd.org", Robux: 200},
 	{First: "Charlotte", Last: "Wimp", email:"wimpc@scottsvalleyusd.org", Robux: 95},
-	{First: "David", Last: "Yanez", email:"yanezd@scottsvalleyusd.org", Robux: 180},
+	{First: "David", Last: "Yanez", email:"yanezd@scottsvalleyusd.org", Robux: 230},
     ]
 };

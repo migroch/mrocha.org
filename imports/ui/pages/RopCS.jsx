@@ -63,7 +63,7 @@ export default class RopCS extends React.Component {
 		
 		<p><a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">How to add a project to GitHub </a></p>
 
-		<p>Then we will move to Data Analyisis and Visualization</p>
+		<p>Then we will move to <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a> </p>
 
 		<p>Useful links for this week:</p>
 		<ul>
