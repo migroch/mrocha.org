@@ -60,7 +60,7 @@ export default class Phys1 extends React.Component {
 	      <h3 className="bg-info text-center">Week 12</h3>
 	      <p>This week we are covering Electromagnetic Waves, Light and Color  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Lecture Slides</a></p>
 
-	      <p><a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: </a></p>
+	      <p><a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Colors from Light and Light from Colors</a></p>
 
 	      <p><a href='Phys1-Midterm2_answers.pdf' target='_blank'>Midterm 2 Answers</a></p>
 	      
