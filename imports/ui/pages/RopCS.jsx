@@ -65,8 +65,11 @@ export default class RopCS extends React.Component {
 
 		<p>Then we will move to <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a> </p>
 
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>		
+
 		<p>Useful links for this week:</p>
 		<ul>
+		  <li><p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
 		</ul>
@@ -99,11 +102,12 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
-		<li><h3>Programming guide lines for open source applications - <i className="text-warning">Week 11</i></h3></li>
-		
-		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-danger">Week 12-14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-warning">Week 12-14</i></h3></li>
 		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13-14</i></h3></li>
 		<li><h3>Cybersecurity - <i className="text-danger">Week 15-16</i></h3></li>
+
+		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week ?</i></h3></li>
+		
 	      </ul>
 	    </div>
 
