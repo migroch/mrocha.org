@@ -62,7 +62,7 @@ export default class Phys1 extends React.Component {
 
 	      <p><a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Colors from Light and Light from Colors</a></p>
 
-	      <p><a href='Phys1-Midterm2_answers.pdf' target='_blank'>Midterm 2 Answers</a></p>
+	      <p><a href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Concave Mirror Experiment</a></p>
 	      
 	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/22243' target='_blank'>HW 9</a> and <a href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a>  due Thursday</p>
 
