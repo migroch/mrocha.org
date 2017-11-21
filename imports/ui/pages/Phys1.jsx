@@ -58,13 +58,11 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 12</h3>
-	      <p>This week we are covering Electromagnetic Waves, Light and Color  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <p>This week we are continuing with properties of Light Waves (Diffraction, Interference and Polarization)  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Lecture Slides</a></p>
 
-	      <p><a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Colors from Light and Light from Colors</a></p>
-
-	      <p><a href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Concave Mirror Experiment</a></p>
+	      <p>Use the <a href="https://phet.colorado.edu/en/simulation/legacy/wave-interference"  target='_blank'>Wave Interference PHET simulation</a> to complete <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Diffraction Patterns</a></p>
 	      
-	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/22243' target='_blank'>HW 9</a> and <a href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a>  due Thursday</p>
+	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/22823' target='_blank'>HW 10</a>,  <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Colors from Light and Light from Colors</a> and <a href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Concave Mirror Experiment</a> due next Thursday, Nov 30th</p>
 
 	    </div>
 	    

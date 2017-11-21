@@ -43,10 +43,10 @@ export default  Phys1Syllabus ={
 	"week 10":[ "<a href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"],
 	"week 11":["Chapters: 24-25", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/21933' target='_blank'>HW 8</a> and<a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a> due Thursday"],
 	"week 12":["Chapters: 26-29", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/22243' target='_blank'>HW 9</a>, <a href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a> due Thursday"],
-	"week 13":["Chapters: 30-31", "HW/Lab  due"],
-	"week 14":["Chapters: 32-34", "HW/Lab due"],
-	"week 15":["Chapters: 35-36", "HW/Lab due"],
-	"week 16":[ "Final (Ch 22-36)"]
+	"week 13":["Chapters: 29", "No HW/Lab due, Happy Thanksgiving!"],
+	"week 14":["Chapters: 30-32", "<a href='https://ilearn.gavilan.edu/courses/2425/assignments/22823' target='_blank'>HW 10</a>,  <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14</a>, <a href='Phys1-Lab15.pdf' target='_blank'>Lab 15</a> and <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16</a> due Thursday"],
+	"week 15":["Chapters: 32-34", "HW/Lab due"],
+	"week 16":[ "Final (Ch 22-34)"]
     },
     Homework:"Your homeworks and lab reports are due Thursdays at 6:30 pm",
     Labs:"You must get your data on the designated lab hours, NO MAKEUP LABS!",
