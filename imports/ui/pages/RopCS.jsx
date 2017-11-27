@@ -57,15 +57,14 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 12</h3>
+		<h3 className="bg-info text-center">Week 13</h3>
 
-		<p>This week we will learn about <a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen" target="_blank">Version Control Systems</a> (<a href="https://git-scm.com/" target="_blank">git</a> and <a href="https://github.com/" target="_blank">GitHub</a>)</p>
+		<p>This week we will continue with <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p>
+		
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>		
 		
 		<p><a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">How to add a project to GitHub </a></p>
 
-		<p>Then we will move to <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a> </p>
-
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>		
 
 		<p>Useful links for this week:</p>
 		<ul>
@@ -96,17 +95,19 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 
-		<li><h3>From websites to platform independent responsive and reactive standalone applications - <i className="text-success">Week 8-11</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-success">Week 8-11</i></h3></li>
 
 		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization (Matplotlib and D3.js) - <i className="text-warning">Week 12-14</i></h3></li>
-		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Week 13-14</i></h3></li>
-		<li><h3>Cybersecurity - <i className="text-danger">Week 15-16</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-warning">Week 11-14</i></h3></li>
+		
+		<li><h3>Cybersecurity - <i className="text-danger">Week 14-16</i></h3></li>
 
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Week ?</i></h3></li>
+		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Spring Semester </i></h3></li>
+
+		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Spring Semester</i></h3></li>
 		
 	      </ul>
 	    </div>

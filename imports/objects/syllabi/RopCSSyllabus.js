@@ -107,6 +107,7 @@ export default  RopCSSyllabus ={
 	{id:"9", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"}
     ],
     ToolLinks:[
+	{name:"Pandas", link:"https://pandas.pydata.org/"},
 	{name:"Matplotlib", link:"https://matplotlib.org/"},
 	{name:"Meteor", link:"https://www.meteor.com/"},
 	{name:"GitHub", link:"https://github.com/"},
