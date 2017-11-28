@@ -104,7 +104,8 @@ export default  RopCSSyllabus ={
 	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
 	{id:"7", shortDescription:"Simple HTTP server with Node.js", description:"Simple HTTP server with Node.js", link:"https://c9.io/migroch/assigment_7" },
 	{id:"8", shortDescription:"Todo App with Meteor and React", description:"Todo App with Meteor and React", link:"https://www.meteor.com/tutorials/react/creating-an-app" },
-	{id:"9", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"}
+	{id:"9", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},
+	{id:"10", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"}
     ],
     ToolLinks:[
 	{name:"Pandas", link:"https://pandas.pydata.org/"},

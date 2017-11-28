@@ -61,13 +61,16 @@ export default class RopCS extends React.Component {
 
 		<p>This week we will continue with <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p>
 		
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>		
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
+
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8" target="_blank">Assigment 10: Data Jiu-Jitsu with Pandas</a> </p>
 		
 		<p><a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">How to add a project to GitHub </a></p>
 
 
 		<p>Useful links for this week:</p>
 		<ul>
+		  <li><p><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></p></li>
 		  <li><p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
 		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
