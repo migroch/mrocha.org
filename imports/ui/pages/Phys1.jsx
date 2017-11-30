@@ -58,7 +58,7 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 14</h3>
-	      <p>This week we are going to lern about Light Quanta and The Origins of Quantum Mechanics - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Lecture Slides</a></p>
+	      <p>This week we are going to lern about Light Quanta and The Origins of Quantum Mechanics - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta</a>, <a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Madness</a></p>
 
 	      <p><a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a></p>
 	      
