@@ -58,11 +58,11 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 14</h3>
-	      <p>This week we are going to lern about Light Quanta and The Origins of Quantum Mechanics - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta</a>, <a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Madness</a></p>
+	      <p>This week we are going cover Nuclear Physics  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a></p>
 
-	      <p><a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a></p>
+	      <p><a href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Raiometric Dating</a></p>
 	      
-	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/22823' target='_blank'>HW 10</a>,  <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Colors from Light and Light from Colors</a>, <a href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Concave Mirror Experiment</a> and  <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Diffraction Patterns</a> due Thursday, Nov 30th</p>
+	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/24019' target='_blank'>HW 11</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a> due Thursday, Dec 7th</p>
 
 	    </div>
 	    
