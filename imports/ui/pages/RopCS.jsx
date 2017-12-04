@@ -57,9 +57,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 13</h3>
+		<h3 className="bg-info text-center">Week 15</h3>
 
-		<p>This week we will continue with <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p>
+		<p>This week we will do a cover letter, learn about data visualization with <a href="https://d3js.org/" target="_blank">D3.js</a> and maybe get to Cybersecurity</p>
+
+		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
+
+		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
 		
 		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
 
@@ -70,6 +74,7 @@ export default class RopCS extends React.Component {
 
 		<p>Useful links for this week:</p>
 		<ul>
+		  <li><p><a href="https://d3js.org/" target="_blank">D3.js</a></p></li>
 		  <li><p><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></p></li>
 		  <li><p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
