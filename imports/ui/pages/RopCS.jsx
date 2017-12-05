@@ -64,6 +64,8 @@ export default class RopCS extends React.Component {
 		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
 
 		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
+
+		<p>If you are done with the cover letter and other assignments read this <a href="http://alignedleft.com/tutorials/d3/an-svg-primer" target="_blank">SVG primer</a> and draw some shapes in <a href="https://codepen.io/" target="_blank">CodePen</a></p>
 		
 		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
 
