@@ -60,7 +60,9 @@ export default class Phys1 extends React.Component {
 	      <h3 className="bg-info text-center">Week 14</h3>
 	      <p>This week we are going cover Nuclear Physics  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a></p>
 
-	      <p><a href='https://phet.colorado.edu/en/simulation/radioactive-dating-game' target='_blank'>Lab 18: Raiometric Dating</a></p>
+	      <p><a href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Nulear Marbels</a></p>
+	      
+	      <p>Lab 18: Estimate the age of 5 objects in the <a href='https://phet.colorado.edu/en/simulation/radioactive-dating-game' target='_blank'>Radiometric Dating Simulation</a> and let me know your results via ilearn, e-mail or a piece of paper</p>
 	      
 	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/24019' target='_blank'>HW 11</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a> due Thursday, Dec 7th</p>
 
