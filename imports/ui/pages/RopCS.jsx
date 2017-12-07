@@ -59,7 +59,7 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 15</h3>
 
-		<p>This week we will do a cover letter, learn about data visualization with <a href="https://d3js.org/" target="_blank">D3.js</a> and maybe get to Cybersecurity</p>
+		<p>This week we will do a cover letter, learn about <a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/9">data visualization</a> with <a href="https://d3js.org/" target="_blank">D3.js</a> and maybe get to Cybersecurity</p>
 
 		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
 
