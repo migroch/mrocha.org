@@ -57,15 +57,15 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 15</h3>
+		<h3 className="bg-info text-center">Week 16</h3>
 
-		<p>This week we will do a cover letter, learn about <a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/9">data visualization</a> with <a href="https://d3js.org/" target="_blank">D3.js</a> and maybe get to Cybersecurity</p>
+		<p>This week we will learn about Cybersecurity</p>
 
 		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
 
-		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
+		<p>If you are done with the cover letter and other assignments create an account on <a href="https://www.cybrary.it/" target="_blank">Cybrary</a> and start browing around. Also take a look at one of the most powerful tools that real hackers use - <a href="https://www.kali.org/" target="_blank">Kali Linux</a></p>
 
-		<p>If you are done with the cover letter and other assignments read this <a href="http://alignedleft.com/tutorials/d3/an-svg-primer" target="_blank">SVG primer</a> and draw some shapes in <a href="https://codepen.io/" target="_blank">CodePen</a></p>
+		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
 		
 		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
 
@@ -76,6 +76,8 @@ export default class RopCS extends React.Component {
 
 		<p>Useful links for this week:</p>
 		<ul>
+		  <li><p><a href="https://www.cybrary.it/" target="_blank">Cybrary</a></p></li>
+		  <li><p><a href="https://www.kali.org/" target="_blank">Kali Linux</a></p></li>
 		  <li><p><a href="https://d3js.org/" target="_blank">D3.js</a></p></li>
 		  <li><p><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></p></li>
 		  <li><p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></p></li>

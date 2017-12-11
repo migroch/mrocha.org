@@ -98,7 +98,7 @@ export default  RopCSSyllabus ={
     Assignments:[
 	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"codehs.com/go/AB996"},
 	{id:"2", shortDescription:"CodeHS Intro to Python", link:"codehs.com/go/AB996"},
-	{id:"3", shortDescription:"Setup C9 and modify the hml5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
+	{id:"3", shortDescription:"Setup C9 and modify the html5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
 	{id:"4", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
 	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
 	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
@@ -108,6 +108,8 @@ export default  RopCSSyllabus ={
 	{id:"10", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"}
     ],
     ToolLinks:[
+	{name: "Cybrary", link:"https://www.cybrary.it/"},
+	{name: "Kali Linux", link:"https://www.kali.org/"},
 	{name:"Pandas", link:"https://pandas.pydata.org/"},
 	{name:"Matplotlib", link:"https://matplotlib.org/"},
 	{name:"Meteor", link:"https://www.meteor.com/"},
