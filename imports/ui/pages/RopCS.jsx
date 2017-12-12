@@ -59,12 +59,12 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 16</h3>
 
-		<p>This week we will learn about Cybersecurity</p>
+		<p>This week we will learn about <a href="http://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen#/" target="_blank">Cybersecurity</a></p>
 
 		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
 
-		<p>If you are done with the cover letter and other assignments create an account on <a href="https://www.cybrary.it/" target="_blank">Cybrary</a> and start browing around. Also take a look at one of the most powerful tools that real hackers use - <a href="https://www.kali.org/" target="_blank">Kali Linux</a></p>
-
+		<p>If you are done with the cover letter and other assignments create an account on <a href="https://www.cybrary.it/" target="_blank">Cybrary</a> and beging with <a href="https://www.cybrary.it/course/cryptography/" target="_blank">Crypography Fundamentals</a> course. Also take a look at <a href="https://www.kali.org/" target="_blank">Kali Linux</a> - the hackers' swiss army knife.</p> 
+		
 		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
 		
 		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
