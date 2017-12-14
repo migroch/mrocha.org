@@ -24,7 +24,7 @@ export default RopCSStudents = {
 	{First: "Neil", Last: "Pacella", email:"pacellan@scottsvalleyusd.org", Robux: 160},
 	{First: "Liam", Last: "Parrish", email:"parrishl@scottsvalleyusd.org", Robux: 0},
 	{First: "Alexander", Last: "Polland", email:"pollanda@scottsvalleyusd.org", Robux: 590},
-	{First: "Adam", Last: "Rammaha", email:"rammahaa@scottsvalleyusd.org", Robux: 120},
+	{First: "Adam", Last: "Rammaha", email:"rammahaa@scottsvalleyusd.org", Robux: 0},
 	{First: "Antonio", Last: "Ruiz Gonzalez", email:"ruizgona@scottsvalleyusd.org", Robux: 30},
 	{First: "Suki", Last: "Shields", email:"shieldss@scottsvalleyusd.org", Robux: 420},
 	{First: "Maile", Last: "Sussman", email:"sussmanm00@gmail.com", Robux: 0},
