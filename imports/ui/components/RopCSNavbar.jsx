@@ -70,12 +70,12 @@ class RopCSNavbar  extends React.Component {
 		</ul>
               </li>
 
-	      {/*Tool Links*/}
+	      {/*Tools*/}
               <li className="dropdown">
-		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tool Links <span className="caret"></span></a>
+		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools<span className="caret"></span></a>
 		<ul className="dropdown-menu">
 		  {
-		  syllabus.ToolLinks.map((tlink, index)=>(
+		  syllabus.Tools.map((tlink, index)=>(
 		  <li key={index}>
 		    <a href={tlink.link} target="_blank"><p className="text-primary">{tlink.name}</p></a>
 		  </li>
@@ -84,6 +84,20 @@ class RopCSNavbar  extends React.Component {
 		</ul>
               </li>
 
+	      {/*Useful Links*/}
+              <li className="dropdown">
+		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useful Links<span className="caret"></span></a>
+		<ul className="dropdown-menu">
+		  {
+		  syllabus.Links.map((link, index)=>(
+		  <li key={index}>
+		    <a href={link.link} target="_blank"><p className="text-primary">{link.name}</p></a>
+		  </li>
+		  ))
+		  }
+		</ul>
+              </li>
+	      
 	      <li className="navbar-text">
 		<AccountsUIWrapper  />
 	      </li>

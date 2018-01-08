@@ -36,7 +36,7 @@ export default class RopCS extends React.Component {
 	<div className="container-fluid nopadding">
 	  <Helmet>
             <title>ROP Exploring Computer Science</title>
-	    <meta name="description" content="Page for Miguel Rocha's  ROP Exploring Computer Science class"/>
+	    <meta name="description" content="Page for Miguel Rocha's ROP Exploring Computer Science class"/>
           </Helmet>
 
 	  <RopCSNavbar syllabus={syllabus} />
@@ -51,38 +51,18 @@ export default class RopCS extends React.Component {
 	  </div>
 	  
 	  <div className= "container-fluid syllabus">
-	    
-	    {/*<div className="alert alert-info text-center" role="alert"><h4>This is your syllabus. It will be updated as we move on! You can access it at <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></h4></div>*/}
-
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 16</h3>
+		<h3 className="bg-info text-center">Week 17 - Welcome Back!</h3>
 
-		<p>This week we will learn about <a href="http://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen#/" target="_blank">Cybersecurity</a></p>
-
-		{/* <p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen" target="_blank">Data Analyisis and Visualization</a></p> */}
-
-		<p>If you are done with the cover letter and other assignments create an account on <a href="https://www.cybrary.it/" target="_blank">Cybrary</a> and beging with <a href="https://www.cybrary.it/course/cryptography/" target="_blank">Crypography Fundamentals</a> course. Also take a look at <a href="https://www.kali.org/" target="_blank">Kali Linux</a> - the hackers' swiss army knife.</p> 
+		<p>This week we will start thinking about projects and create some teams - <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25-31/fullscreen" target="_blank">Projects</a></p>
 		
-		<p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio guidelines</a>  - look in the handbook for a sample cover letter.</p>
-		
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7" target="_blank">Assigment 9: Basic Plotting with Matplotlib</a> </p>
-
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8" target="_blank">Assigment 10: Data Jiu-Jitsu with Pandas</a> </p>
-		
-		<p><a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank">How to add a project to GitHub </a></p>
-
-
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://www.cybrary.it/" target="_blank">Cybrary</a></p></li>
-		  <li><p><a href="https://www.kali.org/" target="_blank">Kali Linux</a></p></li>
-		  <li><p><a href="https://d3js.org/" target="_blank">D3.js</a></p></li>
-		  <li><p><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></p></li>
-		  <li><p><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></p></li>
+		  <li><p><a href="https://workep.com/" target="_blank">Workep</a></p></li>
+		  <li><p><a href="https://asana.com/" target="_blank">Asana</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
-		  <li><p><a  href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/" target="_blank">Unix commands cheat sheet</a></p></li>
 		</ul>
 				
 	      </div>
@@ -113,9 +93,9 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-warning">Week 11-14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-sucess">Week 11-14</i></h3></li>
 		
-		<li><h3>Cybersecurity - <i className="text-danger">Week 14-16</i></h3></li>
+		<li><h3>Cybersecurity - <i className="text-success">Week 14-16</i></h3></li>
 
 		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Spring Semester </i></h3></li>
 

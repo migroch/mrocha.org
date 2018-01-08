@@ -84,7 +84,9 @@ export default  RopCSSyllabus ={
 	{name: "How the Internet Works, Servers, Node.js and Meteor", link:"https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"},
 	{name: "Databases", link:"https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen"},
 	{name: "Version Control Systems (git and GitHub)", link: "https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen"},
-	{name: "Data Analysis and Visualization", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen"}
+	{name: "Data Analysis and Visualization", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen"},
+	{name: "Cybersecurity", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen"},
+	{name: "Projects", link: "https://slides.com/migroch/deck-2-4-9-12-15-21-25-31/fullscreen"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0"},
@@ -107,9 +109,10 @@ export default  RopCSSyllabus ={
 	{id:"9", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},
 	{id:"10", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"}
     ],
-    ToolLinks:[
-	{name: "Cybrary", link:"https://www.cybrary.it/"},
+    Tools:[
+
 	{name: "Kali Linux", link:"https://www.kali.org/"},
+	{name: "D3.js", link:"https://d3js.org/"},
 	{name:"Pandas", link:"https://pandas.pydata.org/"},
 	{name:"Matplotlib", link:"https://matplotlib.org/"},
 	{name:"Meteor", link:"https://www.meteor.com/"},
@@ -117,11 +120,19 @@ export default  RopCSSyllabus ={
 	{name:"React", link:"https://reactjs.org/"},
 	{name:"MongoDB", link:"https://docs.mongodb.com/"},
 	{name:"Cloud9", link:"https://c9.io"},
-	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
-	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
 	{name:"Node.js", link:"https://nodejs.org/en/"},
 	{name:"jQuery", link:"https://api.jquery.com/"},
 	{name:"CodeHS", link:"https://codehs.com/go/AB996"},
+
+    ],
+    Links:[
+	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
+	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
+	{name: "Cybrary", link:"https://www.cybrary.it/"},
+	{name: "Meteor+React Tutorial", link:"https://www.meteor.com/tutorials/react/creating-an-app"},
+	{name: "React Tutorial", link:"https://reactjs.org/tutorial/tutorial.html"},
+	{name:"W3Schools", link:"https://www.w3schools.com/"},
+	{name:"ROP Portfolio Guidlines", link: "http://www.rop.santacruz.k12.ca.us/resources/portfolio/" }
     ]
 };
