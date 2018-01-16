@@ -54,13 +54,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 17 - Welcome Back!</h3>
+		<h3 className="bg-info text-center">Week 18 - Defining Projects</h3>
 
-		<p>This week we will start thinking about projects and create some teams - <a href="https://slides.com/migroch/deck-2-4-9-12-15-21-25-31/fullscreen" target="_blank">Projects</a></p>
+		<p>The goal of this week is to define your projects</p>
 		
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://workep.com/" target="_blank">Workep</a></p></li>
+		  <li><p><a href="https://slack.com/" target="_blank">Slack</a></p></li>
 		  <li><p><a href="https://asana.com/" target="_blank">Asana</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
 		</ul>
