@@ -54,9 +54,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 18 - Defining Projects</h3>
+		<h3 className="bg-info text-center">Week 19 - Project Definition and Initial Research</h3>
 
-		<p>The goal of this week is to define your projects</p>
+		<p>The goal of this week to finish defining your projects and start your initial research</p>
+
+		<p>Use the questions in <a href="https://docs.google.com/document/d/1BeS0vKOgvkSfJhr3B6r39yiUeAE-5Q2PB3_7iBQRVoY/edit?usp=sharing"  target="_blank">this document</a> to guide your project definition</p>
+
+		<p>Use the questions in <a href="https://docs.google.com/document/d/1_Pb1lPPQaIEa_KPswrCmVsjgcsL0PSaRfKZzEUbVf8g/edit?usp=sharing"  target="_blank">this document</a> to guide your project initial research</p>
 		
 		<p>Useful links for this week:</p>
 		<ul>
