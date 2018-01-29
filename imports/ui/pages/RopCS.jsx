@@ -54,16 +54,14 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 19 - Project Definition and Initial Research</h3>
+		<h3 className="bg-info text-center">Week 20 - AWS Setup and Project Planning</h3>
 
-		<p>The goal of this week to finish defining your projects and start your initial research</p>
-
-		<p>Use the questions in <a href="https://docs.google.com/document/d/1BeS0vKOgvkSfJhr3B6r39yiUeAE-5Q2PB3_7iBQRVoY/edit?usp=sharing"  target="_blank">this document</a> to guide your project definition</p>
-
-		<p>Use the questions in <a href="https://docs.google.com/document/d/1_Pb1lPPQaIEa_KPswrCmVsjgcsL0PSaRfKZzEUbVf8g/edit?usp=sharing"  target="_blank">this document</a> to guide your project initial research</p>
+		<p>The goal of this week is to setup your AWS accounts and make a plan for you projects</p>
 		
 		<p>Useful links for this week:</p>
 		<ul>
+		  <li><p><a href="https://aws.amazon.com/education/awseducate/members/" target="_blank">AWS Educate member login</a></p></li>
+		  <li><p><a href="https://aws.amazon.com/" target="_blank">AWS</a></p></li>
 		  <li><p><a href="https://slack.com/" target="_blank">Slack</a></p></li>
 		  <li><p><a href="https://asana.com/" target="_blank">Asana</a></p></li>
 		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
