@@ -25,26 +25,27 @@ export default class Phys1 extends React.Component {
             <title>{syllabus.CourseName}</title>
           </Helmet>
 
-	  <div className="container">
- 	    <div className="container col-sm-6">
+	  <div className="container bpadding">
+ 	   
+	    <div className="container  text-right col-sm-6">
 	      <a href="http://www.gavilan.edu">
 		<img className="img-responsive"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
+	      
+	     {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
+	    <h4>Time: {syllabus.Time}</h4>
+	    <h4>Room: {syllabus.Room}</h4>
+	    <h4>Term: {syllabus.Term}</h4>
+	     <h4>Units: {syllabus.Units}</h4>*/}
 	    </div>
-	    <div className="container  text-right col-sm-6">
-	      <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
-	      <h4>Time: {syllabus.Time}</h4>
-	      <h4>Room: {syllabus.Room}</h4>
-	      <h4>Term: {syllabus.Term}</h4>
-	      <h4>Units: {syllabus.Units}</h4>
-	    </div>	  
-	  </div>
 
-	  <div className="container  text-center">
-	    <h1>{syllabus.CourseName}</h1>
-	    <h3>{syllabus.InstructorName} - {syllabus.InstructorEmail}</h3>
-	    <h4>Office Hour: {syllabus.OfficeHour}</h4>
-	    <h4><a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
+	    <div className="container text-center  col-sm-6">
+	      <h1>{syllabus.CourseName}</h1>
+	      <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
+	      <h4>Office Hours: {syllabus.OfficeHour}</h4>
+	      <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
+	    </div>
+	    
 	  </div>
 
 	  <div className="container">
@@ -57,15 +58,8 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
-	      <h3 className="bg-info text-center">Week 14</h3>
-	      <p>This week we are going cover Nuclear Physics  - <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a></p>
-
-	      <p><a href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Nulear Marbels</a></p>
-	      
-	      <p>Lab 18: Estimate the age of 5 objects in the <a href='https://phet.colorado.edu/en/simulation/radioactive-dating-game' target='_blank'>Radiometric Dating Simulation</a> and let me know your results via ilearn, e-mail or a piece of paper</p>
-	      
-	      <p className="bg-warning"><a href='https://ilearn.gavilan.edu/courses/2425/assignments/24019' target='_blank'>HW 11</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a> due Thursday, Dec 7th</p>
-
+	      <h3 className="bg-info text-center">Week 1: Welcome to Physics 1!</h3>
+	      <p>Intro Week  - <a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a></p>
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
@@ -98,8 +92,9 @@ export default class Phys1 extends React.Component {
 	  
 	  <div className="container">
 	    <h2>Description</h2>
-	    <p>{syllabus.CourseDescription}</p>
 	    <p>{motive.mrocha}</p>
+	    <p>{syllabus.CourseDescription}</p>
+	    
 	  </div>
 	  
 	  <div className="container">
@@ -115,6 +110,11 @@ export default class Phys1 extends React.Component {
 	  <div className="container">
 	    <h2>Labs</h2>
 	    <p>{syllabus.Labs}</p>
+	  </div>
+
+	  <div className="container">
+	    <h2>Late Work</h2>
+	    <p>{syllabus.LateWork}</p>
 	  </div>
 
 	  <div className="container">
