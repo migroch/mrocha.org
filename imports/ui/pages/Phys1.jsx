@@ -59,7 +59,8 @@ export default class Phys1 extends React.Component {
 
 	    <div className="container-fluid col-md-6 announcements bpadding">
 	      <h3 className="bg-info text-center">Week 1: Welcome to Physics 1!</h3>
-	      <p>Intro Week  - <a href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a></p>
+	      <p>Intro Week  - <a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a></p>
+	      <p><a href="Phys1-Lab1.pdf">Lab 1: Measuring the Diameter of the Sun</a></p>
 	    </div>
 	    
 	    <div className="container-fluid col-md-6 calendar">
