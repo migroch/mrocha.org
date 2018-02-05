@@ -88,7 +88,7 @@ export default  RopCSSyllabus ={
 	{name: "Cybersecurity", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen"},
 	{name: "Projects", link: "https://slides.com/migroch/deck-2-4-9-12-15-21-25-31/fullscreen"},
 	{name: "Virtualization, Cloud Computing and Containerization", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32/fullscreen"},
-	{name: "Go Open Source!", links:"https://slides.com/migroch/deck-2-4-9-12-15-21-25-31-33/edit"}
+	{name: "Go Open Source!", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25-31-33/edit"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0"},
