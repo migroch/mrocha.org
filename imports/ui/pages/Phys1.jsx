@@ -9,6 +9,17 @@ export default class Phys1 extends React.Component {
     super(props);
   }
 
+  renderWeekEvents(weekEvents){
+    return(
+      <div className="container-fluid col-md-6 announcements bpadding">
+	<h3 className="bg-info text-center">Week 2: Newtons Law's of Motion</h3>
+	<p> {weekEvents[0]}</p>
+	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
+	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
+      </div>
+    )
+  }
+
   render(){
     const { loading, syllExists, syllabus } = this.props;
     const motive = syllabus.CourseMotive ? syllabus.CourseMotive : 'loading...';
@@ -26,17 +37,17 @@ export default class Phys1 extends React.Component {
           </Helmet>
 
 	  <div className="container bpadding">
- 	   
+ 	    
 	    <div className="container  text-right col-sm-6">
 	      <a href="http://www.gavilan.edu">
 		<img className="img-responsive"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
 	      
-	     {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
-	    <h4>Time: {syllabus.Time}</h4>
-	    <h4>Room: {syllabus.Room}</h4>
-	    <h4>Term: {syllabus.Term}</h4>
-	     <h4>Units: {syllabus.Units}</h4>*/}
+	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
+	      <h4>Time: {syllabus.Time}</h4>
+	      <h4>Room: {syllabus.Room}</h4>
+	      <h4>Term: {syllabus.Term}</h4>
+	      <h4>Units: {syllabus.Units}</h4>*/}
 	    </div>
 
 	    <div className="container text-center  col-sm-6">
@@ -57,11 +68,9 @@ export default class Phys1 extends React.Component {
 
 	  <div className="container-fluid row bpadding">
 
-	    <div className="container-fluid col-md-6 announcements bpadding">
-	      <h3 className="bg-info text-center">Week 1: Welcome to Physics 1!</h3>
-	      <p>Intro Week  - <a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a></p>
-	      <p><a href="Phys1-Lab1.pdf">Lab 1: Measuring the Diameter of the Sun</a></p>
-	    </div>
+	   
+	    {this.renderWeekEvents(syllabus.CourseSchedule["week 2"])}   
+	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
 	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ko0gmi48tb2rbh591cuu8qnb80%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="250" frameBorder="0" scrolling="no" fontSize="500"></iframe>
