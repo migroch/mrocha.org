@@ -54,10 +54,8 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 20 - AWS Setup and Project Planning</h3>
+		<h3 className="bg-info text-center">Week 21 - Go Open Source and Dive Into Projects</h3>
 
-		<p>The goal of this week is to setup your AWS accounts and make a plan for you projects</p>
-		
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://aws.amazon.com/education/awseducate/members/" target="_blank">AWS Educate member login</a></p></li>
