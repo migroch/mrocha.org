@@ -54,9 +54,9 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 22 - Coding Practice</h3>
+		<h3 className="bg-info text-center">Week 23 - Motivational Week</h3>
 
-		<p>Practice your coding skills at <a href="https://www.codingame.com"  target="_blank">CodinGame</a> and <a href="https://www.hackerrank.com/"  target="_blank">HakerRank</a></p>
+		<p>We are goin to watch <a href="http://www.imdb.com/title/tt0168122/"  target="_blank">Pirates of Silicon Valley</a> and <a href="http://www.imdb.com/title/tt0308808/"  target="_blank">Revolution OS</a></p>
 
 		<p>Useful links for this week:</p>
 		<ul>
@@ -95,11 +95,11 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-sucess">Week 11-14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-success">Week 11-14</i></h3></li>
 		
 		<li><h3>Cybersecurity - <i className="text-success">Week 14-16</i></h3></li>
 
-		<li><h3>Programming guide lines for open source applications - <i className="text-danger">Spring Semester </i></h3></li>
+		<li><h3>Open Source and Programming Guidelines for Open Sources Development - <i className="text-success">Week 21 </i></h3></li>
 
 		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Spring Semester</i></h3></li>
 		

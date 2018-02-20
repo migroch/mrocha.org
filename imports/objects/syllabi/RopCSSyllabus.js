@@ -129,6 +129,8 @@ export default  RopCSSyllabus ={
 
     ],
     Links:[
+	{name: "CodinGame", link:"https://www.codingame.com"},
+	{name: "HackerRank", link:"https://www.hackerrank.com/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
 	{name: "Cybrary", link:"https://www.cybrary.it/"},
