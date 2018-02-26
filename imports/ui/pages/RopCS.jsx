@@ -54,10 +54,15 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 23 - Motivational Week</h3>
+		<h3 className="bg-info text-center">Week 24 - AWS</h3>
 
-		<p>We are goin to watch <a href="http://www.imdb.com/title/tt0168122/"  target="_blank">Pirates of Silicon Valley</a> and <a href="http://www.imdb.com/title/tt0308808/"  target="_blank">Revolution OS</a></p>
+		<p>This week we are learning to use AWS EC2 and how to run Cloud9 on an AWS instance</p>
+		<p><a href="https://aws.amazon.com/ec2/instance-types/" target="_blank">AWS EC2 Instance Types</a></p>
+		
+		<p><a href="https://docs.aws.amazon.com/cloud9/latest/user-guide/setup-express.html" target="_blank">How to use Cloud9 on AWS</a></p>
 
+		<p><a href="https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/">How to launch a Linux virtual machine on AWS</a></p>
+		
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://aws.amazon.com/education/awseducate/members/" target="_blank">AWS Educate member login</a></p></li>
