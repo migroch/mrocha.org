@@ -54,9 +54,9 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 26 - AWS</h3>
+		<h3 className="bg-info text-center">Week 27 - AWS</h3>
 
-		<p>This week I want you to setup an AWS instance that runs Cloud9 on a Docker container. Then get back on track with your projects</p>
+		<p>Dive into your projects</p>
 
 		<p>Use <a href="C9InstanceInit.sh" target="_blank">this script</a> to configure your AWS instance so that it runs a Docker container with Cloud9 every time it launches </p>		
 		<p><a href="https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/" target="_blank">How to launch a Linux virtual machine on AWS</a></p>

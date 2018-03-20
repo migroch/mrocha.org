@@ -41,8 +41,13 @@ export default  Phys1Syllabus ={
 
 	    // <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
 	
-	"week 8":["Chapters: 19-21", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>","<a href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> and <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> due Thursday"],
-	"week 9":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a class='disabled' href='Phys1-Lab10.pdf' target='_blank'>Lab 10</a> and <a class='disabled' href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a> due Thursday", "<a class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"],
+	"week 8":["Chapters: 16-18", "<a href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Heat Transfer</a>, <a href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> ","<a href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> and <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> due Thursday"],
+
+//"<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"
+	
+	"week 9":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a class='disabled' href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a> due Thursday"],
+
+// , "<a class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 	"week 10":[ "Enjoy your Spring Break!"],
 	"week 11":["Chapters: 24-25", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21933' target='_blank'>HW 8</a> and<a class='disabled' href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a> due Thursday"],
 	"week 12":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/22243' target='_blank'>HW 9</a>, <a class='disabled' href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a> due Thursday"],
