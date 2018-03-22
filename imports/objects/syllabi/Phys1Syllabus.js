@@ -45,7 +45,7 @@ export default  Phys1Syllabus ={
 
 //"<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"
 	
-	"week 9":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a class='disabled' href='Phys1-Lab11.pdf' target='_blank'>Lab 11</a> due Thursday"],
+	"week 9":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
 
 // , "<a class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 	"week 10":[ "Enjoy your Spring Break!"],
