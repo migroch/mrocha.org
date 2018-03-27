@@ -43,18 +43,24 @@ export default  Phys1Syllabus ={
 	
 	"week 8":["Chapters: 16-18", "<a href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Heat Transfer</a>, <a href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> ","<a href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> and <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> due Thursday"],
 
-//"<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"
 	
-	"week 9":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21300' target='_blank'>HW 7</a>, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
+	"week 9":["Chapters: 19-21", "<a href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5, <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
 
 // , "<a class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 	"week 10":[ "Enjoy your Spring Break!"],
-	"week 11":["Chapters: 24-25", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/21933' target='_blank'>HW 8</a> and<a class='disabled' href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Electrostatic Charging</a> due Thursday"],
-	"week 12":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/22243' target='_blank'>HW 9</a>, <a class='disabled' href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Seeing Magnetic Fields</a> due Thursday"],
-	"week 13":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "HW/Lab due Thursday!"],
-	"week 14":["Chapters: 30-31", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/22823' target='_blank'>HW 10</a>,  <a class='disabled' href='Phys1-Lab14.pdf' target='_blank'>Lab 14</a>, <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15</a> and <a class='disabled' href='Phys1-Lab16.pdf' target='_blank'>Lab 16</a> due Thursday"],
-	"week 15":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/24019' target='_blank'>HW 11</a> and <a class='disabled' href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Emission Spectra</a> due Thursday"],
-	"week 16":[ "Final (Ch 22-34)"]
+
+	"week 11":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "Mid Term (Ch 11-21) on Thursday</a>", "HW 6, <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
+	
+	"week 12":["Chapters: 24-25", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>", "HW7 and<a class='disabled' href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Electrostatic Charging</a> due Thursday"],
+	
+	"week 13":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW8, <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Seeing Magnetic Fields</a> due Thursday"],
+	
+	"week 14":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "HW/Lab due Thursday!"],
+	
+	"week 15":["Chapters: 30-31", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>", "HW/Lab due Thursday"],
+	
+	"week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW/Lab due Thursday"],
+	"week 17":[ "Final (Ch 22-34)"]
     },
     Homework:"Your homeworks and lab reports are due Thursdays at 6:30 pm",
     Labs:"You must get your data on the designated lab hours, NO MAKEUP LABS!",
