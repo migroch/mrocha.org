@@ -126,9 +126,13 @@ export default  RopCSSyllabus ={
 	{name:"Node.js", link:"https://nodejs.org/en/"},
 	{name:"jQuery", link:"https://api.jquery.com/"},
 	{name:"CodeHS", link:"https://codehs.com/go/AB996"},
-
+	{name:"Slack", link:"https://slack.com/"},
+	{name:"Asana", link:"https://github.com/"},
     ],
     Links:[
+	{name: "AWS Educate login", link:"https://aws.amazon.com/education/awseducate/members/"},
+	{name: "AWS: How To Launch Linux Instance", link:"https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/"},
+	{name: "AWS Instance Types", link:"https://aws.amazon.com/ec2/instance-types/"},
 	{name: "CodinGame", link:"https://www.codingame.com"},
 	{name: "HackerRank", link:"https://www.hackerrank.com/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
@@ -137,6 +141,6 @@ export default  RopCSSyllabus ={
 	{name: "Meteor+React Tutorial", link:"https://www.meteor.com/tutorials/react/creating-an-app"},
 	{name: "React Tutorial", link:"https://reactjs.org/tutorial/tutorial.html"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
-	{name:"ROP Portfolio Guidlines", link: "http://www.rop.santacruz.k12.ca.us/resources/portfolio/" }
+	{name:"ROP Portfolio Guidelines", link: "http://www.rop.santacruz.k12.ca.us/resources/portfolio/" }
     ]
 };

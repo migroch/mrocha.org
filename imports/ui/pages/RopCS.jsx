@@ -54,21 +54,17 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 28 - AWS</h3>
+		<h3 className="bg-info text-center">Week 29 - CTEP Portfolios</h3>
 
-		<p>Work on your projects!</p>
+		<p>Welcome back! Hope you had an awesome spring break. Only 8 weeks to go!</p>
 
-		<p>Use <a href="C9InstanceInit.sh" target="_blank">this script</a> to configure your AWS instance so that it runs a Docker container with Cloud9 every time it launches </p>		
-		<p><a href="https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/" target="_blank">How to launch a Linux virtual machine on AWS</a></p>
+		<p className="bg-danger">April 16th is the date for CTEP Portfolio Interviews, lets work on your porfolios!</p>
 
-		<p><a href="https://aws.amazon.com/ec2/instance-types/" target="_blank" target="_blank">AWS EC2 Instance Types</a></p>
-		
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://aws.amazon.com/education/awseducate/members/" target="_blank">AWS Educate member login</a></p></li>
-		  <li><p><a href="https://slack.com/" target="_blank">Slack</a></p></li>
-		  <li><p><a href="https://asana.com/" target="_blank">Asana</a></p></li>
-		  <li><p><a href="https://github.com/" target="_blank">GitHub</a></p></li>
+		  <li><p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio Guidelines</a></p></li>
+
+		 <li><p>Use <a href="C9InstanceInit.sh" target="_blank">this script</a> to configure your AWS instance so that it runs a Docker container with Cloud9 every time it launches </p></li>
 		</ul>
 				
 	      </div>
