@@ -49,9 +49,9 @@ export default  Phys1Syllabus ={
 // , "<a class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 	"week 10":[ "Enjoy your Spring Break!"],
 
-	"week 11":["Chapters: 22-23", "<a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "Mid Term (Ch 11-21) on Thursday</a>", "HW 6, <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
+	"week 11":["Chapters: 22-23", "<a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "Mid Term (Ch 11-21) on Thursday", "HW 6, <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
 	
-	"week 12":["Chapters: 24-25", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>", "HW7 and<a class='disabled' href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Electrostatic Charging</a> due Thursday"],
+	"week 12":["Chapters: 24-25", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
 	"week 13":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW8, <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Seeing Magnetic Fields</a> due Thursday"],
 	
