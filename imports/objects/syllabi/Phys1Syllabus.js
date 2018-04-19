@@ -53,7 +53,7 @@ export default  Phys1Syllabus ={
 	
 	"week 12":["Chapters: 23-25", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/23' target='_blank'>Electric Current</a>, <a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
-	"week 13":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> due Thursday"],
+	"week 13":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
 	
 	"week 14":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "HW/Lab due Thursday!"],
 	
