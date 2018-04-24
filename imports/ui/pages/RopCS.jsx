@@ -54,11 +54,11 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 30 - Time to get serious about your projects</h3>
+		<h3 className="bg-info text-center">Week 31 - Projects and CTEP Portfolio</h3>
 
-		<p>Only 7 weeks to go! Better dive deep into your projects now.</p>
+		<p>Only 6 weeks to go!</p>
 
-		<p className="bg-danger">April 30th is the date for CTEP Portfolio Interviews, and the datline to have your  porfolios!</p>
+		<p className="bg-danger">April 30th is the date for CTEP Portfolio Interviews, and the dateline to have your portfolios completed!</p>
 
 		<p>Useful links for this week:</p>
 		<ul>
