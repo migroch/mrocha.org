@@ -18,8 +18,7 @@ export default class Phys1 extends React.Component {
 	<p><a href='https://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/26' target='_blank'>Electromagnetic Induction</a></p>
 	
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-	{/* <p><a href="Phys1-Lab14.pdf" target='_blank'>Lab 14: Basic Circuits</a></p>
-	<p><a href="Phys1-Lab15.pdf" target='_blank'>Lab 15: Magnetic Field Lines</a></p> */}
+	<p><a href="Phys1-Lab16.pdf" target='_blank'>Lab 16: Light Dispersion</a></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> */}
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
