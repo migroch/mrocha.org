@@ -11,7 +11,7 @@ import AppContainer from '../../ui/containers/AppContainer.jsx';
 import MRContainer from '../../ui/containers/MRContainer.jsx';
 import RopCSContainer from '../../ui/containers/RopCSContainer.jsx';
 import Phys1Container from '../../ui/containers/Phys1Container.jsx';
-import MSussman from '../../ui/pages/MSussman.jsx'
+import MSussman from '../../ui/pages/MSussman.jsx';
 
 const browserHistory = createBrowserHistory();
 

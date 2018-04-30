@@ -24,7 +24,7 @@ export default class MSussman extends React.Component {
 	  <div className="container text-center ms-header-text">
 	    <h1><strong>Maile Sussman</strong></h1>
 	    <h2>CTEP Exploring Computer Science Portfolio</h2>
-	    <h3>Scotts Valley Highschool - 2018 </h3>
+	    <h3>Scotts Valley High School - 2018 </h3>
 	  </div>
 	</div>
 
@@ -35,7 +35,7 @@ export default class MSussman extends React.Component {
 	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.u7nf5o7tbl0h" target="_blank">Cover Letter</a></p></li>
 	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.azt6wkuhqfrc" target="_blank">Resume</a></p></li>
 	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.cp45a8t6m2yd" target="_blank" >References</a></p></li>
-	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.nekb2u7fx1qq"  target="_blank">Rec. Letter</a></p></li>
+	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.nekb2u7fx1qq"  target="_blank">Recommendation Letter</a></p></li>
 	    <li><p><a href="#workexamples"  target="_blank">Work Examples</a></p></li>
 	    <li><p><a href="https://docs.google.com/document/d/1dUOrM9Oj7Va3cRICCIjzyVDU6W4CQ5mC_FnKB-ecESg/edit#bookmark=id.3vgmiyaffghd" target="_blank">Parent Review Form</a></p></li>
 	  </ul>
