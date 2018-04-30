@@ -142,5 +142,9 @@ export default  RopCSSyllabus ={
 	{name: "React Tutorial", link:"https://reactjs.org/tutorial/tutorial.html"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name:"ROP Portfolio Guidelines", link: "http://www.rop.santacruz.k12.ca.us/resources/portfolio/" }
+    ],
+
+    Portfolios:[
+	{name: "Maile Sussman's", link:"/msussman"}
     ]
 };
