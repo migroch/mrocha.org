@@ -98,33 +98,6 @@ class RopCSNavbar  extends React.Component {
 		</ul>
               </li>
 
-	      {/*Useful Links*/}
-              <li className="dropdown">
-		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useful Links<span className="caret"></span></a>
-		<ul className="dropdown-menu">
-		  {
-		  syllabus.Links.map((link, index)=>(
-		  <li key={index}>
-		    <a href={link.link} target="_blank"><p className="text-primary">{link.name}</p></a>
-		  </li>
-		  ))
-		  }
-		</ul>
-              </li>
-	      
-	      {/*Useful Links*/}
-              <li className="dropdown">
-		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useful Links<span className="caret"></span></a>
-		<ul className="dropdown-menu">
-		  {
-		  syllabus.Links.map((link, index)=>(
-		  <li key={index}>
-		    <a href={link.link} target="_blank"><p className="text-primary">{link.name}</p></a>
-		  </li>
-		  ))
-		  }
-		</ul>
-              </li>
 
 	      {/*Portfolios*/}
               <li className="dropdown">
