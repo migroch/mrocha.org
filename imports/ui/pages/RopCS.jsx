@@ -54,15 +54,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 33 - Projects</h3>
-
-		<p>Only 4 weeks to go!</p>
+		<h3 className="bg-info text-center">Week 34 - Machine Learning and AI</h3>
 
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="http://www.rop.santacruz.k12.ca.us/resources/portfolio/" target="_blank">ROP Portfolio Guidelines</a></p></li>
+		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen">Machine Learning and AI Lecture Slides</a></p></li>
 
-		 <li><p>Use <a href="C9InstanceInit.sh" target="_blank">this script</a> to configure your AWS instance so that it runs a Docker container with Cloud9 every time it launches </p></li>
+		  <li><p><a href="https://docs.google.com/spreadsheets/d/1AqctmDZoQtmoNUqOvkS94XgcKr8KoNqNlGQfmBSsDXc/edit#gid=0" target="_blank">Height v.s. Hand Length Data</a></p></li>
 		</ul>
 				
 	      </div>
@@ -74,9 +72,9 @@ export default class RopCS extends React.Component {
 	    </div>
 	    
 	    <div className="jumbotron ">
-	      <h2 className="text-center">Learning Objectives! </h2>
+	      <h2 className="text-center">Learning Objectives:</h2>
 	      <ul>
-		<li><h3>Learning to code (JavaScript and Python) - <i className="text-success">Weeks: 0-3</i></h3></li>
+		<li><h3>Learning to code in JavaScript and Python - <i className="text-success">Weeks: 0-3</i></h3></li>
 		<li><h3>How computers work and history of computing - <i className="text-success">Week 1</i></h3></li>
 
 		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
@@ -93,13 +91,13 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization (Pandas, Matplotlib and D3.js) - <i className="text-success">Week 11-14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization with Pandas, Matplotlib and D3.js - <i className="text-success">Week 11-14</i></h3></li>
 		
 		<li><h3>Cybersecurity - <i className="text-success">Week 14-16</i></h3></li>
 
-		<li><h3>Open Source and Programming Guidelines for Open Sources Development - <i className="text-success">Week 21 </i></h3></li>
+		<li><h3>Open Source and programming guidelines for Open Source Development - <i className="text-success">Week 21 </i></h3></li>
 
-		<li><h3>Machine Intelligence and Automation - what the heck is AI? - <i className="text-danger">Spring Semester</i></h3></li>
+		<li><h3>Machine Learning and Artificial Intelligence - <i className="text-success">Week 34-35</i></h3></li>
 		
 	      </ul>
 	    </div>
