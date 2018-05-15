@@ -61,6 +61,9 @@ export default class RopCS extends React.Component {
 		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen">Machine Learning and AI Lecture Slides</a></p></li>
 
 		  <li><p><a href="https://docs.google.com/spreadsheets/d/1AqctmDZoQtmoNUqOvkS94XgcKr8KoNqNlGQfmBSsDXc/edit#gid=0" target="_blank">Height v.s. Hand Length Data</a></p></li>
+
+		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18">Assignment 11: Linear Regression the ML way</a></p></li>
+		  
 		</ul>
 				
 	      </div>
