@@ -60,7 +60,7 @@ export default  Phys1Syllabus ={
 	"week 15":["Chapters: 30-31", "<a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  "<a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a> and <a href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler </a> due Thursday"],
 	
 	"week 16":["Chapters: 32-34", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW8, <a href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
-	"week 17":[ "Final (Ch 22-34)"]
+	"week 17":[ "Midterm 3 (Ch 22-34)", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW9, <a href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a> due Thursday"]
     },
     Homework:"Your homeworks and lab reports are due Thursdays at 6:30 pm",
     Labs:"You must get your data on the designated lab hours, NO MAKEUP LABS!",
