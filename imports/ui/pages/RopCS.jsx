@@ -54,10 +54,15 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 34 - Machine Learning and AI</h3>
+		<h3 className="bg-info text-center">Week 35 - ANNs and Deep Learning</h3>
 
 		<p>Useful links for this week:</p>
 		<ul>
+
+		  <li><p><a href="http://www.bogotobogo.com/python/scikit-learn/Artificial-Neural-Network-ANN-1-Introduction.php">Introduction to Artificial Neural Netwoks</a></p></li>
+
+		  <li><p><a href="https://www.youtube.com/watch?v=bxe2T-V8XRs">Neural Networks Demystified</a></p></li>
+		  
 		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen">Machine Learning and AI Lecture Slides</a></p></li>
 
 		  <li><p><a href="https://docs.google.com/spreadsheets/d/1AqctmDZoQtmoNUqOvkS94XgcKr8KoNqNlGQfmBSsDXc/edit#gid=0" target="_blank">Height v.s. Hand Length Data</a></p></li>
