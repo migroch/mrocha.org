@@ -111,11 +111,13 @@ export default  RopCSSyllabus ={
 	{id:"8", shortDescription:"Todo App with Meteor and React", description:"Todo App with Meteor and React", link:"https://www.meteor.com/tutorials/react/creating-an-app" },
 	{id:"9", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},
 	{id:"10", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"},
-	{id:"11", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18"}	
+	{id:"11", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18"},
+	{id:"12", shortDescription:"Deep Learning", description:"Predicting diabetes onsets with Deep Learning", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/31"}
     ],
     Tools:[
-
-	{name: "Kali Linux", link:"https://www.kali.org/"},
+	{name: "TensorFlow", link:"https://www.tensorflow.org/"},
+	{name: "Keras", link:"https://keras.io/"},
+	{name: "scikit-learn", link:"http://scikit-learn.org/stable/"},
 	{name: "D3.js", link:"https://d3js.org/"},
 	{name:"Pandas", link:"https://pandas.pydata.org/"},
 	{name:"Matplotlib", link:"https://matplotlib.org/"},
@@ -123,6 +125,7 @@ export default  RopCSSyllabus ={
 	{name:"GitHub", link:"https://github.com/"},
 	{name:"React", link:"https://reactjs.org/"},
 	{name:"MongoDB", link:"https://docs.mongodb.com/"},
+	{name: "Kali Linux", link:"https://www.kali.org/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
 	{name:"Node.js", link:"https://nodejs.org/en/"},
