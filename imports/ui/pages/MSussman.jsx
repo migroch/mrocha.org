@@ -16,7 +16,7 @@ export default class MSussman extends React.Component {
       <div className="container-fluid nopadding">
 	<Helmet>
           <title>Maile Sussman CTEP CS Portfilio</title>
-	  <meta name="description" content="Page showing Maile Sussman CTEP Computer Scient Portfilio" />
+	  <meta name="description" content="Page showing Maile Sussman CTEP Computer Science Portfilio" />
         </Helmet>
 
 	<div className="container-fluid nopadding bpadding msussman-header">
