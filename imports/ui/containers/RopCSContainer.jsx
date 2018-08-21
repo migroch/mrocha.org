@@ -9,7 +9,7 @@ export default RopCSContainer = withTracker(() => {
   const user = Meteor.user();
   const syllabusHandle = Meteor.subscribe('syllabi');
   const loading = !syllabusHandle.ready();
-  const syllabus = Syllabi.findOne({name:"RopCS"});
+  const syllabus = Syllabi.findOne({name:"ExploringCS"});
   const syllExists = !loading && !!syllabus;
   //console.log(syllabus);
   return {

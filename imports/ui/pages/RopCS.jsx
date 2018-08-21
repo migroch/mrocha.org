@@ -35,8 +35,8 @@ export default class RopCS extends React.Component {
       return (
 	<div className="container-fluid nopadding">
 	  <Helmet>
-            <title>ROP Exploring Computer Science</title>
-	    <meta name="description" content="Page for Miguel Rocha's ROP Exploring Computer Science class"/>
+            <title>Exploring Computer Science</title>
+	    <meta name="description" content="Page for Miguel Rocha's Exploring Computer Science class"/>
           </Helmet>
 
 	  <RopCSNavbar syllabus={syllabus} />
@@ -46,7 +46,7 @@ export default class RopCS extends React.Component {
 	  <div className="container-fluid rop-header nopadding bpadding">
 	    <div className="container text-center">
 	      <h1 className="title">{syllabus.CourseName}</h1>
-	      <h2 className="teacherInfo"><small>Miguel Rocha - mrocha@scottsvalleyusd.org - <a href="https://mrocha.org/ropcs">mrocha.org/ropcs</a></small></h2>
+	      <h2 className="teacherInfo"><small>Miguel Rocha - mrocha@scottsvalleyusd.org - <a href="https://mrocha.org/exploringcs">mrocha.org/exploringcs</a></small></h2>
 	    </div>
 	  </div>
 	  
@@ -54,20 +54,11 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 35 - ANNs and Deep Learning</h3>
-
+		<h3 className="bg-info text-center">Week 0 - Meet & Greet, What is Computer Science?</h3>
+		<p><a href="http://slides.com/migroch/deck/fullscreen">What is Computer Science?</a></p>
 		<p>Useful links for this week:</p>
 		<ul>
-
-		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/19">Neural Networks and Deep Learning Slides</a></p></li>
-		  
-		  <li><p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/31">Assignment 12: Predicting Diabetes Onsets</a></p></li>
-		  
-		  <li><p><a href="http://www.bogotobogo.com/python/scikit-learn/Artificial-Neural-Network-ANN-1-Introduction.php">Introduction to Artificial Neural Netwoks</a></p></li>
-
-		  <li><p><a href="https://www.youtube.com/watch?v=bxe2T-V8XRs">Neural Networks Demystified</a></p></li>
-		  
-		 
+		  <li><p><a href="https://codehs.com/go/C82E7">CodeHS</a></p></li>
 		</ul>
 				
 	      </div>
@@ -81,53 +72,52 @@ export default class RopCS extends React.Component {
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Learning Objectives:</h2>
 	      <ul>
-		<li><h3>Learning to code in JavaScript and Python - <i className="text-success">Weeks: 0-3</i></h3></li>
-		<li><h3>How computers work and history of computing - <i className="text-success">Week 1</i></h3></li>
+		<li><h3>Learning to code in JavaScript and Python - <i className="text-danger">Weeks: 0-3</i></h3></li>
+		<li><h3>How computers work and history of computing - <i className="text-danger">Week 1</i></h3></li>
 
-		<li><h3>The unix terminal and text editors - <i className="text-success">Week 3</i></h3></li>
+		<li><h3>The unix terminal and text editors - <i className="text-danger">Week 3</i></h3></li>
 							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-success">Week 4-7</i></h3></li>
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-danger">Week 4-7</i></h3></li>
 
-		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
+		<li><h3>Data Structures  - <i className="text-danger">Week 6</i></h3></li>
 
-		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
+		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 7</i></h3></li>
 
-		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-success">Week 8-11</i></h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-danger">Week 8-11</i></h3></li>
 
-		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
+		<li><h3>Databases - <i className="text-danger">Week 10</i></h3></li>
 
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-success">Week 11</i></h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-danger">Week 11</i></h3></li>
 		
-		<li> <h3>Data Analysis and Visualization with Pandas, Matplotlib and D3.js - <i className="text-success">Week 11-14</i></h3></li>
+		<li> <h3>Data Analysis and Visualization with Pandas, Matplotlib and D3.js - <i className="text-danger">Week 11-14</i></h3></li>
 		
-		<li><h3>Cybersecurity - <i className="text-success">Week 14-16</i></h3></li>
+		<li><h3>Cybersecurity - <i className="text-danger">Week 14-16</i></h3></li>
 
-		<li><h3>Open Source and programming guidelines for Open Source Development - <i className="text-success">Week 21 </i></h3></li>
+		<li><h3>Open Source and programming guidelines for Open Source Development - <i className="text-danger">Week 21 </i></h3></li>
 
-		<li><h3>Machine Learning and Artificial Intelligence - <i className="text-success">Week 34-35</i></h3></li>
+		<li><h3>Machine Learning and Artificial Intelligence - <i className="text-danger">Week 34-35</i></h3></li>
 		
 	      </ul>
 	    </div>
 
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Homework</h2>
-	      <p>Your weekly work is due Thursday of every week. If you are focused during class hours you may not have any homework!</p>
+	      <p>Your weekly work is due Friday of every week. If you are focused during class hours you may not have any homework!</p>
 	    </div>
 
-	    <div className="alert alert-success text-center" role="alert"><h4>Tip for Success: Do your work during class!</h4></div>
+	    <div className="alert alert-success text-center" role="alert"><h4>Tip for Success: Do your work during class! That way you will have no homework</h4></div>
 	    
 	    <div className="jumbotron ">
-	      <h2 className="text-center">Projects</h2>
+	      <h2 className="text-center">Projects/Portfolio</h2>
 	      <p>Your final project is a portfolio of one or more applications you developed during the year. You will have to write a documentation and do a presentation for at least one application. Collaboration is allowed and encoraged but I will be grading based on each individual effort.</p>
 	    </div>
 
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Grading</h2>
 	      <ul>
-		<li><p>Projects: 40%</p></li>
-		<li><p>Weekly Work: 30%</p></li>
-		<li><p>Quizzes: 20%</p></li>
-		<li><p>Being Present: 10%</p></li>
+		<li><p>Weekly Work and Projects: 70%</p></li>
+		<li><p>Quizzes: 30%</p></li>
+		<li><p>Extra Credit: up to 20%</p></li>
 	      </ul>
 	    </div>
 

@@ -5,11 +5,12 @@ import { Accounts } from 'meteor/accounts-base';
 import { Syllabi } from '../../api/syllabi/syllabi.js';
 import Phys1Syllabus from '../../objects/syllabi/Phys1Syllabus.js';
 import RopCSSyllabus from '../../objects/syllabi/RopCSSyllabus.js';
+import GameDevSyllabus from '../../objects/syllabi/GameDevSyllabus.js';
 import RopCSStudents from '../../objects/students/RopCSStudents.js';
 
 Meteor.startup(() => {
     // Upsert syllabi data to Syllabi collection
-    const syllabi = [Phys1Syllabus, RopCSSyllabus];
+    const syllabi = [Phys1Syllabus, RopCSSyllabus, GameDevSyllabus];
     syllabi.forEach((syll) =>{
 	console.log("Upserting "+syll.ShortName+" syllabus into "+"Syllabi collection.");
 	Syllabi.upsert({name: syll.ShortName},

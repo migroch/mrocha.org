@@ -10,6 +10,7 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import AppContainer from '../../ui/containers/AppContainer.jsx';
 import MRContainer from '../../ui/containers/MRContainer.jsx';
 import RopCSContainer from '../../ui/containers/RopCSContainer.jsx';
+import GameDevContainer from '../../ui/containers/GameDevContainer.jsx';
 import Phys1Container from '../../ui/containers/Phys1Container.jsx';
 import MSussman from '../../ui/pages/MSussman.jsx';
 
@@ -19,8 +20,10 @@ export const renderRoutes = () => (
   <Router history={browserHistory}>
     <div>
       <Route exact path="/" component={AppContainer}/>
-      <Route path="/ropcs" component={RopCSContainer}/>
+      <Route path="/exploringcs" component={RopCSContainer}/>
+      <Route path="/gamedev" component={GameDevContainer}/>
       <Route path="/phys1" component={Phys1Container}/>
+      {/* <Route path="/astro" component={AstroContainer}/> */}
       <Route path="/mrocha" component={MRContainer}/>
       <Route path="/msussman" component={MSussman}/>
     </div>

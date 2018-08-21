@@ -16,7 +16,7 @@ class RopCSNavbar  extends React.Component {
 
 	  <div className="navbar-header">
             <span>
-              <a className="navbar-brand" href="/ropcs">
+              <a className="navbar-brand" href={"/"+syllabus.ShortName}>
 		{syllabus.ShortName}
               </a>
             </span>
@@ -47,11 +47,13 @@ class RopCSNavbar  extends React.Component {
 		<a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Quizzes <span className="caret"></span></a>
 		<ul className="dropdown-menu">
 		  {
-		     syllabus.Quizzes.map((quiz)=>(
-		      <li key={quiz.id} className="text-center">
-		        <a href=""  data-toggle="modal" data-target={"#"+quiz.id}><p className="text-primary">{quiz.name}</p></a>
-		      </li>
-		     ))
+		  syllabus.Quizzes.map((quiz)=>{
+		    if (quiz.active) {
+		      return (
+			<li key={quiz.id} className="text-center">
+		          <a href=""  data-toggle="modal" data-target={"#"+quiz.id}><p className="text-primary">{quiz.name}</p></a>
+			</li>
+		      )}})
 		  }
 		</ul>
               </li>
