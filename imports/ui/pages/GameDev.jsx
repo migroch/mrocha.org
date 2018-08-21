@@ -56,13 +56,14 @@ export default class GameDev extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 0 - Meet & Greet, Game Concepts and Game Engines</h3>
 
-		<p><a href="https://slides.com/migroch/deck-37-39/fullscreen">Game concepts, technology and engines</a></p>
+		<p><a href="https://slides.com/migroch/deck-37-39/fullscreen" target="_blank">Game concepts, technology and engines</a></p>
 
+		<p><a href="https://join.slack.com/t/falcongamemakers/shared_invite/enQtNDIwMTkwODYyOTc4LWI0MjhjMjI5NzVjZmUzM2VkMTU4MDg5YzBhZDAyMTM4ZDZiZTIxNzU3YTg2YjU3NThjYTMwZWQ2ODQzOWQ5NGM" target="_blank">Join the FalconGameMakers workspace on Slack!</a></p>
 		
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://unity3d.com">Unity3d</a></p></li>
-		  <li><p><a href="https://codehs.com/go/C82E7">CodeHS</a></p></li>
+		  <li><p><a href="https://unity3d.com" target="_blank">Unity3d</a></p></li>
+		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 		</ul>
 				
 	      </div>

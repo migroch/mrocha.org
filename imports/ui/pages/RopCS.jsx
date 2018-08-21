@@ -55,10 +55,10 @@ export default class RopCS extends React.Component {
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 0 - Meet & Greet, What is Computer Science?</h3>
-		<p><a href="http://slides.com/migroch/deck/fullscreen">What is Computer Science?</a></p>
+		<p><a href="http://slides.com/migroch/deck/fullscreen" target="_blank">What is Computer Science?</a></p>
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://codehs.com/go/C82E7">CodeHS</a></p></li>
+		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 		</ul>
 				
 	      </div>
