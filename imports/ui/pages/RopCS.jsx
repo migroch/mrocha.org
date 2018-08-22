@@ -59,6 +59,8 @@ export default class RopCS extends React.Component {
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
+		  <li><p><a href="https://docs.google.com/document/d/1uLW7Zhn1i1hGFquiHFtHWEi1FOvYNu0k-WZi6w8Pnf0/edit?usp=sharing" target="_blank">Getting to know CodeHS (Scavenger Hunt Doc)</a></p></li>
+		  <p><a href="https://join.slack.com/t/falconcoders/shared_invite/enQtNDIyMjc0NzM0NTgyLWI4ZjVhZjE5NmQzNWQ4ZGI3YzA4MjMwZGQ5YzFkZjgzNmFhOTc3ZWE0YzdkYTBlZmEyZmM1Mjk3OTI3MzdjOTc" target="_blank">Join the FalconCoders workspace on Slack!</a></p>
 		</ul>
 				
 	      </div>
