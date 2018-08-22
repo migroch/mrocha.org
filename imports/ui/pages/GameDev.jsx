@@ -63,7 +63,7 @@ export default class GameDev extends React.Component {
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://unity3d.com" target="_blank">Unity3d</a></p></li>
-		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
+		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS</a></p></li>
 		</ul>
 				
 	      </div>
