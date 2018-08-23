@@ -63,6 +63,7 @@ export default class GameDev extends React.Component {
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://unity3d.com" target="_blank">Unity3d</a></p></li>
+		  <li><p><a href="https://spark-public.s3.amazonaws.com/phoenixassets/game-development-s12n/Unity3d%20Editor%20Quick%20Reference.pdf" target="_blank">Unity3d Editor Quick Reference</a></p></li>
 		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS</a></p></li>
 		</ul>
 				

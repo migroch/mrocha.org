@@ -117,6 +117,7 @@ export default  RopCSSyllabus ={
     Tools:[
 	{name:"CodeHS", link:"https://codehs.com/go/C82E7"},
 	{name:"Slack", link:"https://slack.com/"},
+	{name:"Code.org", link:"https://code.org/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
 	{name:"React", link:"https://reactjs.org/"},
@@ -137,6 +138,8 @@ export default  RopCSSyllabus ={
     Links:[
 	{name: "CodinGame", link:"https://www.codingame.com"},
 	{name: "HackerRank", link:"https://www.hackerrank.com/"},
+	{name: "freeCodeCamp", link:"https://www.freecodecamp.org"},
+	{name: "CodeCademy", link:"https://www.codecademy.com/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
