@@ -45,6 +45,7 @@ export default  GameDevSyllabus ={
     Lectures:[
 	{name:"Welcome to Game Software and Systems Development", link:"https://slides.com/migroch/deck-37-38/fullscreen"},
 	{name:"Game concepts, technology and engines" , link:"https://slides.com/migroch/deck-37-39/fullscreen"},
+	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"}
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0", active:0},

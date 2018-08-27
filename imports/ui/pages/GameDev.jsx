@@ -54,17 +54,19 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 0 - Meet & Greet, Game Concepts and Game Engines</h3>
+		<h3 className="bg-info text-center">Week 1 - Solar System Simulation</h3>
 
-		<p><a href="https://slides.com/migroch/deck-37-39/fullscreen" target="_blank">Game concepts, technology and engines</a></p>
+		<p><a href="https://slides.com/migroch/deck-37-38-40/fullscreen" target="_blank">Solar System Simulation - Lecture Slides</a></p>
 
-		<p><a href="https://join.slack.com/t/falcongamemakers/shared_invite/enQtNDIwMTkwODYyOTc4LWI0MjhjMjI5NzVjZmUzM2VkMTU4MDg5YzBhZDAyMTM4ZDZiZTIxNzU3YTg2YjU3NThjYTMwZWQ2ODQzOWQ5NGM" target="_blank">Join the FalconGameMakers workspace on Slack!</a></p>
-		
+		<p><a href="SolarSystemAssets.zip" target="_blank">Solar System Simulation Assets</a></p>
+
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://unity3d.com" target="_blank">Unity3d</a></p></li>
 		  <li><p><a href="https://spark-public.s3.amazonaws.com/phoenixassets/game-development-s12n/Unity3d%20Editor%20Quick%20Reference.pdf" target="_blank">Unity3d Editor Quick Reference</a></p></li>
 		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS</a></p></li>
+	
+		  
 		</ul>
 				
 	      </div>

@@ -101,8 +101,8 @@ export default  RopCSSyllabus ={
 	{id: "Quiz10", name:"Week 10", active:0}
     ],
     Assignments:[
-	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"codehs.com/go/AB996"},
-	{id:"2", shortDescription:"CodeHS Intro to Python", link:"codehs.com/go/AB996"},
+	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"https://codehs.com/go/C82E7"},
+	{id:"2", shortDescription:"CodeHS Intro to Python", link:"https://codehs.com/go/C82E7"},
 	{id:"3", shortDescription:"Setup C9 and modify the html5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
 	{id:"4", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
 	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },

@@ -54,13 +54,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 0 - Meet & Greet, What is Computer Science?</h3>
-		<p><a href="http://slides.com/migroch/deck/fullscreen" target="_blank">What is Computer Science?</a></p>
+		<h3 className="bg-info text-center">Week 1 - Learning to code in JavaScript</h3>
+		<p><a href="http://slides.com/migroch/deck-1/fullscreen" target="_blank">Programming (A.K.A Coding) - Lecture Slides</a></p>
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
-		  <li><p><a href="https://docs.google.com/document/d/1uLW7Zhn1i1hGFquiHFtHWEi1FOvYNu0k-WZi6w8Pnf0/edit?usp=sharing" target="_blank">Getting to know CodeHS (Scavenger Hunt Doc)</a></p></li>
-		  <p><a href="https://join.slack.com/t/falconcoders/shared_invite/enQtNDIyMjc0NzM0NTgyLWI4ZjVhZjE5NmQzNWQ4ZGI3YzA4MjMwZGQ5YzFkZjgzNmFhOTc3ZWE0YzdkYTBlZmEyZmM1Mjk3OTI3MzdjOTc" target="_blank">Join the FalconCoders workspace on Slack!</a></p>
+	
+		  <li><p><a href="https://join.slack.com/t/falconcoders/shared_invite/enQtNDIyMjc0NzM0NTgyLWI4ZjVhZjE5NmQzNWQ4ZGI3YzA4MjMwZGQ5YzFkZjgzNmFhOTc3ZWE0YzdkYTBlZmEyZmM1Mjk3OTI3MzdjOTc" target="_blank">Join the FalconCoders workspace on Slack!</a></p></li>
 		</ul>
 				
 	      </div>
@@ -74,10 +74,10 @@ export default class RopCS extends React.Component {
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Learning Objectives:</h2>
 	      <ul>
-		<li><h3>Learning to code in JavaScript and Python - <i className="text-danger">Weeks: 0-3</i></h3></li>
+		<li><h3>Learning to code in JavaScript and Python - <i className="text-warning">Weeks: 0-3</i></h3></li>
 		<li><h3>How computers work and history of computing - <i className="text-danger">Week 1</i></h3></li>
 
-		<li><h3>The unix terminal and text editors - <i className="text-danger">Week 3</i></h3></li>
+		<li><h3>The unix terminal and code editors - <i className="text-danger">Week 3</i></h3></li>
 							
 		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-danger">Week 4-7</i></h3></li>
 
