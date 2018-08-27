@@ -12,6 +12,7 @@ import MRContainer from '../../ui/containers/MRContainer.jsx';
 import RopCSContainer from '../../ui/containers/RopCSContainer.jsx';
 import GameDevContainer from '../../ui/containers/GameDevContainer.jsx';
 import Phys1Container from '../../ui/containers/Phys1Container.jsx';
+import Astro1Container from '../../ui/containers/Astro1Container.jsx';
 import MSussman from '../../ui/pages/MSussman.jsx';
 
 const browserHistory = createBrowserHistory();
@@ -23,7 +24,7 @@ export const renderRoutes = () => (
       <Route path="/exploringcs" component={RopCSContainer}/>
       <Route path="/gamedev" component={GameDevContainer}/>
       <Route path="/phys1" component={Phys1Container}/>
-      {/* <Route path="/astro" component={AstroContainer}/> */}
+      <Route path="/astro1" component={Astro1Container}/> */}
       <Route path="/mrocha" component={MRContainer}/>
       <Route path="/msussman" component={MSussman}/>
     </div>

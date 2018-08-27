@@ -32,7 +32,7 @@ export default class MrNavbar extends React.Component {
 		  <li><a href="/exploringcs" id="ropcs">Exploring Computer Science</a></li>
 		  <li><a href="/gamedev" id="gamedev">Game Software and Systems Dev</a></li>
 		  <li><a href="/phys1" id="phys1">Physics 1</a></li>
-		  <li><a href="/astro" id="astro">Astronomy</a></li>
+		  <li><a href="/astro1" id="astro">Astronomy 1</a></li>
 		</ul>
               </li>
 	    </ul>
