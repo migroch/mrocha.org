@@ -19,7 +19,7 @@ export default  RopCSSyllabus ={
     CourseDescription: "This course is an introduction to practical Computer Science. You will learn about some of the basic Computer Science fundamentals, however, we will focus on learning to code and building your first applications",
     CourseMotive: "Computers are the most powerfull tool that humans have created. Programming is the art of telling computers what to do. There is no one unique correct way of writing a program or application, and that its why coding is an art on its own, there is a lot of room for creativity!",    
     LearningObjectives: [
-	"Learning to code (JavaScript and Python)",
+	"Learning to code (JavaScript and Python) and Algorithms",
 	"How computers work and history of computing",
 	"How the internet works",
 	"The Unix terminal and text editors",
@@ -74,6 +74,7 @@ export default  RopCSSyllabus ={
     Lectures:[
 	{name: "What is Computer Science?", link:"http://slides.com/migroch/deck/fullscreen"},
 	{name: "Programming (A.K.A Coding)", link:"http://slides.com/migroch/deck-1/fullscreen"},
+	{name:"Algorithms", link:"https://slides.com/migroch/deck-42"},
 	{name: "How Computers Work", link:"http://slides.com/migroch/deck-2/fullscreen"},
 	{name: "Thinking Binary", link:"http://slides.com/migroch/deck-1-3/fullscreen"},
 	{name: "Programming Languages", link:"http://slides.com/migroch/deck-2-6/fullscreen"},

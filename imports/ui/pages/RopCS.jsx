@@ -54,8 +54,12 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 1 - Learning to code in JavaScript</h3>
+		<h3 className="bg-info text-center">Week 1 - Learning to code in JavaScript, Algorithms</h3>
+
+		<p><a href="https://slides.com/migroch/deck-42/fullscreen" target="_blank">Algorithms - Lecture Slides</a></p>
+		
 		<p><a href="http://slides.com/migroch/deck-1/fullscreen" target="_blank">Programming (A.K.A Coding) - Lecture Slides</a></p>
+		
 		<p>Useful links for this week:</p>
 		<ul>
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
@@ -75,7 +79,8 @@ export default class RopCS extends React.Component {
 	      <h2 className="text-center">Learning Objectives:</h2>
 	      <ul>
 		<li><h3>Learning to code in JavaScript and Python - <i className="text-warning">Weeks: 0-3</i></h3></li>
-		<li><h3>How computers work and history of computing - <i className="text-danger">Week 1</i></h3></li>
+		<li><h3>Algorithms - <i className="text-warning">Weeks: 1</i></h3></li>
+		<li><h3>How computers work and history of computing - <i className="text-danger">Week 2</i></h3></li>
 
 		<li><h3>The unix terminal and code editors - <i className="text-danger">Week 3</i></h3></li>
 							
