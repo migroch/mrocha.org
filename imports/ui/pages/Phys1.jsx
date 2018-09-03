@@ -12,15 +12,15 @@ export default class Phys1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center">Week 1:  Itnro to Physics, Sicience and Scientific Measurements</h3>
+	<h3 className="bg-info text-center">Week 2:  Inertia and Newtons Laws of Motion</h3>
 	<p> {weekEvents[0]}</p>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the diameter of the Sun</a></p>
+	<p><a  href='Phys1-Lab2.pdf' target='_blank'>Lab 2: Measuring the diameter of the Sun</a></p>
 
 	{/*<p  className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>*/}
-	{/*<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
+	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> 
       </div>
     )
   }

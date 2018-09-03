@@ -54,11 +54,13 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 1 - Learning to code in JavaScript, Algorithms</h3>
+		<h3 className="bg-info text-center">Week 2 - How Computers Work, Thinking Binary and Programming Languages</h3>
 
-		<p><a href="https://slides.com/migroch/deck-42/fullscreen" target="_blank">Algorithms - Lecture Slides</a></p>
+		<p><a href="https://slides.com/migroch/deck-2/fullscreen" target="_blank">How Computers Work - Lecture Slides</a></p>
+
+		<p><a href="http://slides.com/migroch/deck-2-6/fullscreen" target="_blank">Thinking Binary - Lecture Slides</a></p>
 		
-		<p><a href="http://slides.com/migroch/deck-1/fullscreen" target="_blank">Programming (A.K.A Coding) - Lecture Slides</a></p>
+		<p><a href="http://slides.com/migroch/deck-2-6/fullscreen" target="_blank">Programming Languages - Lecture Slides</a></p>
 		
 		<p>Useful links for this week:</p>
 		<ul>
@@ -223,7 +225,7 @@ export default class RopCS extends React.Component {
 			</ul>
 		      </li></h3>
 		      <h3><li>
-			Which of the following is a control flow statements.
+			Which of the following is a control flow statement.
 			<ul className="list-inline">
 			  <li>a) break</li>
 			  <li>b) for</li>

@@ -24,7 +24,7 @@ export const renderRoutes = () => (
       <Route path="/exploringcs" component={RopCSContainer}/>
       <Route path="/gamedev" component={GameDevContainer}/>
       <Route path="/phys1" component={Phys1Container}/>
-      <Route path="/astro1" component={Astro1Container}/> */}
+      <Route path="/astro1" component={Astro1Container}/> 
       <Route path="/mrocha" component={MRContainer}/>
       <Route path="/msussman" component={MSussman}/>
     </div>
