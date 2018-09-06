@@ -58,7 +58,7 @@ export default class RopCS extends React.Component {
 
 		<p><a href="https://slides.com/migroch/deck-2/fullscreen" target="_blank">How Computers Work - Lecture Slides</a></p>
 
-		<p><a href="http://slides.com/migroch/deck-2-6/fullscreen" target="_blank">Thinking Binary - Lecture Slides</a></p>
+		<p><a href="http://slides.com/migroch/deck-1-3/fullscreen" target="_blank">Thinking Binary - Lecture Slides</a></p>
 		
 		<p><a href="http://slides.com/migroch/deck-2-6/fullscreen" target="_blank">Programming Languages - Lecture Slides</a></p>
 		
