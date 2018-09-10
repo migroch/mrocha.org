@@ -54,9 +54,11 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 2 - Scripting and Roller Madness Game</h3>
+		<h3 className="bg-info text-center">Week 3 - Roller Madness Game</h3>
 
 		<p><a href="RollerMadnessAssets.zip">RollerMadness Assets</a></p>
+
+		<p><a href="https://www.coursera.org/learn/game-development" target="_blank">Coursera: Introduction to Game Development </a></p>
 
 		<p>Useful links for this week:</p>
 		<ul>
