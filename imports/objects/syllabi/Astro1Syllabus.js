@@ -12,7 +12,7 @@ export default  Astro1Syllabus ={
     Units: "3",
     Room: "Life Sciences 102",
     Time: "M 6-9:10pm",
-    OfficeHour: "TBD",
+    OfficeHour: "TR 12:00-1:30pm (MA 102), TR 5:30-6/6:30 (PS 103)",
     InstructorName: "Miguel E. Rocha",
     InstructorEmail: "mrocha@gavilan.edu",
     RequiredText: ["<a href='https://www.teachastronomy.com/textbook/' target='_blank'>Teaching Astronomy (Free Online Book by Chris Impey) </a>","The Cosmic Perspective (8th Edition) by Bennett, Donahue, Schneider and Voit"],

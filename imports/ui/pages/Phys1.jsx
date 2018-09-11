@@ -12,14 +12,14 @@ export default class Phys1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center">Week 2:  Inertia and Newtons Laws of Motion</h3>
+	<h3 className="bg-info text-center">Week 3: Momentum and Energy</h3>
 	<p> {weekEvents[0]}</p>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='Phys1-Lab2.pdf' target='_blank'>Lab 2: Equilibrium on an Inclined Plane </a></p>
+	<p><a  href='Phys1-Lab4.pdf' target='_blank'>Lab 4: Conservation of Momentum </a></p>
 
-	<p><a  href='Phys1-Lab3.pdf' target='_blank'>Lab 3: Constant Acceleration </a></p>
+	{/* <p><a  href='Phys1-Lab3.pdf' target='_blank'>Lab 3: Constant Acceleration </a></p> */}
 
 	{/*<p  className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>*/}
 	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> 
@@ -76,7 +76,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule["week 2"])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule["week 3"])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
