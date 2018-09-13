@@ -103,7 +103,8 @@ export default  RopCSSyllabus ={
     ],
     Assignments:[
 	{id:"1", shortDescription:"CodeHS Intro to JavaScript", link:"https://codehs.com/go/C82E7"},
-	{id:"2", shortDescription:"Setup C9 and modify the html5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
+	{id:"2", shortDescription:"CodeHS Web Design", link:"https://codehs.com/go/C82E7"},
+	// {id:"2", shortDescription:"Setup C9 and modify the html5 workspace", description:"Setup C9, create a new html5 workspace and modify the provided HTML, CSS, and JavaScript code.", link:"http://slides.com/migroch/deck-1-3-8/fullscreen#/11"},
 	{id:"3", shortDescription:"Multiple page website", description:"Make a two page website as shown in this C9 Workspace", link:"https://ide.c9.io/testst/html5-cloned2"},
 	{id:"4", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
 	{id:"5", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
