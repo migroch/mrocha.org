@@ -28,13 +28,13 @@ export default  Astro1Syllabus ={
 	"Describe the origin, evolution and structure of the Universe.",	
     ],
     CourseSchedule:{
-	"week 1 (Aug 27)":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teaching Astronomy)</a>, Chapter 1,3 (Cosmic Perspective)", "<a href='https://slides.com/migroch/deck-1-3-41' target='_blank'>What is Astronomy?, What is Science? and The Scientific Method</a>"],
+	"week 1 (Aug 27)":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teaching Astronomy)</a>, Chapter 1,3 (Cosmic Perspective)", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen' target='_blank'>What is Astronomy?, What is Science? and The Scientific Method</a>"],
 
-	"week 2 (Sept 10)":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/deck-1-3-41#/20' target='_blank'>Scientific Measurements and Math Review - Lecture Slides</a>", ],
+	"week 2 (Sept 10)":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen#/20' target='_blank'>Scientific Measurements and Math Review - Lecture Slides</a>", ],
 	
-	"week 3 (Sept 17)":["", "<a  class='disabled' href='' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Monday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1</a>"],
+	"week 3 (Sept 17)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teaching Astronomy)</a>", "<a   href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Monday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
 
-	"week 4 (Sept 24)":["", "<a   class='disabled' href='' target='_blank'>The Earth, The Moon and The Sun"],
+	"week 4 (Sept 24)":["", "<a   class='disabled' href='' target='_blank'>The Earth, The Moon and The Sun", "Assignments due Monday: <a  href='SkyView_9-17-18_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
 	
 	"week 5 (Oct 1)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>" ],
 	
