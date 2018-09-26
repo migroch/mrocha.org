@@ -34,7 +34,7 @@ export default  Astro1Syllabus ={
 	
 	"week 3 (Sept 17)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teaching Astronomy)</a>", "<a   href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Monday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
 
-	"week 4 (Sept 24)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teaching Astronomy)</a>", "<a   class= href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System", "Assignments due Monday: <a  href='SkyView_9-17-18_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
+	"week 4 (Sept 24)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System", "Assignments due Monday: <a  href='SkyView_9-17-18_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
 	
 	"week 5 (Oct 1)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>", "Assignments due Monday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
 	
