@@ -16,11 +16,12 @@ export default class Phys1 extends React.Component {
 
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p> */}
 
+	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	{/* <p><a  href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia </a></p> */}
+	<p><a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a></p> 
 	
-	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
+	{/* <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> */}
       </div>
     )
   }
