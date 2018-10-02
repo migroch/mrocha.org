@@ -12,7 +12,7 @@ export default class Astro1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center">Week 4: The Moon, Eclipses, Tides and The Solar System </h3>
+	<h3 className="bg-info text-center"> The Solar System </h3>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
@@ -74,7 +74,7 @@ export default class Astro1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule[Object.keys(syllabus.CourseSchedule)[3]])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule[Object.keys(syllabus.CourseSchedule)[4]])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">

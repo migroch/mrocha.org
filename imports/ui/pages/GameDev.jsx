@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 5 - Box Shooter Game</h3>
+		<h3 className="bg-info text-center">Week 6 - Box Shooter Game</h3>
 
 		<p><a href="BoxShooterAssets.zip">Box Shooter Assets</a></p>
 
