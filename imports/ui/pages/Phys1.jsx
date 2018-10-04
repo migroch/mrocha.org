@@ -19,7 +19,8 @@ export default class Phys1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a></p> 
+	<p><a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a></p>
+	<p><a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a></p>
 	
 	{/* <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> */}
       </div>
