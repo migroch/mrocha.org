@@ -54,9 +54,9 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 6 - Web Development on Cloud9</h3>
+		<h3 className="bg-info text-center">Week 7 - More Web Development on Cloud9</h3>
 
-		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/10">Assigment 3: Setup C9</a></p>
+		<p><a href="https://ide.c9.io/testst/html5-cloned2">Assigment 4: Create a two page website as shown in this C9 Workspace</a></p>
 		
 		<p><a href="http://slides.com/migroch/deck-1-3-8/fullscreen#/11">Assigment 3: Modify the html5 workspace</a></p>
 		
@@ -64,9 +64,10 @@ export default class RopCS extends React.Component {
 				
 		<p>Useful links for this week:</p>
 		<ul>
-		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 
-		  <li><p><a href="https://c9.io" target="_blank">Cloud 9 Sign In</a></p></li>
+		  <li><p><a href="https://c9.io/login" target="_blank">Cloud 9 Sign In</a></p></li>
+		  
+		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 
 		  <li><p><a href="https://join.slack.com/t/falconcoders/shared_invite/enQtNDIyMjc0NzM0NTgyLWI4ZjVhZjE5NmQzNWQ4ZGI3YzA4MjMwZGQ5YzFkZjgzNmFhOTc3ZWE0YzdkYTBlZmEyZmM1Mjk3OTI3MzdjOTc" target="_blank">Join the FalconCoders workspace on Slack!</a></p></li>
 		</ul>
