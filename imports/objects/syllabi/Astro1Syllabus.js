@@ -35,22 +35,23 @@ export default  Astro1Syllabus ={
 	"week 3 (Sept 17)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teaching Astronomy)</a>", "<a   href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Monday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
 
 	"week 4 (Sept 24)":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System", "Assignments due Monday: <a  href='SkyView_9-17-18_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
-	
-	"week 5 (Oct 1)":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 3, 6-9  (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Monday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
-	
-	"week 6 (Oct 8)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>", "Assignments due Monday: <a  class='disabled' href='' target='_blank'>Take home midterm 1</a>"],
 
-	"Week 7 (Oct 15)":["", "<a  class='disabled'  href='' target='_blank'>Gravity, Temperature and Pressure</a>"],
-
-	"week 8 (Oct 22)":[ "","<a  class='disabled'  href='' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>"],
-	"week 9 (Oct 29)":[ "","<a   class='disabled' href='' target='_blank'>The composition of the Universe: Baryonic Matter, Dark Matter and The Fundamental Forces</a>"],
-
-	"week 10 (Nov 5)":["", "<a   class='disabled' href='' target='_blank'>The Milky Way and Galactic Astronomy</a>"],
+	"week 5 (Oct 1)":["Broken projector! Short lecture on why the Moon looks red sometimes", ""],
 	
-	"week 11 (Nov 19)":["", "<a  class='disabled'  href='' target='_blank'>Galaxies and Galaxy Evolution</a>"],
+	"week 6 (Oct 8)":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 3, 6-9  (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Monday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
 	
-	"week 12 (Dec 3)":["", "<a  class='disabled'  href='' target='_blank'>The Large Scale Structure of The Universe and Comology</a>"],
+	"week 7 (Oct 15)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>", "Assignments due Monday: <a  href='https://ilearn.gavilan.edu/courses/5373/quizzes/11968' target='_blank'>Take home midterm 1</a> and <a href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>"],
 
+	"Week 8 (Oct 22)":["", "<a  class='disabled'  href='' target='_blank'>Gravity, Temperature and Pressure</a>"],
+
+	"week 9 (Oct 29)":[ "","<a  class='disabled'  href='' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>"],
+	
+	"week 10 (Oct Nov 5)":[ "","<a   class='disabled' href='' target='_blank'>The composition of the Universe: Baryonic Matter, Dark Matter and The Fundamental Forces</a>"],
+
+	"week 11 (Nov 19)":["", "<a   class='disabled' href='' target='_blank'>The Milky Way and Galactic Astronomy</a>"],
+	
+	"week 12 (Dec 3)":["", "<a  class='disabled'  href='' target='_blank'>Galaxies, Galaxy Evolution and The Large Scale Structure of The Universe</a>"],
+	
 	"week 13 (Dec 10)":["", "Finals Week"],
 
 	// <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
