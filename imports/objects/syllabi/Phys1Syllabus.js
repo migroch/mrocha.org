@@ -42,10 +42,10 @@ export default  Phys1Syllabus ={
 
 	    // <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
 	
-	"week 8":["Chapters: 16-18", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Heat Transfer</a>, <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> ","<a class='disabled' href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> due Thursday"],
+	"week 8":["Chapters: 16-18", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Heat Transfer</a>, <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> "," Assigments due Thursday: <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>"],
 
 	
-	"week 9":["Chapters: 19-21", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5, <a class='disabled' href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a class='disabled'  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
+	"week 9":["Chapters: 19-21", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5,  <a class='disabled'  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
 
 // , "<a class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 //	"week 10":[ "Enjoy your Spring Break!"],
