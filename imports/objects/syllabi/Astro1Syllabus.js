@@ -40,9 +40,9 @@ export default  Astro1Syllabus ={
 	
 	"week 6 (Oct 8)":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teaching Astronomy)</a>", "<a href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Monday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
 	
-	"week 7 (Oct 15)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teaching Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Temperature and Pressure</a>", "Assignments due Monday: <a  href='https://ilearn.gavilan.edu/courses/5373/quizzes/11968' target='_blank'>Midterm 1</a> and <a href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>"],
+	"week 7 (Oct 15)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teaching Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws, Gravity and Sattelites</a>", "Assignments due Monday: <a  href='https://ilearn.gavilan.edu/courses/5373/quizzes/11968' target='_blank'>Midterm 1</a> and <a href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>"],
 
-	"Week 8 (Oct 22)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>"],
+	"Week 8 (Oct 22)":["", "<a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>","Assignments due Monday: <a  href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a>"],
 
 	"week 9 (Oct 29)":[ "","<a  class='disabled'  href='' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>"],
 	
