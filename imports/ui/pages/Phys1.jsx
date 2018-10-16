@@ -12,7 +12,7 @@ export default class Phys1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center">Week 8: Change o phase, Thermodynamics and Waves</h3>
+	<h3 className="bg-info text-center">Week 8: Change of Phase, Thermodynamics and Waves</h3>
 
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p> */}
 
