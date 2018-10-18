@@ -45,12 +45,12 @@ export default  Phys1Syllabus ={
 	"week 8":["Chapters: 16-18", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> "," Assigments due Thursday: <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>"],
 
 	
-	"week 9":["Chapters: 19-21", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5,  <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> due Thursday"],
+	"week 9":["Chapters: 19-21", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5,  <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> due Thursday"],
 
 // , "<a class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
 //	"week 10":[ "Enjoy your Spring Break!"],
 
-	"week 10":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "Mid Term (Ch 11-21) on Thursday", "HW 6, <a class='disabled' href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a class='disabled'  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
+	"week 10":["Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", "Mid Term (Ch 11-21) on Thursday", "HW 6  and <a class='disabled'  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
 	
 	"week 11":["Chapters: 23-25", "<a class='disabled'  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/23' target='_blank'>Electric Current</a>, <a class='disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
