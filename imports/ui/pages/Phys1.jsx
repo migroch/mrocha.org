@@ -14,15 +14,17 @@ export default class Phys1 extends React.Component {
       <div className="container-fluid col-md-6 announcements bpadding">
 	<h3 className="bg-info text-center">Week 9: Waves and Sound</h3>
 
-
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a></p>
-		
-	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
-	<p className="bg-danger">Midterm 2 on Tuesday Oct 30th</p>
+	<p className="bg-danger">Midterm 2 is on Tuesday Oct 30th</p>
+
+	<p><a href="https://slides.com/migroch/deck-1-3-7-11-34/fullscreen"  target='_blank'>Midterm 2 Study Guide</a></p>
+	
+	<p><a href='https://ilearn.gavilan.edu/courses/5134/quizzes/12183' target='_blank'>Midterm Pracitce Quiz/HW 6</a></p>
+
+	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	
       </div>
     )
