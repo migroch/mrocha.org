@@ -1,5 +1,5 @@
-// RopCS.jsx
-// Page component for the RopCS page
+// GameDev.jsx
+// Page component for the GameDev page
 import React from 'react';
 import {Helmet} from "react-helmet";
 import PropTypes from 'prop-types';
@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 9 - Continue Learning to Blender and Importing Blender Models to Unity </h3>
+		<h3 className="bg-info text-center">Week 10 - Importing Blender Models to Unity and Blender Animations </h3>
 
 		<p><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true">Blender Beginner Tutorial by Blender Guru</a></p>
 
