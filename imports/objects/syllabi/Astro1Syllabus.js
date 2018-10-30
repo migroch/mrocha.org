@@ -44,9 +44,9 @@ export default  Astro1Syllabus ={
 
 	"Week 8 (Oct 22)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teaching Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Monday: <a  href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a>"],
 
-	"week 9 (Oct 29)":[ "","<a  class='disabled'  href='' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>, <a   class='disabled' href='' target='_blank'>Light, Telescopes and Astonomical Observations</a>", "Assignments due Monday: <a  href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
+	"week 9 (Oct 29)":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teaching Astronomy)</a>","<a  href='' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Monday: <a  href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
 	
-	"week 10 (Oct Nov 5)":[ "","<a   class='disabled' href='' target='_blank'>The composition of the Universe: Baryonic Matter, Dark Matter and The Fundamental Forces</a>"],
+	"week 10 (Nov 5)":[ "","<a  class='disabled'  href='' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>,<a   class='disabled' href='' target='_blank'>The composition of the Universe: Baryonic Matter, Dark Matter and The Fundamental Forces</a>", "Assignments due Monday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 
 	"week 11 (Nov 19)":["", "<a   class='disabled' href='' target='_blank'>The Milky Way and Galactic Astronomy</a>"],
 	
