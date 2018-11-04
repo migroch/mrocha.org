@@ -1,3 +1,5 @@
+*~
+
 .eslintcache
 npm-debug.log
 *.scssc
@@ -51,3 +53,4 @@ packages/nova-router/.npm
 npm-debug.log
 
 .meteor/.id
+
