@@ -1,16 +1,16 @@
 {
   "public": {
 
-    "title": "Vulcan.js",
-    "tagline":"The React/GraphQL Full-stack Framework",
+    "title": "Miguel Rocha",
+    "tagline":"Miguel Rocha's projects, classes and bio.",
 
-    "faviconUrl": "/favicon.ico",
+    "faviconUrl": "public/hunabku_facicon.jpg",
 
     "locale": "en"
 
   },
 
-  "defaultEmail": "hello@world.com",
+  "defaultEmail": "miguel@scitecha.com",
   "mailUrl": "smtp://username%40yourdomain.mailgun.org:yourpassword123@smtp.mailgun.org:587/",
 
   "oAuth": {

@@ -1,0 +1,8 @@
+// style.scss
+// Index stylesheet. Import all stylesheets
+
+@import "{}/node_modules/bootstrap/scss/bootstrap.scss";
+@import 'global.scss';
+@import 'LandingNav.scss';
+
+

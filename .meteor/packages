@@ -14,7 +14,6 @@ accounts-password@1.5.1
 
 ############ Your Packages ############
 
-getting-started
 
 # example-simple
 # example-movies
@@ -26,3 +25,9 @@ getting-started
 # example-interfaces
 # example-reactions
 # example-forms
+fourseven:scss
+vulcan:forms
+vulcan:accounts
+vulcan:ui-bootstrap
+jquery
+alexwine:bootstrap-4
