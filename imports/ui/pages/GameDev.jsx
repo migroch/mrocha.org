@@ -54,14 +54,16 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 10 - Importing Blender Models to Unity and Blender Animations </h3>
+		<h3 className="bg-info text-center">Week 11 - Blender Animations </h3>
 
-		<p><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true">Blender Beginner Tutorial by Blender Guru</a></p>
-
+		<p><a href="https://www.youtube.com/watch?v=HyVvi-TjHlM">How to Animate in Blender</a></p>
+		
+		<p><a href="https://www.youtube.com/watch?v=mhQY2_gVoVg">Rig and Animate ANYTHING in Blender</a></p>
+		
 		<p><a href="https://www.youtube.com/watch?v=yi87Dap_WOc">Blender Beginner Modeling Tutorial by Blender Guru</a></p>
 		
-		<p><a href="https://cloud.blender.org/p/game-asset-creation/56041550044a2a00d0d7e068">Game Asset Creation with Blender</a></p>
-
+		<p><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true">Blender Beginner Tutorial by Blender Guru</a></p>
+		
 		<p><a href="https://www.coursera.org/learn/game-development" target="_blank">Coursera: Introduction to Game Development </a></p>
 
 		<p>Useful links for this week:</p>

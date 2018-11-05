@@ -54,16 +54,18 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 10 -  Data Driven Web Development </h3>
+		<h3 className="bg-info text-center">Week 11 -  GUI Components with REACT </h3>
+
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15/fullscreen" target="_blank">GUI Components with REACT - Lecture Slides</a></p>
+		
+		<p><a href="https://ide.c9.io/migroch/assignment_6#openfile-README.md">Assigment 6: Data Driven React App 2</a></p>
+		
 
 		<p><a href="http://slides.com/migroch/deck-1-3-7-11-14/fullscreen#/" target="_blank">Data Driven Web Development - Lecture Slides</a></p>
 
 		<p><a href="https://ide.c9.io/migroch/assignment_5#openfile-README.md">Assigment 5: Data Driven React App</a></p>
 
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15/fullscreen" target="_blank">GUI Components with REACT - Lecture Slides</a></p>
-		
-		<p><a href="https://ide.c9.io/migroch/assignment_6#openfile-README.md">Assigment 6: Data Driven React App 2</a></p>
-				
+	
 			
 		<p>Useful links for this week:</p>
 		<ul>
