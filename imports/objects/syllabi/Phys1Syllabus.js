@@ -52,9 +52,9 @@ export default  Phys1Syllabus ={
 
 	"week 10":["Chapters: 22-23", "<a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", " <a href='https://ilearn.gavilan.edu/courses/5134/quizzes/12183' target='_blank'> HW 6 </a>  and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
 	
-	"week 11":["Chapters: 23-25", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/23' target='_blank'>Electric Current</a>, <a class='disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
+	"week 11":["Chapters: 23-25", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/23' target='_blank'>Electric Current</a>, <a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
-	"week 12":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a class='disabled' href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
+	"week 12":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
 	
 	"week 13":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "<a class='disabled' href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
 	
