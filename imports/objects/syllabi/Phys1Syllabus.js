@@ -54,9 +54,9 @@ export default  Phys1Syllabus ={
 	
 	"week 11":["Chapters: 23-25", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>, <a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
-	"week 12":["Chapters: 26-27", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a class='disabled' href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
+	"week 12":["Chapters: 26-27", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/22' target='_blank'>Electromagnetic Induction</a>, <a href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a  href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
 	
-	"week 13":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "<a class='disabled' href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
+	"week 13":["Chapters: 28-29", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>", "<a  href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
 	
 	"week 14":["Chapters: 30-31", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  "<a class='disabled' href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a> and <a class='disabled' href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler </a> due Thursday"],
 	
