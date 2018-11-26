@@ -109,7 +109,7 @@ export default  RopCSSyllabus ={
 	{id:"5", shortDescription:"Data Driven React App 1", description:"Simple Data Driven App with React", link:"https://ide.c9.io/migroch/assignment_5#openfile-README.md" },
 	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
 	{id:"7", shortDescription:"CodeHS Mobile Apps", ink:"https://codehs.com/go/C82E7"},
-	{id:"8", shortDescription:"Simple HTTP server with Node.js", description:"Simple HTTP server with Node.js", link:"https://c9.io/migroch/assigment_7" },
+	{id:"8", shortDescription:"Simple HTTP server with Node.js", description:"Simple HTTP server with Node.js", link:"https://ide.c9.io/migroch/assigment_8#openfile-README.md" },
 	// {id:"8", shortDescription:"Todo App with Meteor and React", description:"Todo App with Meteor and React", link:"https://www.meteor.com/tutorials/react/creating-an-app" },
 	{id:"9", shortDescription:"CodeHS Intro to Python", link:"https://codehs.com/go/C82E7"},
 	{id:"10", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},

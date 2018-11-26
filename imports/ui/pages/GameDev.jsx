@@ -3,7 +3,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import PropTypes from 'prop-types';
-import RopCSNavbar from '../components/RopCSNavbar.jsx'
+import GameDevNavbar from '../components/GameDevNavbar.jsx'
 
 export default class GameDev extends React.Component {
   constructor(props) {
@@ -39,7 +39,7 @@ export default class GameDev extends React.Component {
 	    <meta name="description" content="Page for Miguel Rocha's Game Software and Systmes Development class"/>
           </Helmet>
 
-	  <RopCSNavbar syllabus={syllabus} />
+	  <GameDevNavbar syllabus={syllabus} />
 
 	  {this.userInfo(user)}
 	  
@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 12 - Blender Animations </h3>
+		<h3 className="bg-info text-center">Week 13 - Game Design </h3>
 
 		<p><a href="https://www.youtube.com/watch?v=HyVvi-TjHlM">How to Animate in Blender</a></p>
 		

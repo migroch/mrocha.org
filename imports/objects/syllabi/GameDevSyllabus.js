@@ -47,18 +47,25 @@ export default  GameDevSyllabus ={
 	{name:"Game concepts, technology and engines" , link:"https://slides.com/migroch/deck-37-39/fullscreen"},
 	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"}
     ],
-    Quizzes: [
-	{id: "Quiz0", name:"Week 0", active:0},
-	{id: "Quiz1", name:"Week 1", active:0},
-	{id: "Quiz2", name:"Week 2", active:0},
-	{id: "Quiz3", name:"Week 3", active:0},
-	{id: "Quiz6", name:"Week 6", active:0},
-	{id: "Quiz7", name:"Week 7", active:0},
-	{id: "Quiz10", name:"Week 10", active:0}
-    ],
-    Assignments:[
-	{id:"1", shortDescription:"", link:""},
-    ],
+    Tutorials:[
+	{name:"How to Animate in Blender", link:"https://www.youtube.com/watch?v=HyVvi-TjHlM"},
+	{name:"Rig and Animate ANYTHING in Blender", link:"https://www.youtube.com/watch?v=mhQY2_gVoVg"},
+	{name:"Blender Beginner Modeling", link:"https://www.youtube.com/watch?v=yi87Dap_WOc"},
+	{name:"Blender Beginner", link:"https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true"},
+	{name:"Coursera: Introduction to Game Development", link:"https://www.coursera.org/learn/game-development"},
+	    ],
+    // Quizzes: [
+    // 	{id: "Quiz0", name:"Week 0", active:0},
+    // 	{id: "Quiz1", name:"Week 1", active:0},
+    // 	{id: "Quiz2", name:"Week 2", active:0},
+    // 	{id: "Quiz3", name:"Week 3", active:0},
+    // 	{id: "Quiz6", name:"Week 6", active:0},
+    // 	{id: "Quiz7", name:"Week 7", active:0},
+    // 	{id: "Quiz10", name:"Week 10", active:0}
+    // ],
+    // Assignments:[
+    // 	{id:"1", shortDescription:"", link:""},
+    // ],
     Tools:[
 	{name:"Unity3d", link:"https://unity3d.com/"},
 	{name:"Slack", link:"https://slack.com/"},
@@ -77,9 +84,9 @@ export default  GameDevSyllabus ={
 	{name: "AWS Educate login", link:"https://aws.amazon.com/education/awseducate/members/"},
 	{name: "AWS: How To Launch Linux Instance", link:"https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/"},
 	{name: "AWS Instance Types", link:"https://aws.amazon.com/ec2/instance-types/"},
-    ],
-
-    Portfolios:[
-
     ]
+
+    //Portfolios:[
+    //
+    //]
 };
