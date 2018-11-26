@@ -55,17 +55,11 @@ export default class GameDev extends React.Component {
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 13 - Game Design </h3>
+		
+		<p><a href="https://www.gamedesigning.org/" target="_blank">GameDesigning.org</a></p>
 
-		<p><a href="https://www.youtube.com/watch?v=HyVvi-TjHlM">How to Animate in Blender</a></p>
+		<p><a href="https://www.gamedesigning.org/become-a-game-designer/" target="_blank">Game Design as a Career</a></p>
 		
-		<p><a href="https://www.youtube.com/watch?v=mhQY2_gVoVg">Rig and Animate ANYTHING in Blender</a></p>
-		
-		<p><a href="https://www.youtube.com/watch?v=yi87Dap_WOc">Blender Beginner Modeling Tutorial by Blender Guru</a></p>
-		
-		<p><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true">Blender Beginner Tutorial by Blender Guru</a></p>
-		
-		<p><a href="https://www.coursera.org/learn/game-development" target="_blank">Coursera: Introduction to Game Development </a></p>
-
 		<p>Useful links for this week:</p>
 		<ul>
 
