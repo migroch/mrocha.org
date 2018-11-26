@@ -59,6 +59,9 @@ export default class GameDev extends React.Component {
 		<p><a href="https://www.gamedesigning.org/" target="_blank">GameDesigning.org</a></p>
 
 		<p><a href="https://www.gamedesigning.org/become-a-game-designer/" target="_blank">Game Design as a Career</a></p>
+
+		<p><a href="https://www.gamedesigning.org/learn/game-design-document/" target="_blank">Creating a Game Design Document</a></p>
+		
 		
 		<p>Useful links for this week:</p>
 		<ul>
