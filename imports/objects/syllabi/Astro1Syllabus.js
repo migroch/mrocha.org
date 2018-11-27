@@ -48,7 +48,7 @@ export default  Astro1Syllabus ={
 	
 	"week 10 (Nov 5)":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teaching Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46#/27/fullscreen' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Monday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 
-	"week 11 (Nov 26)":["", "<a  href='href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Monday: <a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
+	"week 11 (Nov 26)":["Chapters 14-17 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teaching Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Monday: <a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
 	
 	"week 12 (Dec 3)":["", "<a  class='disabled'  href='' target='_blank'>Galaxies, Galaxy Evolution and Cosmology</a>", "Assignments due Monday: <a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams </a>"],
 	
