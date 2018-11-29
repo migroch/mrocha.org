@@ -110,12 +110,13 @@ export default  RopCSSyllabus ={
 	{id:"6", shortDescription:"Data Driven React App 2", description:"Simple Data Driven App with React step 2", link:"https://ide.c9.io/migroch/assignment_6#openfile-README.md" },
 	{id:"7", shortDescription:"CodeHS Mobile Apps", ink:"https://codehs.com/go/C82E7"},
 	{id:"8", shortDescription:"Simple HTTP server with Node.js", description:"Simple HTTP server with Node.js", link:"https://ide.c9.io/migroch/assigment_8#openfile-README.md" },
+	{id:"9", shortDescription:"SQL Databases", description:"Createing and Querying SQL Databases", link:"https://www.khanacademy.org/computing/hour-of-code/hour-of-sqlp." },
 	// {id:"8", shortDescription:"Todo App with Meteor and React", description:"Todo App with Meteor and React", link:"https://www.meteor.com/tutorials/react/creating-an-app" },
-	{id:"9", shortDescription:"CodeHS Intro to Python", link:"https://codehs.com/go/C82E7"},
-	{id:"10", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},
-	{id:"11", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"},
-	{id:"12", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18"},
-	{id:"13", shortDescription:"Deep Learning", description:"Predicting diabetes onsets with Deep Learning", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/31"}
+	{id:"10", shortDescription:"CodeHS Intro to Python", link:"https://codehs.com/go/C82E7"},
+	{id:"11", shortDescription:"Python Data Analysis 1", description:"Python Data Analysis 1: Basic Plotting with Matplotlib", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"},
+	{id:"12", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"},
+	{id:"13", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18"},
+	{id:"14", shortDescription:"Deep Learning", description:"Predicting diabetes onsets with Deep Learning", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/31"}
     ],
     Tools:[
 	{name:"CodeHS", link:"https://codehs.com/go/C82E7"},

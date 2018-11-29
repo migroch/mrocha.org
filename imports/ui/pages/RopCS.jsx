@@ -56,6 +56,10 @@ export default class RopCS extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 13 - The Internet, Servers and Node.js</h3>
 
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen" target="_blank">Databases</a></p>
+
+		<p><a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql" target="_blank">Assigment 9: Createing and Querying SQL Databases</a></p>
+		
 		<p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19/fullscreen"  target="_blank">How the Internet Works, Servers, Node.js</a></p>
 		
 		<p><a href="https://ide.c9.io/migroch/assigment_8#openfile-README.md"  target="_blank">Assigment 8: A simple HTTP server with Node.js</a></p>
@@ -97,11 +101,11 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
 
-		<li><h3>Servers and how the internet works  - <i className="text-danger">Week 7</i></h3></li>
+		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 
+		<li><h3>Databases - <i className="text-sucess">Week 10</i></h3></li>
+		
 		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-danger">Week 8-11</i></h3></li>
-
-		<li><h3>Databases - <i className="text-danger">Week 10</i></h3></li>
 
 		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-danger">Week 11</i></h3></li>
 		
