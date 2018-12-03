@@ -54,26 +54,21 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 13 - Game Design </h3>
+		<h3 className="bg-info text-center">Week 14 - Projects and Hour of Code Week! </h3>
 		
-		<p><a href="https://www.gamedesigning.org/" target="_blank">GameDesigning.org</a></p>
+	
 
-		<p><a href="https://www.gamedesigning.org/become-a-game-designer/" target="_blank">Game Design as a Career</a></p>
+		<p><a href="https://code.org/minecraft" target="_blank">Minecraft Hour of Code Tutorials</a></p>
 
-		<p><a href="https://www.gamedesigning.org/learn/game-design-document/" target="_blank">Creating a Game Design Document</a></p>
-		
+		<p><a href="https://codehs.com/hourofcode/" target="_blank">Hour of Code with CodeHS</a></p>
+	
 		
 		<p>Useful links for this week:</p>
 		<ul>
 
-		  <li><p><a href="https://docs.blender.org/manual/en/dev/index.html" target="_blank">Blender Reference Manual</a></p></li>
+		  <li><p><a href="https://www.gamedesigning.org/become-a-game-designer/" target="_blank">Game Design as a Career</a></p></li>
 		  
-	          <li><p><a href="https://unity3d.com/learn/tutorials/modules/beginner/scripting/scripts-as-behaviour-components?playlist=17117" target="_blank">Unity3d Scripting Tutorial</a></p></li>
-		  <li> <p><a href="https://docs.unity3d.com/Manual/ScriptingConcepts.html" target="_blank">Unity3d Scripting Manual</a></p></li>
-		  <li><p><a href="https://docs.unity3d.com/ScriptReference/index.html" target="_blank">Unity3d API Reference</a></p></li>
-
-		  <li><p><a href="https://spark-public.s3.amazonaws.com/phoenixassets/game-development-s12n/Unity3d%20Editor%20Quick%20Reference.pdf" target="_blank">Unity3d Editor Quick Reference</a></p></li>
-
+			  
 		</ul>
 				
 	      </div>

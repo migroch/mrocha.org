@@ -48,10 +48,12 @@ export default  GameDevSyllabus ={
 	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"}
     ],
     Tutorials:[
+	{name:"Creating a Game Design Document", link:"https://www.gamedesigning.org/learn/game-design-document/"},
 	{name:"How to Animate in Blender", link:"https://www.youtube.com/watch?v=HyVvi-TjHlM"},
 	{name:"Rig and Animate ANYTHING in Blender", link:"https://www.youtube.com/watch?v=mhQY2_gVoVg"},
 	{name:"Blender Beginner Modeling", link:"https://www.youtube.com/watch?v=yi87Dap_WOc"},
 	{name:"Blender Beginner", link:"https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P&disable_polymer=true"},
+	{name:"Unity3d Scripting Tutorial", link: "https://unity3d.com/learn/tutorials/modules/beginner/scripting/scripts-as-behaviour-components?playlist=17117"},
 	{name:"Coursera: Introduction to Game Development", link:"https://www.coursera.org/learn/game-development"},
 	    ],
     // Quizzes: [
@@ -73,6 +75,7 @@ export default  GameDevSyllabus ={
 	{name:"Code.org", link:"https://code.org/"},
 	{name:"Cloud9", link:"https://c9.io"},
 	{name:"GitHub", link:"https://github.com/"},
+	{name:"GameDesigning.org", link:"https://www.gamedesigning.org/"}
     ],
     Links:[
 	{name: "CodinGame", link:"https://www.codingame.com"},
@@ -81,6 +84,9 @@ export default  GameDevSyllabus ={
 	{name: "CodeCademy", link:"https://www.codecademy.com/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
+	{name:"Unity3d Scripting Manual", link:"https://docs.unity3d.com/Manual/ScriptingConcepts.html"},
+	{name:"Unity3d API Reference", link:"https://docs.unity3d.com/ScriptReference/index.html"},
+	{name:"Unity3d Editor Quick Reference", link:"https://spark-public.s3.amazonaws.com/phoenixassets/game-development-s12n/Unity3d%20Editor%20Quick%20Reference.pdf"},
 	{name: "AWS Educate login", link:"https://aws.amazon.com/education/awseducate/members/"},
 	{name: "AWS: How To Launch Linux Instance", link:"https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/"},
 	{name: "AWS Instance Types", link:"https://aws.amazon.com/ec2/instance-types/"},
