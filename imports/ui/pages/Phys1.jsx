@@ -12,15 +12,21 @@ export default class Phys1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
+
 	<h3 className="bg-info text-center">Week 14: Light Emission and Quantum Mechanics</h3>
 	
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
+
+	<p><a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>
+</p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
 	<p><a  href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectrum</a></p>
 	
-
 	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
+
+	<p className="bg-danger">Midterm 3 (Ch 22-34) on Tuesday December 11th</p>
+
 	
       </div>
     )
