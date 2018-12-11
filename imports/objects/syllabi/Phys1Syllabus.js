@@ -61,8 +61,10 @@ export default  Phys1Syllabus ={
 	"week 14":["Chapters: 30-31", "<a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  "<a  href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a> and <a href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler </a> due Thursday"],
 	
 	// "week 15":["Chapters: 32-34", "<a class='disabled'  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW8, <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
-	"week 15":[ "Midterm 3 (Ch 22-34)", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday "]
+	"week 15":[ "Midterm 3 (Ch 22-34) on Tuesday, Dec 11", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, Dec 14"]
 
+//HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday
+	
 // <a class='disabled' href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a> due Thursday"]
     },
     Homework:"Your homeworks and lab reports are due Thursdays",

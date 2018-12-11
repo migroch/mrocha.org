@@ -54,9 +54,11 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 14 - Databases and Hour of Code Week!</h3>
+		<h3 className="bg-info text-center">Week 15 - Catch up week!</h3>
 
-		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen" target="_blank">Databases</a></p>
+		<p className="bg-danger">Assigments 1-9 due Tuesday, Dec 18</p>
+
+		<p><a href="https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen" target="_blank">Databases - lecture slides</a></p>
 
 		<p><a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql" target="_blank">Assigment 9: Creating and Querying SQL Databases</a></p>
 		
@@ -104,7 +106,7 @@ export default class RopCS extends React.Component {
 
 		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
 
-		<li><h3>Databases - <i className="text-sucess">Week 10</i></h3></li>
+		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
 		
 		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-danger">Week 8-11</i></h3></li>
 

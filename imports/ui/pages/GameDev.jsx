@@ -54,14 +54,9 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 14 - Projects and Hour of Code Week! </h3>
+		<h3 className="bg-info text-center">Week 15 - Projects</h3>
 		
-	
-
-		<p><a href="https://code.org/minecraft" target="_blank">Minecraft Hour of Code Tutorials</a></p>
-
 		<p><a href="https://codehs.com/hourofcode/" target="_blank">Hour of Code with CodeHS</a></p>
-	
 		
 		<p>Useful links for this week:</p>
 		<ul>
