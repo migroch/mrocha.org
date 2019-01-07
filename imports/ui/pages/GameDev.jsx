@@ -54,12 +54,14 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 15 - Projects</h3>
-		
-		<p><a href="https://codehs.com/hourofcode/" target="_blank">Hour of Code with CodeHS</a></p>
-		
+		<h3 className="bg-info text-center">Week 17 - Projects or CodeHS</h3>
+
+		<p className="bg-success">Sorry I will be absent ths week, be good with the sub and either do some work in CodeHS or keep working on your projects . I'll be back on Monday, Jan 14th</p>
+
 		<p>Useful links for this week:</p>
 		<ul>
+
+		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS</a></p></li>
 
 		  <li><p><a href="https://www.gamedesigning.org/learn/game-design-document/" target="_blank">Creating a Game Design Document</a></p></li>
 		  
