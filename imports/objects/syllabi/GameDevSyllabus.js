@@ -48,6 +48,7 @@ export default  GameDevSyllabus ={
 	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"}
     ],
     Tutorials:[
+	{name:"Unity MULTIPLAYER Tutorial", link:"https://www.youtube.com/watch?v=cQ0f1_Ct9lc"},
 	{name:"Creating a Game Design Document", link:"https://www.gamedesigning.org/learn/game-design-document/"},
 	{name:"How to Animate in Blender", link:"https://www.youtube.com/watch?v=HyVvi-TjHlM"},
 	{name:"Rig and Animate ANYTHING in Blender", link:"https://www.youtube.com/watch?v=mhQY2_gVoVg"},
