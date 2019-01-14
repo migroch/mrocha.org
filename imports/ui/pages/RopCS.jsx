@@ -54,10 +54,8 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 17 - Intro to Python</h3>
+		<h3 className="bg-info text-center">Week 18 - Intro to Python</h3>
 		
-		<p className="bg-success">Sorry I will be absent ths week, be good with the sub and do your CodeHS work. I'll be back on Monday, Jan 14th</p>
-
 		<p><a href="https://codehs.com/go/C82E7"  target="_blank">Assigment 10: CodeHS Intro to CS with Python (you can skip the welcome section)</a></p>
 	
 			
@@ -84,32 +82,20 @@ export default class RopCS extends React.Component {
 	    <div className="jumbotron ">
 	      <h2 className="text-center">Learning Objectives:</h2>
 	      <ul>
-		<li><h3>Learning to code in JavaScript and Python - <i className="text-success">Weeks: 0-3</i></h3></li>
-		<li><h3>Algorithms - <i className="text-success">Weeks: 1</i></h3></li>
-		<li><h3>How computers work and history of computing - <i className="text-success">Week 2</i></h3></li>
-
-		<li><h3>The unix terminal and code editors - <i className="text-success">Week 3</i></h3></li>
-							
-		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS) - <i className="text-success">Week 4-7</i></h3></li>
-
-		<li><h3>Data Structures  - <i className="text-success">Week 6</i></h3></li>
-
-		<li><h3>Servers and how the internet works  - <i className="text-success">Week 7</i></h3></li>
-
-		<li><h3>Databases - <i className="text-success">Week 10</i></h3></li>
-		
-		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)- <i className="text-danger">Week 8-11</i></h3></li>
-
-		<li><h3>Using Git repositories and GitHub for version control and collaborative programming - <i className="text-danger">Week 11</i></h3></li>
-		
-		<li> <h3>Data Analysis and Visualization with Pandas, Matplotlib and D3.js - <i className="text-danger">Week 11-14</i></h3></li>
-		
-		<li><h3>Cybersecurity - <i className="text-danger">Week 14-16</i></h3></li>
-
-		<li><h3>Open Source and programming guidelines for Open Source Development - <i className="text-danger">Week 21 </i></h3></li>
-
-		<li><h3>Machine Learning and Artificial Intelligence - <i className="text-danger">Week 34-35</i></h3></li>
-		
+		<li><h3>Learning to code in JavaScript and Python </h3></li>
+		<li><h3>Algorithms and Data Structures</h3></li>
+		<li><h3>How computers work and history of computing</h3></li>
+		<li><h3>The unix terminal and code editors</h3></li>					
+		<li><h3>Graphic User Interfaces (GUIs) with web technologies (JavaScript,  HTML and CSS)</h3></li>
+		<li><h3>Data Structures</h3></li>
+		<li><h3>Servers and how the internet works </h3></li>
+		<li><h3>Databases</h3></li>
+		<li><h3>From websites to platform independent responsive and reactive standalone applications (with Meteor)</h3></li>
+		<li><h3>Using Git repositories and GitHub for version control and collaborative programming</h3></li>
+		<li> <h3>Data Analysis and Visualization with Pandas, Matplotlib and D3.js</h3></li>
+		<li><h3>Cybersecurity</h3></li>
+		<li><h3>Open Source and programming guidelines for Open Source Development</h3></li>
+		<li><h3>Machine Learning and Artificial Intelligence</h3></li>
 	      </ul>
 	    </div>
 
