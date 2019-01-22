@@ -54,14 +54,15 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 17 - Networking and Multiplayer Games</h3>
+		<h3 className="bg-info text-center">Week 18 - Networking and Multiplayer Games/Physics and Simulations</h3>
 
-		<p><a href="https://www.youtube.com/watch?v=cQ0f1_Ct9lc">Unity MULTIPLAYER Tutorial</a></p>
+		<p>Continue the multiplayer in Unity tutorial and/or learn about physics simulations with the CodeHS collisions/physics courses.</p>
 
-			<p>Useful links for this week:</p>
+		<p>Useful links for this week:</p>
 		<ul>
 
-		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS</a></p></li>
+		  <li><p><a href="https://www.youtube.com/watch?v=cQ0f1_Ct9lc">Unity Multiplayer Tutorial</a></p></li>
+		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS (Check out the collisions/physics courses)</a></p></li>
 
 			  
 		</ul>

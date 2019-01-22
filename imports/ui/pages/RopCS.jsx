@@ -54,14 +54,18 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 18 - Intro to Python</h3>
+		<h3 className="bg-info text-center">Week 19 - Intro to Python and Data Analysis with Python</h3>
 		
 		<p><a href="https://codehs.com/go/C82E7"  target="_blank">Assigment 10: CodeHS Intro to CS with Python (you can skip the welcome section)</a></p>
-	
+
+		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen">Data Analysis and Visualization</a></p>
+		
 			
 		<p>Useful links for this week:</p>
 		<ul>
 
+		  <li><p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/5">Setting up your Python Analysis Enviroment on Cloud9</a></p></li>
+		  
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 		  
 		  <li><p><a href="https://c9.io/login" target="_blank">Cloud 9 Sign In</a></p></li>
