@@ -20,9 +20,8 @@ Meteor.startup(() => {
 		      );
     });
     
-    // Add the robux Balance field to any newly created users
+    // Add the profile object to any newly created users
     Accounts.onCreateUser((options, user) => {
-	user.robuxBalance = 0; 
 	// We still want the default hook's 'profile' behavior.
 	if (options.profile) {
 	    user.profile = options.profile;
@@ -39,12 +38,12 @@ Meteor.startup(() => {
 	    console.log("Creating user "+ username);
 	    Accounts.createUser({username: username,
 				 email: student.email,
-				 password:"funRobux",
-				 profile:{First:student.First, Last:student.Last, Robux:student.Robux}
+				 password:"FunCS",
+				 profile:{First:student.First, Last:student.Last, TracyProgress: student.TracyProgress}
 				});
-	} else if (user.profile.Robux != student.Robux){
-	    console.log("updating Robux balance for user " + username);
-	    Meteor.users.update(user._id, {$set:{ "profile.Robux": student.Robux}} );
+	} else if (user.profile.TracyProgress != student.TracyProgress){
+	    console.log("updating TracyProgress balance for user " + username);
+	    Meteor.users.update(user._id, {$set:{ "profile.TracyProgress": student.TracyProgress}} );
 	}
     });
 });
