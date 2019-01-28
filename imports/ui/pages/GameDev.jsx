@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 18 - Networking and Multiplayer Games/Physics and Simulations</h3>
+		<h3 className="bg-info text-center">Week 20 - Networking and Multiplayer Games/Physics and Simulations</h3>
 
 		<p>Continue the multiplayer in Unity tutorial and/or learn about physics simulations with the CodeHS collisions/physics courses.</p>
 

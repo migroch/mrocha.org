@@ -54,16 +54,22 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 19 - Intro to Python and Data Analysis with Python</h3>
+		<h3 className="bg-info text-center">Week 20 - Data Analysis with Python</h3>
+
+		<p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"  target="_blank">Assigment 12: Python Data Analysis 2 - Data Jiu-Jitsu with Pandas</a></p>
+
+		  <p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"  target="_blank">Assigment 11: Python Data Analysis 1 - Basic Plotting with Matplotlib</a></p>
 		
 		<p><a href="https://codehs.com/go/C82E7"  target="_blank">Assigment 10: CodeHS Intro to CS with Python (you can skip the welcome section)</a></p>
 
 		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen">Data Analysis and Visualization</a></p>
 		
 			
-		<p>Useful links for this week:</p>
+		<p>Other useful links for this week:</p>
 		<ul>
 
+		  <li><p><a target="_blank" href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">How to add a project to GitHub</a></p></li>
+		  
 		  <li><p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/5">Setting up your Python Analysis Enviroment on Cloud9</a></p></li>
 		  
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
