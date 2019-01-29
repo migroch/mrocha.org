@@ -54,14 +54,17 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 20 - Networking and Multiplayer Games/Physics and Simulations</h3>
+		<h3 className="bg-info text-center">Week 20 - AI and Games</h3>
 
-		<p>Continue the multiplayer in Unity tutorial and/or learn about physics simulations with the CodeHS collisions/physics courses.</p>
-
-		<p>Useful links for this week:</p>
+		<p><a href="https://www.youtube.com/watch?v=ZX2Hyu5WoFg">WRITING MY FIRST MACHINE LEARNING GAME! videos</a></p>
+		<p><a href="https://unity3d.com/machine-learning">Unity Machine Learning Tools and Resources</a></p>
+		
+		<p>Other useful links for this week:</p>
 		<ul>
 
-		  <li><p><a href="https://www.youtube.com/watch?v=cQ0f1_Ct9lc">Unity Multiplayer Tutorial</a></p></li>
+		  <li><p><a href="https://mikecann.co.uk/machine-learning/a-game-developer-learns-machine-learning-intent/" target="_blank">A Game Developer Learns Machine Learning</a></p></li>
+		  
+		  <li><p><a href="https://arxiv.org/abs/1809.02627" target="_blank">Unity: A General Platform for Intelligent Agents</a></p></li>
 		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS (Check out the collisions/physics courses)</a></p></li>
 
 			  

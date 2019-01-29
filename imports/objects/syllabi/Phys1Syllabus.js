@@ -12,7 +12,7 @@ export default  Phys1Syllabus ={
     Units: "4",
     Room: "Phys Sci 102",
     Time: "",
-    OfficeHour: "TR 12:00-1:30pm (MA 102), TR 5:30-6/6:30 (PS 103)",
+    OfficeHour: "Tu,Th 5-6:30pm (PS 103)",
     InstructorName: "Miguel E. Rocha",
     InstructorEmail: "mrocha@gavilan.edu",
     RequiredText: "Conceptual Physics 12th Edition by Paul G. Hewitt",
@@ -32,36 +32,42 @@ export default  Phys1Syllabus ={
     ],
     CourseSchedule:{
 	"week 1":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a>"],
-	"week 2":["Chapters: 2, 3, 4, 5", "<a  href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Newton's Laws of Motion</a>","Assignments due Thursday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1</a>"],
-	"week 3":["Chapters: 6, 7", "<a  href='http://slides.com/migroch/deck-1-3-7/fullscreen' target='_blank'>Momentum and Energy</a>", "Assignments due Thursday: <a  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11734' target='_blank'>HW 2</a>, <a href='Phys1-Lab2.pdf' target='_blank'>Lab 2</a> and <a   href='Phys1-Lab3.pdf' target='_blank'>Lab 3</a>"],
-	"week 4":["Chapters: 8, 9, 10", "<a  href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Rotational Motion</a>, <a href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Gravity and Projectile Motion</a>","Assignments due Thursday: <a  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11772?module_item_id=139436' target='_blank'>HW 3</a>, <a href='Phys1-Lab4.pdf' target='_blank'>Lab 4: Conservation of Momentum</a> and <a href='Phys1-Lab5.pdf' target='_blank'>Lab 5: Conservation of Energy</a>" ],
-	"week 5":[ "Mid Term (Ch 1-10)</a> on Thursday","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Friday: <a  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11809?module_item_id=139956' target='_blank'>HW 4</a>, <a href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>"],
-	"week 6":["Chapters: 11", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>", "<a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a>"],
-	
-	"week 7":["Chapters: 12-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>,<a href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>", "Assignments due Thursday: <a href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and <a href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
 
-	    // <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
+	"week 2":["Chapters: 2, 3, 4, 5", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Newton's Laws of Motion</a>","Assignments due Thursday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1</a>"],
+
+	"week 3":["Chapters: 6, 7", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-7/fullscreen' target='_blank'>Momentum and Energy</a>", "Assignments due Thursday: <a class = 'disabled'  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11734' target='_blank'>HW 2</a>, <a class = 'disabled' href='Phys1-Lab2.pdf' target='_blank'>Lab 2</a> and <a class = 'disabled'   href='Phys1-Lab3.pdf' target='_blank'>Lab 3</a>"],
+
+	"week 4":["Chapters: 8, 9, 10", "<a class = 'disabled'  href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Rotational Motion</a>, <a class = 'disabled' href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Gravity and Projectile Motion</a>","Assignments due Thursday: <a class = 'disabled'  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11772?module_item_id=139436' target='_blank'>HW 3</a>, <a class = 'disabled' href='Phys1-Lab4.pdf' target='_blank'>Lab 4: Conservation of Momentum</a> and <a class = 'disabled' href='Phys1-Lab5.pdf' target='_blank'>Lab 5: Conservation of Energy</a>" ],
 	
-	"week 8":["Chapters: 16-18", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> "," Assigments due Thursday: <a href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>"],
+	"week 5":[ "Mid Term (Ch 1-10)</a> on Thursday Feb 28th","<a class = 'disabled'  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Thursday: <a class = 'disabled'  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11809?module_item_id=139956' target='_blank'>HW 4</a>, <a class = 'disabled' href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>"],
+
+//	"week 6":["Chapters: 11", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>", "<a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a>"],
+	
+	"week 6":["Chapters: 11-15", "<a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>,<a class = 'disabled' href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>", "Assignments due Thursday: <a class = 'disabled' href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and <a class = 'disabled' href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
+
+	    // <a class = 'disabled' class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class = 'disabled' class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
+	
+	"week 7":["Chapters: 16-18", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> "," Assigments due Thursday: HW5, <a class = 'disabled' href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a class = 'disabled' href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>"],
 
 	
-	"week 9":["Chapters: 19-21", "<a href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " HW5,  <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> due Thursday"],
+	"week 8":["Chapters: 19-21", "<a class = 'disabled' href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>",  " Assigments due Thursday: <a class = 'disabled'  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> and <a class = 'disabled' href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> due Thursday"],
 
-// , "<a class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'>Mid Term (Ch 11-21)</a>"	
-//	"week 10":[ "Enjoy your Spring Break!"],
+// , "<a class = 'disabled' class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'></a>"	
+	"week 9":[ "Mid Term 2 (Ch 11-21) on Thursday March 28th", "Enjoy your spring break!"],
 
-	"week 10":["Chapters: 22-23", "<a href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", " <a href='https://ilearn.gavilan.edu/courses/5134/quizzes/12183' target='_blank'> HW 6 </a>  and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
+	"week 10":["Chapters: 22-23", "<a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", " <a class = 'disabled' href='https://ilearn.gavilan.edu/courses/5134/quizzes/12183' target='_blank'> HW 6 </a>  and <a class = 'disabled'  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> due Thursday"],
 	
-	"week 11":["Chapters: 23-25", "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>, <a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
+	"week 11":["Chapters: 23-25", "<a class = 'disabled'  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>, <a class = 'disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>",""],
 	
-	"week 12":["Chapters: 26-27", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/22' target='_blank'>Electromagnetic Induction</a>, <a href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a  href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
+	"week 12":["Chapters: 26-27", "<a class = 'disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/22' target='_blank'>Electromagnetic Induction</a>, <a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a class = 'disabled' href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> and <a class = 'disabled'  href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
 	
-	"week 13":["Chapters: 28-29", "<a href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>, <a href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "<a  href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
+	"week 13":["Chapters: 28-29", "<a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>, <a class = 'disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "<a class = 'disabled'  href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
 	
-	"week 14":["Chapters: 30-31", "<a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  "<a  href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a> and <a href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler </a> due Thursday"],
+	"week 14":["Chapters: 30-31", "<a class = 'disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a class = 'disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  "<a class = 'disabled'  href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a> and <a class = 'disabled' href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler </a> due Thursday"],
 	
-	// "week 15":["Chapters: 32-34", "<a class='disabled'  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW8, <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
-	"week 15":[ "Midterm 3 (Ch 22-34) on Tuesday, Dec 11", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, Dec 14"]
+	"week 15":["Chapters: 32-34", "<a class = 'disabled' class='disabled'  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW8, <a class = 'disabled' class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
+
+	"week 16":[ "Midterm 3 (Ch 22-34) on Tuesday, May 21", "<a class = 'disabled'  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, May 24th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday
 	

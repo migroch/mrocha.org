@@ -70,6 +70,7 @@ export default  GameDevSyllabus ={
     // 	{id:"1", shortDescription:"", link:""},
     // ],
     Tools:[
+	{name:"Unity Machine Learning", link:"https://unity3d.com/machine-learning"},
 	{name:"Unity3d", link:"https://unity3d.com/"},
 	{name:"Slack", link:"https://slack.com/"},
 	{name:"CodeHS", link:"https://codehs.com/go/44374"},
