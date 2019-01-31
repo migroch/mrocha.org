@@ -18,7 +18,7 @@ export default class Phys1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-	
+
 	{/* <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> */}
 
 	
