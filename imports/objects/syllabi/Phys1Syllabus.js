@@ -31,9 +31,9 @@ export default  Phys1Syllabus ={
 	 "Describe, compare and contrast electric and magnetic fields, resistance, current, and voltage."	
     ],
     CourseSchedule:{
-	"week 1":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics? What is Science? and Scientific Measurements</a>"],
+	"week 1":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics, What is Science and Scientific Measurements</a>", "<a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a>"],
 
-	"week 2":["Chapters: 2, 3, 4, 5", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Newton's Laws of Motion</a>","Assignments due Thursday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1</a>"],
+	"week 2":["Chapters: 2, 3, 4, 5", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Newton's Laws of Motion</a>","Assignments due Thursday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a>"],
 
 	"week 3":["Chapters: 6, 7", "<a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-7/fullscreen' target='_blank'>Momentum and Energy</a>", "Assignments due Thursday: <a class = 'disabled'  href='https://ilearn.gavilan.edu/courses/5134/quizzes/11734' target='_blank'>HW 2</a>, <a class = 'disabled' href='Phys1-Lab2.pdf' target='_blank'>Lab 2</a> and <a class = 'disabled'   href='Phys1-Lab3.pdf' target='_blank'>Lab 3</a>"],
 
