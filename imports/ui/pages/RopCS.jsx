@@ -54,7 +54,7 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 20 - Data Analysis with Python</h3>
+		<h3 className="bg-info text-center">Week 21 - Last week to complete Assigments 10-12</h3>
 
 		<p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"  target="_blank">Assigment 12: Python Data Analysis 2 - Data Jiu-Jitsu with Pandas</a></p>
 

@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 20 - AI and Games</h3>
+		<h3 className="bg-info text-center">Week 21 - AI and Games</h3>
 
 		<p><a href="https://www.youtube.com/watch?v=ZX2Hyu5WoFg">WRITING MY FIRST MACHINE LEARNING GAME! videos</a></p>
 		<p><a href="https://unity3d.com/machine-learning">Unity Machine Learning Tools and Resources</a></p>
