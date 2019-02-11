@@ -54,19 +54,23 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 21 - AI and Games</h3>
+		<h3 className="bg-info text-center">Week 22 - Unity ML-Agents Toolkit</h3>
 
-		<p><a href="https://www.youtube.com/watch?v=ZX2Hyu5WoFg">WRITING MY FIRST MACHINE LEARNING GAME! videos</a></p>
-		<p><a href="https://unity3d.com/machine-learning">Unity Machine Learning Tools and Resources</a></p>
+		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md" target="_blank">Installing ML-Agents Toolkit for Windows</a></p>
+		
+		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md" target="_blank">Unity ML-Agents Toolkit Documentation</a></p>
+		
+		<p><a href="https://github.com/Unity-Technologies/ml-agents" target="_blank">ML-Agents (GitHub Repo)</a></p>
+
+		<p><a href="https://unity3d.com/machine-learning" target="_blank">Unity Machine Learning Tools and Resources</a></p>
 		
 		<p>Other useful links for this week:</p>
 		<ul>
-
+		  <p><a href="https://www.youtube.com/watch?v=ZX2Hyu5WoFg" target="_blank">WRITING MY FIRST MACHINE LEARNING GAME! videos</a></p>
+		  
 		  <li><p><a href="https://mikecann.co.uk/machine-learning/a-game-developer-learns-machine-learning-intent/" target="_blank">A Game Developer Learns Machine Learning</a></p></li>
 		  
-		  <li><p><a href="https://arxiv.org/abs/1809.02627" target="_blank">Unity: A General Platform for Intelligent Agents</a></p></li>
-		  <li><p><a href="https://codehs.com/go/44374" target="_blank">CodeHS (Check out the collisions/physics courses)</a></p></li>
-
+		  <li><p><a href="https://arxiv.org/abs/1809.02627" target="_blank">Unity: A General Platform for Intelligent Agents (paper)</a></p></li>
 			  
 		</ul>
 				

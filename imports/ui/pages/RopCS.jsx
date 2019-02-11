@@ -54,29 +54,33 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 21 - Last week to complete Assigments 10-12</h3>
+		<h3 className="bg-info text-center">Week 22 - Data Visualization</h3>
 
-		<p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"  target="_blank">Assigment 12: Python Data Analysis 2 - Data Jiu-Jitsu with Pandas</a></p>
+		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/9">Data Visualization - Slides</a></p>
 
-		  <p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"  target="_blank">Assigment 11: Python Data Analysis 1 - Basic Plotting with Matplotlib</a></p>
-		
-		<p><a href="https://codehs.com/go/C82E7"  target="_blank">Assigment 10: CodeHS Intro to CS with Python (you can skip the welcome section)</a></p>
+		<p>Check out <a href="https://github.com/d3/d3/wiki/Gallery">the D3.js Gallery</a> and <a  target="_blank"  href="https://bl.ocks.org/">D3.js Blocks</a> for D3 examples with code</p>
+				
+		<p><a target="_blank" href="https://medium.freecodecamp.org/learn-d3-js-in-5-minutes-c5ec29fb0725">Learn D3.js in 5 minutes</a></p>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen">Data Analysis and Visualization</a></p>
-		
+		<p><a target="_blank"  href="https://learn.freecodecamp.org/data-visualization/data-visualization-with-d3">Data Visualization with D3 (freeCodeCamp)</a></p>
+
+		<p><a target="_blank" href="http://uwdata.github.io/d3-tutorials/">Visualizing Data with D3.js</a></p>
 			
 		<p>Other useful links for this week:</p>
 		<ul>
-
 		  <li><p><a target="_blank" href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">How to add a project to GitHub</a></p></li>
+		  
+		  <li> <p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"  target="_blank">Assigment 12: Python Data Analysis 2 - Data Jiu-Jitsu with Pandas</a></p></li>
+
+		  <li><p><a href="http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/7"  target="_blank">Assigment 11: Python Data Analysis 1 - Basic Plotting with Matplotlib</a></p></li>
+		  
+		  <li><p><a href="https://codehs.com/go/C82E7"  target="_blank">Assigment 10: CodeHS Intro to CS with Python (you can skip the welcome section)</a></p></li>
 		  
 		  <li><p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/5">Setting up your Python Analysis Enviroment on Cloud9</a></p></li>
 		  
 		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
 		  
 		  <li><p><a href="https://c9.io/login" target="_blank">Cloud 9 Sign In</a></p></li>
-		  
-		  <li><p><a href="http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/">Unix Commands Cheat Sheet</a></p></li>
 		  
 		  {/* <li><p><a href="https://join.slack.com/t/falconcoders/shared_invite/enQtNDIyMjc0NzM0NTgyLWI4ZjVhZjE5NmQzNWQ4ZGI3YzA4MjMwZGQ5YzFkZjgzNmFhOTc3ZWE0YzdkYTBlZmEyZmM1Mjk3OTI3MzdjOTc" target="_blank">Join the FalconCoders workspace on Slack!</a></p></li> */}
 		</ul>
