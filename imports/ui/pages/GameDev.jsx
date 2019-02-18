@@ -54,7 +54,7 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 22 - Unity ML-Agents Toolkit</h3>
+		<h3 className="bg-info text-center">Week 23 - Unity ML-Agents</h3>
 
 		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md" target="_blank">Installing ML-Agents Toolkit for Windows</a></p>
 		
