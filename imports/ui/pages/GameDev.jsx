@@ -56,14 +56,16 @@ export default class GameDev extends React.Component {
 	      <div className="container-fluid col-md-6 announcements bpadding">
 		<h3 className="bg-info text-center">Week 23 - Unity ML-Agents</h3>
 
+		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Basic-Guide.md">ML-Agents Basic-Guide</a></p>
+
+		<p><a href="https://www.youtube.com/playlist?list=PLX2vGYjWbI0R08eWQkO7nQkGiicHAX7IX">ML-Agents Video Tutorials PlayList</a></p>
+
 		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md" target="_blank">Installing ML-Agents Toolkit for Windows</a></p>
 		
 		<p><a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md" target="_blank">Unity ML-Agents Toolkit Documentation</a></p>
 		
 		<p><a href="https://github.com/Unity-Technologies/ml-agents" target="_blank">ML-Agents (GitHub Repo)</a></p>
 
-		<p><a href="https://unity3d.com/machine-learning" target="_blank">Unity Machine Learning Tools and Resources</a></p>
-		
 		<p>Other useful links for this week:</p>
 		<ul>
 		  <p><a href="https://www.youtube.com/watch?v=ZX2Hyu5WoFg" target="_blank">WRITING MY FIRST MACHINE LEARNING GAME! videos</a></p>
