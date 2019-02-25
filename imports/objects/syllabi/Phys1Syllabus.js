@@ -39,7 +39,7 @@ export default  Phys1Syllabus ={
 
 	"week 4":["Chapters: 8, 9, 10", "<a  href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Rotational Motion</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Gravity and Projectile Motion</a>","Assignments due Thursday: <a href='https://ilearn.gavilan.edu' target='_blank'>HW 3</a>, <a  href='Phys1-Lab4.pdf' target='_blank'>Lab 4: Conservation of Momentum</a> and <a href='Phys1-Lab5.pdf' target='_blank'>Lab 5: Conservation of Energy</a>" ],
 	
-	"week 5":[ "Mid Term (Ch 1-10)</a> on Thursday Feb 28th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Thursday: <a href='https://ilearn.gavilan.edu' target='_blank'>HW 4</a>, <a  href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>"],
+	"week 5":[ "Mid Term (Ch 1-10)</a> on Thursday Feb 28th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Thursday: <a href='https://ilearn.gavilan.edu' target='_blank'>HW 4</a>, <a  href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>, <a href='https://ilearn.gavilan.edu' target='_blank'>Midterm 1 Practice Quiz</a>"],
 
 //	"week 6":["Chapters: 11", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>", "<a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a>"],
 	
