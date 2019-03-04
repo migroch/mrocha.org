@@ -45,11 +45,14 @@ export default  GameDevSyllabus ={
     Lectures:[
 	{name:"Welcome to Game Software and Systems Development", link:"https://slides.com/migroch/deck-37-38/fullscreen"},
 	{name:"Game concepts, technology and engines" , link:"https://slides.com/migroch/deck-37-39/fullscreen"},
-	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"}
+	{name:"Solar System Simulation", link:"https://slides.com/migroch/deck-37-38-40/fullscreen"},
+	{name: "Machine Learning and AI", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen"},
     ],
     Tutorials:[
+	{nane: "ML-Agents Video Tutorials PlayList", link:"https://www.youtube.com/playlist?list=PLX2vGYjWbI0R08eWQkO7nQkGiicHAX7IXML"},
+	{name:"WRITING MY FIRST MACHINE LEARNING GAME! videos", link:"https://www.youtube.com/watch?v=ZX2Hyu5WoFg"},
 	{name:"Unity MULTIPLAYER Tutorial", link:"https://www.youtube.com/watch?v=cQ0f1_Ct9lc"},
-	{name:"Creating a Game Design Document", link:"https://www.gamedesigning.org/learn/game-design-document/"},
+	{name:"Creating a Game Design Document", link:"https://www.gamedesigning.org/learn/game-design-document"},
 	{name:"How to Animate in Blender", link:"https://www.youtube.com/watch?v=HyVvi-TjHlM"},
 	{name:"Rig and Animate ANYTHING in Blender", link:"https://www.youtube.com/watch?v=mhQY2_gVoVg"},
 	{name:"Blender Beginner Modeling", link:"https://www.youtube.com/watch?v=yi87Dap_WOc"},
@@ -72,6 +75,7 @@ export default  GameDevSyllabus ={
     Tools:[
 	{name:"Unity Machine Learning", link:"https://unity3d.com/machine-learning"},
 	{name:"Unity3d", link:"https://unity3d.com/"},
+	{nane: "Unity ML-Agents", link:"https://github.com/Unity-Technologies/ml-agents"},
 	{name:"Slack", link:"https://slack.com/"},
 	{name:"CodeHS", link:"https://codehs.com/go/44374"},
 	{name:"Code.org", link:"https://code.org/"},

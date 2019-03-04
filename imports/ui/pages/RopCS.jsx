@@ -54,32 +54,19 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 24 - Wednesday is the Deadline to submit assignments 10-13</h3>
+		<h3 className="bg-info text-center">Week 25 - Machine Learning and AI</h3>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/9">Data Visualization - Slides</a></p>
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen">Machine Learning and AI - Slides</a></p>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/22">Assignment 13 option a): Create a visualization for the web using three.js</a></p>
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18">Assigment 14: Linear Regression the ML way</a></p>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/23">Assignment 13 option b): Create a visualization for the web using D3.js</a></p>
-		
-	
-		<p><a target="_blank" href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">How to add a project to GitHub</a></p>
-		
-		
-			
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/31">Assigment 15: Predicting diabetes onsets with Deep Learning</a></p>
+						
 		<p>Other useful links for this week:</p>
-		<ul>		  
-		  <li><p>Check out <a href="https://github.com/d3/d3/wiki/Gallery">the D3.js Gallery</a> and <a  target="_blank"  href="https://bl.ocks.org/">D3.js Blocks</a> for D3 examples with code</p></li>
-
-		  <li><p>Check out <a href="https://threejs.org/examples/">the three.js Gallery</a> for three.js examples with code</p></li>
-
-		  <li><p><a target="_blank" href="http://uwdata.github.io/d3-tutorials/">Visualizing Data with D3.js Tutorial</a></p></li>
+		<ul>
+		  <li><p><a target="_blank" href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">How to add a project to GitHub</a></p> </li>
 		  
-		  <li><p><a target="_blank"  href="https://learn.freecodecamp.org/data-visualization/data-visualization-with-d3">Data Visualization with D3 (freeCodeCamp)</a></p></li>
-
-		  <li><p><a target="_blank" href="https://medium.freecodecamp.org/learn-d3-js-in-5-minutes-c5ec29fb0725">A quick and simple D3.js video tutorial</a></p></li>	
-		  
-		  <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li>
+		  {/* <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li> */}
 		  
 		  <li><p><a href="https://c9.io/login" target="_blank">Cloud 9 Sign In</a></p></li>
 		  

@@ -86,11 +86,12 @@ export default  RopCSSyllabus ={
 	{name: "Databases", link:"https://slides.com/migroch/deck-2-4-9-12-15-21/fullscreen"},
 	{name: "Version Control Systems (git and GitHub)", link: "https://slides.com/migroch/deck-1-3-7-11-14-19-24/fullscreen"},
 	{name: "Data Analysis and Visualization", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen"},
+	{name: "Machine Learning and AI", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen"},
 	{name: "Cybersecurity", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen"},
 	{name: "Projects", link: "https://slides.com/migroch/deck-2-4-9-12-15-21-25-31/fullscreen"},
 	{name: "Virtualization, Cloud Computing and Containerization", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32/fullscreen"},
 	{name: "Go Open Source!", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25-31-33/fullscreen"},
-	{name: "Machine Learning and AI", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen"}
+	
     ],
     Quizzes: [
 	{id: "Quiz0", name:"Week 0", active:0},
@@ -132,6 +133,7 @@ export default  RopCSSyllabus ={
 	{name: "Keras", link:"https://keras.io/"},
 	{name: "scikit-learn", link:"http://scikit-learn.org/stable/"},
 	{name: "D3.js", link:"https://d3js.org/"},
+	{name:"three.js",link:"https://threejs.org/"},
 	{name:"Pandas", link:"https://pandas.pydata.org/"},
 	{name:"Matplotlib", link:"https://matplotlib.org/"},
 	{name:"Meteor", link:"https://www.meteor.com/"},
@@ -147,6 +149,9 @@ export default  RopCSSyllabus ={
 	{name: "freeCodeCamp", link:"https://www.freecodecamp.org"},
 	{name: "CodeCademy", link:"https://www.codecademy.com/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
+	{name: "three.js examples", link:"https://threejs.org/examples/"},
+	{name: "D3.js Blocks", link:"https://bl.ocks.org/"},
+	{name: "UW D3.js Tutorial", link:"http://uwdata.github.io/d3-tutorials"},
 	{name:"Unix Commands", link:"http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/"},
 	{name:"W3Schools", link:"https://www.w3schools.com/"},
 	{name: "AWS Educate login", link:"https://aws.amazon.com/education/awseducate/members/"},
