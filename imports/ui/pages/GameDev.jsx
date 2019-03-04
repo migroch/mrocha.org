@@ -63,8 +63,11 @@ export default class GameDev extends React.Component {
 
 		  <li><p><a href="https://www.gamedesigning.org/learn/game-design-document" target="_blank">Creating a Game Design Document</a></p></li>
 
+		  <li><p><a href="https://thoughtbot.com/blog/how-to-git-with-unity" target="_blank">How to Git with Unity</a></p></li>
+
 		  <li><p><a href="https://www.youtube.com/watch?v=cQ0f1_Ct9lc" target="_blank">Unity MULTIPLAYER Tutorial</a></p></li>
-		  
+
+		  <li><p><a href="https://falcongamemakers.slack.com" target="_blank">FalconGameMakers Slack Workspace</a></p></li>
 		</ul>
 				
 	      </div>
