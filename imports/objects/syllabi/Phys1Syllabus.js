@@ -41,7 +41,7 @@ export default  Phys1Syllabus ={
 	
 	"week 5":[ "<a href='Phys1-Midterm1.pdf' target='_blank' >Mid Term (Ch 1-10)</a> on Thursday Feb 28th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Thursday: <a href='https://ilearn.gavilan.edu' target='_blank'>HW 4</a>, <a  href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>, <a href='https://ilearn.gavilan.edu' target='_blank'>Midterm 1 Practice Quiz</a>"],
 
-	"week 6":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Properties of Matter</a>", ""],
+	"week 6":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", ""],
 	
 	"week 7":["Chapters: 15-18", "<a class = 'disabled' href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a class = 'disabled'  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> ", "Assignments due Thursday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>The Standard Model Through History</a> and <a class href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
 
