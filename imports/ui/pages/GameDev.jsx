@@ -54,9 +54,13 @@ export default class GameDev extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 25 - Final Project Definition</h3>
+		<h3 className="bg-info text-center">Week 26 - Final Project (Salvation Game)</h3>
 
-		<p><a href="https://docs.google.com/document/d/19Ra3hV2WmG7GzC5fdi00WBcnAw0fmic-f6PYQPukax4/edit?usp=sharing" target="_blank">Final Project Game Document</a></p>
+		<p><a href="https://docs.google.com/document/d/19Ra3hV2WmG7GzC5fdi00WBcnAw0fmic-f6PYQPukax4/edit?usp=sharing" target="_blank">Salvation Game Document</a></p>
+
+		<p><a href="https://app.startinfinity.com" target="_blank">Salvation Project Management (Infinit App)</a></p>
+
+		<p><a href="https://gitlab.com/falcongamemakers/salvation" target="_blank">Salvation Project Repo (GitLab)</a></p>
 
 		<p>Other useful links for this week:</p>
 		<ul>

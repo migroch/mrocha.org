@@ -118,8 +118,8 @@ export default  RopCSSyllabus ={
 	{id:"12", shortDescription:"Python Data Analysis 2", description:"Python Data Analysis 2: Data Jiu-Jitsu with Pandas", link:"http://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/8"},
 	{id:"13a", shortDescription:"Web visualization with three.js", description:"Create a visualization for the web using three.js", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/22"},
 	{id:"13b", shortDescription:"Web visualization with D3.js", description:"Create a visualization for the web using D3.js", link:"https://slides.com/migroch/deck-2-4-9-12-15-21-25/fullscreen#/23"},
-	{id:"14", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/18"},
-	{id:"15", shortDescription:"Deep Learning", description:"Predicting diabetes onsets with Deep Learning", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35#/31"}
+	{id:"14", shortDescription:"Linear Regression the ML way", description:"Linear Regression in Python with Scikit Learn", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/18"},
+	{id:"15", shortDescription:"Deep Learning", description:"Predicting diabetes onsets with Deep Learning", link:"https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/31"}
     ],
     Tools:[
 	{name:"CodeHS", link:"https://codehs.com/go/C82E7"},
