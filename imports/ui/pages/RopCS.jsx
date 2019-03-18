@@ -54,13 +54,17 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 26 - Artificial Neural Networks</h3>
+		<h3 className="bg-info text-center">Week 27 - Assigments 14-15 and Cybersecurity</h3>
 
 		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen">Machine Learning and AI - Slides</a></p>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/18">Assigment 14: Linear Regression the ML way</a></p>
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/18">Assignment 14: Linear Regression the ML way</a></p>
 
-		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/31">Assigment 15: Predicting diabetes onsets with Deep Learning</a></p>
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32-35/fullscreen#/31">Assignment 15: Predicting diabetes onsets with Deep Learning</a></p>
+
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen">Cybersecurity - Slides</a></p>
+
+		<p><a target="_blank" href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30/fullscreen#/12">Assigment 16: Cryptography and Software Security</a></p>
 						
 		<p>Other useful links for this week:</p>
 		<ul>
