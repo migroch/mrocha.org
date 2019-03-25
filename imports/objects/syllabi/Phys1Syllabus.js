@@ -51,7 +51,7 @@ export default  Phys1Syllabus ={
 	//<a class = 'disabled' href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>
 	
 	// , "<a class = 'disabled' class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'></a>"	
-	"week 9":[ "Mid Term 2 (Ch 11-21) on Thursday March 28th", " Assigments due Thursday: <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a>  due Thursday", , "Enjoy your spring break!"],
+	"week 9":[ "Mid Term 2 (Ch 11-21) on Thursday March 28th", "<a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a>"," Assigments due Thursday: <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> and <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a>, <a href='https://ilearn.gavilan.edu' target='_blank'>HW 5</a>,  <a href='https://ilearn.gavilan.edu' target='_blank'>HW 6 (Midterm 2 Practice Quiz)</a>  due Thursday", , "Enjoy your spring break!"],
 
 	"week 10":["Chapters: 22-23", "<a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>", " <a class = 'disabled' href='https://ilearn.gavilan.edu/courses/5134/quizzes/12183' target='_blank'> HW 6 </a>  and due Thursday"],
 	

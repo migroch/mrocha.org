@@ -13,19 +13,15 @@ export default class Phys1 extends React.Component {
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
 
-	<h3 className="bg-info text-center">Week 8: Waves, Sound and Music</h3>
+	<h3 className="bg-info text-center">Week 9: Midterm 2</h3>
 
-	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>*/}
+	<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	
-	 <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p> 
+	{/* <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>  */}
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-
-	 <p><a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a></p>
-
-	 <p><a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> </p>
-
-	{/* <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p> */}
+	 
+	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
 	{/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
 	
@@ -82,7 +78,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule["week 8"])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule["week 9"])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
