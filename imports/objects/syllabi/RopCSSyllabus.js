@@ -125,9 +125,10 @@ export default  RopCSSyllabus ={
     Tools:[
 	{name:"CodeHS", link:"https://codehs.com/go/C82E7"},
 	{name:"Cloud9", link:"https://c9.io"},
+	{name:"Infinity", link:"https://app.startinfinity.com/"},
 	{name:"Slack", link:"https://slack.com/"},
-	{name:"Code.org", link:"https://code.org/"},
-	{name:"Bootstrap", link:"http://getbootstrap.com/docs/3.3/"},
+
+	{name:"Bootstrap", link:"https://getbootstrap.com/docs/4.3/getting-started/introduction/"},
 	{name:"React", link:"https://reactjs.org/"},
 	{name:"GitHub", link:"https://github.com/"},
 	{name: "TensorFlow", link:"https://www.tensorflow.org/"},
@@ -142,13 +143,13 @@ export default  RopCSSyllabus ={
 	{name: "Kali Linux", link:"https://www.kali.org/"},
 	{name:"Node.js", link:"https://nodejs.org/en/"},
 	{name:"jQuery", link:"https://api.jquery.com/"},
-	{name:"Asana", link:"https://github.com/"},
     ],
     Links:[
-	{name: "CodinGame", link:"https://www.codingame.com"},
 	{name: "HackerRank", link:"https://www.hackerrank.com/"},
 	{name: "freeCodeCamp", link:"https://www.freecodecamp.org"},
 	{name: "CodeCademy", link:"https://www.codecademy.com/"},
+	{name: "CodinGame", link:"https://www.codingame.com"},
+	{name:"Code.org", link:"https://code.org/"},
 	{name: "How to add a project to GitHub", link:"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/"},
 	{name: "three.js examples", link:"https://threejs.org/examples/"},
 	{name: "D3.js Blocks", link:"https://bl.ocks.org/"},
