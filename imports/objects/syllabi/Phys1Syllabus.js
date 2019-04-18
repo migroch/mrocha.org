@@ -57,7 +57,7 @@ export default  Phys1Syllabus ={
 	
 	"week 11":["Chapters: 23-25", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>","<a  href='Phys1-Lab14.pdf' target='_blank'>Lab 14: Basic Circuits</a> due Thursday"],
 	
-	"week 12":["Chapters: 26-27", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/22' target='_blank'>Electromagnetic Induction</a>, <a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7 and <a  href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> due Thursday"],
+	"week 12":["Chapters: 26-27", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen#/22' target='_blank'>Electromagnetic Induction</a>, <a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>", "HW7, <a  href='Phys1-Lab15.pdf' target='_blank'>Lab 15: Magnetic Field Lines</a> and <a  href='Phys1-Lab15-2.pdf' target='_blank'>Lab 15.2: Electromagnetic Induction</a> due Thursday"],
 	
 	"week 13":["Chapters: 28-29", "<a class = 'disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>, <a class = 'disabled' href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "<a  href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a>  due Thursday"],
 	
