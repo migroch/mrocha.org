@@ -54,16 +54,19 @@ export default class RopCS extends React.Component {
 	    <div className="container-fluid row bpadding">
 
 	      <div className="container-fluid col-md-6 announcements bpadding">
-		<h3 className="bg-info text-center">Week 30 - Final Poject Definition</h3>
+		<h3 className="bg-info text-center">Week 31 - Work on Final Poject</h3>
+
+		<p><a href="https://slides.com/migroch/deck-1-3-7-11-14-19-24-30-32/fullscreen#/">Virtualization, Cloud Computing and Containarization - Slides</a></p>
 
 		<p><a target="_blank" href="https://slides.com/migroch/deck-49/fullscreen">Final Projects - Slides</a></p>
 
+		<p><a href="https://slides.com/migroch/deck-49/fullscreen#/4">Tools and Resources for Final Projects</a></p>
 						
 		<p>Other useful links for this week:</p>
 		<ul>
 
-		  <li><p><a href="https://startinfinity.com/" target="_blank">Infinity Project Management</a></p></li>
-		  
+		  <li><p><a href="https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/" target="_blank">Launch a Linux Virtual Machine on AWS</a></p></li>
+
 		  <li><p><a target="_blank" href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">How to add a project to GitHub</a></p> </li>
 		  
 		  {/* <li><p><a href="https://codehs.com/go/C82E7" target="_blank">CodeHS</a></p></li> */}
