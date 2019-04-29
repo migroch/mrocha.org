@@ -13,7 +13,7 @@ export default class Phys1 extends React.Component {
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
 
-	<h3 className="bg-info text-center">Week 12: Electromagnetic Waves, Light and Color</h3>
+	<h3 className="bg-info text-center">Week 13: Properties of Light Waves, Light Emission and Light Quanta (Photons)</h3>
 
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>*/}
 	
@@ -21,8 +21,8 @@ export default class Phys1 extends React.Component {
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	 <p><a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a></p>
-	 <p><a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a></p> 
+	 <p><a href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a></p>
+	 <p><a href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a></p> 
 	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
 	{/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
