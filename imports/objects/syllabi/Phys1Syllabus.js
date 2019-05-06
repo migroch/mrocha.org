@@ -61,7 +61,7 @@ export default  Phys1Syllabus ={
 	
 	"week 13":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>, <a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>,", "<a  href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>  due Thursday"],
 	
-	"week 14":["Chapters: 30-31", "<a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a class = 'disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>",  " <a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a> and <a  href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
+	"week 14":["Chapters: 30-31",  "<a href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  " <a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a> and <a  href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday"],
 	
 	"week 15":["Chapters: 32-34", "<a class = 'disabled  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>", "HW8 due Thursday"],
 
