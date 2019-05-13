@@ -79,7 +79,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule["week 14"])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule["week 15"])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
