@@ -21,7 +21,7 @@ export default class Phys1 extends React.Component {
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 	 
-	 {/* <p><a href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a></p>  */}
+	 <p><a href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a></p> 
 	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
 	{/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
