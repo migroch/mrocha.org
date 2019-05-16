@@ -13,15 +13,16 @@ export default class Phys1 extends React.Component {
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
 
-	<h3 className="bg-info text-center">Week 14: Qunatum Mechanics, The Atomic Nucleous and Radiactivity</h3>
+	<h3 className="bg-info text-center">Week 15:  The Atomic Nucleous and Radiactivity, Final Prep</h3>
 
-	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>*/}
+	<p className="bg-danger">Midterm 3 (Ch 22-34) on Tuesday, May 21</p>
 	
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>  
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 	 
-	 <p><a href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a></p> 
+	 <p><a href='Phys1-Lab20.pdf' target='_blank'>Lab 20: Radioactive Half-Life</a></p>
+	 
 	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
 	{/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
