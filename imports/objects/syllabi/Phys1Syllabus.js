@@ -65,7 +65,7 @@ export default  Phys1Syllabus ={
 	
 	"week 15":["Chapters: 32-34", "<a href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Thursday"],
 
-	"week 16":[ "Midterm 3 (Ch 22-34) on Tuesday, May 21", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, May 24th"]
+	"week 16":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, May 21", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, May 24th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Thursday
 	
