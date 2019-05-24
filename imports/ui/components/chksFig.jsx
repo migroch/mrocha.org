@@ -116,20 +116,23 @@ class ChksFig extends React.Component {
 		  .append("g")
 		  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 		  .attr("height", +(figHeight - margin.bottom))
-	
+
 	d3.select("#svgFig"+"-"+qid+"-"+groupby)
 		  .append("foreignObject")
 		  .attr("id", "svgFig"+"-"+qid+"-"+groupby+"-title")
-		  .attr('x', 15)
-		  .attr('y', 0)
+		  .attr('x', margin.left)
+		  .attr('y', 5)
 		  .attr("width", figWidth)
 		  .attr("height", margin.top)
-	//.attr("style", "text-align:center;")
-		  .append("xhtml:h3")
-	//.attr("transform", "translate(0,0)")    
-		  .html(title)
+	          //.attr("style", "text-align:center;")
+	
 	d3.select("#svgFig"+"-"+qid+"-"+groupby+"-title")
-		  .append("xhtml:h4")
+	    .append("xhtml:p").attr("style","font-size:25px; margin-bottom:3px;")
+	    .html(title)
+
+      
+	d3.select("#svgFig"+"-"+qid+"-"+groupby+"-title")
+		  .append("xhtml:p").style("font-size" , "20px")
 		  .html(subtitle+" - "+totalResponses+" Responses")
 	
 	color.domain(["Non-LGBT %", "LGBT %", "Diff"]);
