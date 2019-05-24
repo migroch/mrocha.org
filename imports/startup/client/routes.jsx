@@ -14,6 +14,7 @@ import GameDevContainer from '../../ui/containers/GameDevContainer.jsx';
 import Phys1Container from '../../ui/containers/Phys1Container.jsx';
 import Astro1Container from '../../ui/containers/Astro1Container.jsx';
 import MSussman from '../../ui/pages/MSussman.jsx';
+import ChksApp from '../../ui/components/chksApp.jsx';
 
 const browserHistory = createBrowserHistory();
 
@@ -27,6 +28,7 @@ export const renderRoutes = () => (
       <Route path="/astro1" component={Astro1Container}/> 
       <Route path="/mrocha" component={MRContainer}/>
       <Route path="/msussman" component={MSussman}/>
+      <Route path="/chksapp" component={ChksApp}/>
     </div>
   </Router>
 );
