@@ -15,6 +15,7 @@ import Phys1Container from '../../ui/containers/Phys1Container.jsx';
 import Astro1Container from '../../ui/containers/Astro1Container.jsx';
 import MSussman from '../../ui/pages/MSussman.jsx';
 import ChksApp from '../../ui/components/chksApp.jsx';
+import HwscApp from '../../ui/components/hwscApp.jsx';
 
 const browserHistory = createBrowserHistory();
 
@@ -29,6 +30,7 @@ export const renderRoutes = () => (
       <Route path="/mrocha" component={MRContainer}/>
       <Route path="/msussman" component={MSussman}/>
       <Route path="/chksapp" component={ChksApp}/>
+      <Route path="/hwsc" component={HwscApp}/>
     </div>
   </Router>
 );
