@@ -49,7 +49,7 @@ export default class Phys1 extends React.Component {
  	    
 	    <div className="container  text-right col-sm-6">
 	      <a href="http://www.gavilan.edu">
-		<img className="img-responsive"  src="Gavilan_College_Logo_Wide_300dpi.png" />
+		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
 	      
 	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
