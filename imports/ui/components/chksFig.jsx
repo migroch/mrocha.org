@@ -5,14 +5,27 @@ import  saveSvgAsPng from 'save-svg-as-png';
 class ChksFig extends React.Component {
   constructor(props) {
     super(props);
-    this.state= {clientWidth: $(window).width()};
+    this.state= {clientWidth: $(window).width(), sortBy: 'nlgbt'};
     this.handleDownload = this.handleDownload.bind(this);
+    this.handleSort = this.handleSort.bind(this);
+    this.redrawFig = this.redrawFig.bind(this);
   }
 
   render() {
     return (
       
       <div id={this.props.qid+"-"+this.props.groupby} className="container-fluid figure">
+
+	<div className="dropdown sortdropdown">
+	  <button className="btn btn-light dropdown-toggle" type="button" id="sortMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Sort by
+	  </button>
+	  <div className="dropdown-menu" aria-labelledby="sortMenuButton">
+	    <a href="" className="dropdown-item" id="nlgbt" onClick={this.handleSort}>Number of LGBT</a>
+	    <a href="" className="dropdown-item" id="diff" onClick={this.handleSort}>Difference</a>
+	  </div>
+	</div>
+	
 	<a href='' className="downloadButton" onClick={this.handleDownload}>
           Download Figure
         </a>
@@ -23,6 +36,7 @@ class ChksFig extends React.Component {
   componentDidMount(){
     this.drawFig();
     window.addEventListener("resize", this.handleResize);
+    $("#nlgbt").addClass('active');
   }
 
   componentDidUpdate(prevProps){
@@ -42,10 +56,19 @@ class ChksFig extends React.Component {
     $("#svgFig"+"-"+this.props.qid+"-"+this.props.groupby).remove();
     this.setState({clientWidth: $(window).width()});
     //this.redrawFig(this.props);
+  }
+
+  handleSort(e){
+    e.preventDefault();
+    $(".dropdown-item").removeClass("active")
+    $("#svgFig"+"-"+this.props.qid+"-"+this.props.groupby).remove(); 
+    this.setState({sortBy: e.target.id});
+    $(e.target).addClass("active");
+    //this.redrawFig(this.props);
   }  
 
-  redrawFig(props){
-    $("#svgFig"+"-"+props.qid+"-"+props.groupby).remove();
+  redrawFig(prevProps){
+    $("#svgFig"+"-"+prevProps.qid+"-"+prevProps.groupby).remove();
     this.drawFig();   
   }
   
@@ -54,11 +77,12 @@ class ChksFig extends React.Component {
     var title = this.props.title;
     var subtitle = this.props.subtitle;
     var groupby = this.props.groupby;
-    var windowWidth = this.state.clientWidth
+    var sortby = this.state.sortBy;
+    var windowWidth = this.state.clientWidth;
     
     d3.csv(this.props.data_source, function(error, data) {
 
-      //data = data.sort((a, b) => b.Diff - a.Diff)
+      if (sortby == 'diff') data = data.sort((a, b) => b.Diff - a.Diff);
       var nrows = data.length;
       var NonLGBTtotalN = d3.sum(data, (d)=>{return parseFloat(d['Non-LGBTtotal']);});
       var LGBTtotalN =  d3.sum(data, (d)=>{return parseFloat(d['LGBTtotal']);});
