@@ -13,15 +13,15 @@ export default class Phys1 extends React.Component {
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
 
-	<h3 className="bg-info text-center">Week 16: Final</h3>
+	<h3 className="bg-info text-center">Week 1: Intro to Physics and Scientific Measurements</h3>
 
-	<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
+	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>  */}
 	
-	{/* <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>  */} 
+	 <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p> 
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 	 
-	<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
+	 {/*<p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>*/}
 
 	{/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
 	
@@ -45,29 +45,31 @@ export default class Phys1 extends React.Component {
             <title>{syllabus.CourseName}</title>
           </Helmet>
 
-	  <div className="container bpadding">
+	  <div className="row bpadding">
  	    
-	    <div className="container  text-right col-sm-6">
+	    <div className="container  text-center col-md-4" >
 	      <a href="http://www.gavilan.edu">
 		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
-	      
+	    </div>
+	    <div className="container  text-center col-md-8 my-auto">
+	      <br/>
+	      <br/>
+	      <h2>{syllabus.CourseName}</h2>
 	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
 	      <h4>Time: {syllabus.Time}</h4>
 	      <h4>Room: {syllabus.Room}</h4>
 	      <h4>Term: {syllabus.Term}</h4>
 	      <h4>Units: {syllabus.Units}</h4>*/}
 	    </div>
-
-	    <div className="container text-center  col-sm-6">
-	      <h1>{syllabus.CourseName}</h1>
-	      <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
-	      <h4>Office Hours: {syllabus.OfficeHour}</h4>
-	      <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
-	    </div>
-	    
 	  </div>
 
+	  <div className="container-fluid text-center">
+	    <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
+	    <h4>Office Hours: {syllabus.OfficeHour}</h4>
+	    <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
+	  </div>
+	    
 	  <div className="container">
 	    <blockquote>
 	      <p><em>{motive.heisenberg}</em></p>
@@ -78,7 +80,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule["week 16"])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule["week 1"])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">

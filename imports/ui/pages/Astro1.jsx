@@ -12,12 +12,12 @@ export default class Astro1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center"> Wek 13: Final week</h3>
+	<h3 className="bg-info text-center"> Wek 1: Intro to Astronomy and Scientific Measurements</h3>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p className="bg-danger">All assigments due Friday, Dec 14</p>
+	{/*<p className="bg-danger">All assigments due Friday, Dec 14</p>*/}
 	
 	{/*<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p>*/}
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
@@ -41,27 +41,31 @@ export default class Astro1 extends React.Component {
             <title>{syllabus.CourseName}</title>
           </Helmet>
 
-	  <div className="container bpadding">
+	 
+	  
+	  <div className="row bpadding">
  	    
-	    <div className="container  text-right col-sm-6">
+	    <div className="container  text-center col-md-4" >
 	      <a href="http://www.gavilan.edu">
-		<img className="img-responsive"  src="Gavilan_College_Logo_Wide_300dpi.png" />
+		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
-	      
+	    </div>
+	    <div className="container  text-center col-md-8 my-auto">
+	      <br/>
+	      <br/>
+	      <h2>{syllabus.CourseName}</h2>
 	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
 	      <h4>Time: {syllabus.Time}</h4>
 	      <h4>Room: {syllabus.Room}</h4>
 	      <h4>Term: {syllabus.Term}</h4>
 	      <h4>Units: {syllabus.Units}</h4>*/}
 	    </div>
-
-	    <div className="container text-center  col-sm-6">
-	      <h1>{syllabus.CourseName}</h1>
-	      <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
-	      <h4>Office Hours: {syllabus.OfficeHour}</h4>
-	      <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
-	    </div>
-	    
+	  </div>
+	  
+	  <div className="container-fluid text-center">
+	    <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
+	    <h4>Office Hours: {syllabus.OfficeHour}</h4>
+	    <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
 	  </div>
 
 	  <div className="container">
@@ -74,7 +78,7 @@ export default class Astro1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule[Object.keys(syllabus.CourseSchedule)[12]])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule[Object.keys(syllabus.CourseSchedule)[0]])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
