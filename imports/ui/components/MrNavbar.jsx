@@ -23,9 +23,11 @@ export default class MrNavbar extends React.Component {
               </a>
               <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 		<a className="dropdown-item" href="/phys1">Physics 1</a>
-		<a className="dropdown-item" href="/exploringcs">Exploring CS</a>
 		<a className="dropdown-item" href="/astro1">Astronomy 1</a>
+		{/* 
+		<a className="dropdown-item" href="/exploringcs">Exploring CS</a>
 		<a className="dropdown-item" href="/gamedev">Game Software and Systems</a>
+		*/}
               </div>
 	    </li>
 	    {/*Publications*/}
