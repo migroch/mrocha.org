@@ -70,17 +70,17 @@ export default class Phys1 extends React.Component {
 	    <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
 	  </div>
 	    
-	  <div className="container">
-	    <blockquote>
-	      <p><em>{motive.heisenberg}</em></p>
-	      <footer>Werner Heisenberg</footer>
+	  <div className="container-fluid">
+	    <blockquote className="blockquote">
+	      <p className="mb-0"><em>{motive.heisenberg}</em></p>
+	      <footer className="blockquote-footer">Werner Heisenberg</footer>
 	    </blockquote>
 	  </div>
 
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents(syllabus.CourseSchedule["week 1"])} 
+	    {this.renderWeekEvents(syllabus.CourseSchedule["Week 1"])} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">

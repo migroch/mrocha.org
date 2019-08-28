@@ -12,7 +12,7 @@ export default class Astro1 extends React.Component {
   renderWeekEvents(weekEvents){
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center"> Wek 1: Intro to Astronomy and Scientific Measurements</h3>
+	<h3 className="bg-info text-center"> Week 1: Intro to Astronomy and Scientific Measurements</h3>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
@@ -69,9 +69,9 @@ export default class Astro1 extends React.Component {
 	  </div>
 
 	  <div className="container">
-	    <blockquote>
-	      <p><em>{motive.hawking}</em></p>
-	      <footer>Stephen Hawking</footer>
+	    <blockquote className="blockquote">
+	      <p className="mb-0"><em>{motive.hawking}</em></p>
+	      <footer className="blockquote-footer">Stephen Hawking</footer>
 	    </blockquote>
 	  </div>
 
