@@ -19,8 +19,8 @@ export default  Astro1Syllabus ={
     CourseDescription: "This course is an introduction to General Astronomy, with enphasis in theory rather than observations. Students will learn about science, scientific measurements, the solar system, planets,  stars, galaxies and the origins, evolution and structure of the Universe as a whole (i.e. Cosmology). We will also cover the basics of telescopes and astronomical observations. ADVISORY: Mathematics 430. ",
     CourseMotive: {mrocha:"Astronomy and Physics are all about trying to understand the mysteries of the universe, and after each discovery realize how much more there is to know.", hawking:"To confine our attention to terrestrial matters would be to limit the human spirit."},    
     LearningObjectives: [
-	"Identify, describe, compare and contrast the various units of numbers and their significance.",
-	"Describe what science is and the Scientific Method.",
+	//"Identify, describe, compare and contrast the various units of numbers and their significance.",
+	//"Describe what science is and the Scientific Method.",
 	"Describe the basic development of astronomy beginning with astrological foundations of ancient civilizations through modern day theories.",
 	"Describe the principle motions of the earth, moon, and other solar system members.",
 	"Describe the basic physics of light, and distinguish between various types of telescopes.",
@@ -31,11 +31,11 @@ export default  Astro1Syllabus ={
 	"Describe the evolution of the universe, and contrast various models on the further evolution of the universe"
     ],
     CourseSchedule:{
-	"Week 1":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teach Astronomy)</a>, Chapter 1,3 (Cosmic Perspective)", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen' target='_blank'>What is Astronomy?, What is Science? and The Scientific Method</a>"],
+	"Week 1: Intro to Astronomy":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teach Astronomy)</a>, Chapter 1,3 (Cosmic Perspective)", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen' target='_blank'>What is Astronomy?, What is Science? and The Scientific Method</a>"],
 
-	"Week 2 ":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen#/20' target='_blank'>Scientific Measurements and Math Review - Lecture Slides</a>", ],
+	"Week 2: Math Review and Scientific Measurements":["<a href='https://www.teachastronomy.com/textbook/How-Science-Works/The-Scientific-Method/' target='_blank'>Chapter 1 (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-1-3-41/fullscreen#/20' target='_blank'>Math Review Scientific Measurements - Lecture Slides</a>"],
 	
-	"Week 3":["Chapter 2 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teach Astronomy)</a>", "<a   class='disabled' href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Tuesday: <a class='disabled' href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a class='disabled' href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
+	"Week 3":["Chapter 2 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teach Astronomy)</a>", "<a   class='disabled' href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>The Celestial Sphere, Constellations and Seasons", "Assignments due Tuesday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
 
 	"Week 5":["History of Astronomy and the Cosmology of Ancient Civilisations"],
 
