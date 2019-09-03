@@ -20,7 +20,7 @@ export default class Astro1 extends React.Component {
 
 	{/*<p className="bg-danger">All assigments due Friday, Dec 14</p>*/}
 
-	<p  className="bg-warning">Assigments due next Tuesday: <a class='disabled' href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a class='disabled' href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a></p>
+	<p  className="bg-warning">Assigments due next Tuesday: <a  href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a  href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a></p>
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
