@@ -37,11 +37,13 @@ export default  Astro1Syllabus ={
 	
 	"Week 3: Our view of The Universe":["Chapter 2 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-2-4-43/fullscreen' target='_blank'>Our View of The Universe: The Celestial Sphere, Constellations and Seasons", "Assignments due Tuesday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a>"],
 
-	"Week 4":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: <a  class='disabled' href='SkyView_9-10-19_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
-
-	"Week 5":["Chapter 2 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teach Astronomy)</a>", "<a class='disabled' href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System"],
+	"Week 4: The Moon, Eclipses and Tides":["Chapter 2 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System</a>", "Assignments due Tuesday: <a  href='SkyView_9-10-19_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
 	
-	"Week 6":["Chapter 7-13 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a class='disabled' href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Tuesday: <a  class='disabled' href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
+
+	"Week 5":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
+
+	
+	"Week 6":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a class='disabled' href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Tuesday: >" ],
 	
 	"Week 7":["Chapter 4 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a class='disabled' href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a> and <a  class='disabled' href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: <a  class='disabled' href='https://ilearn.gavilan.edu/courses/5373/quizzes/11968' target='_blank'>Midterm 1</a> and <a class='disabled' href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>"],
 
