@@ -18,13 +18,13 @@ export default class Astro1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a></p>
+	<p><a class='disabled' href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a></p>
 
 	{/*<p className="bg-danger">All assigments due Friday, Dec 14</p>*/}
 
 	{/* <p  className="bg-warning">Assigments due next Tuesday: <a  href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a  href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a></p> */}
 	
-	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p>
+	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
       </div>
     )
@@ -83,7 +83,7 @@ export default class Astro1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 4: The Moon, Eclipses and Tides", syllabus.CourseSchedule)} 
+	    {this.renderWeekEvents("Week 5: The Solar System", syllabus.CourseSchedule)} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
