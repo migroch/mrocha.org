@@ -41,23 +41,26 @@ export default  Astro1Syllabus ={
 	
 	"Week 5: The Solar System":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Tuesday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
 	
-	"Week 6":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>" ],
-	
-	"Week 7":["Chapter 4 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a class='disabled' href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a> and <a  class='disabled' href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: <a  class='disabled' href='https://ilearn.gavilan.edu/courses/5373/quizzes/11968' target='_blank'>Midterm 1</a> "],
+	"Week 6: Formation of Solar System and Midterm 1":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>", "Assignments due Tuesday: <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a> "],
 
-	"Week 8":["Chapter 4 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a  class='disabled' href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a  class='disabled' href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a>"],
+	"Week 7: Kepler's Laws":["Chapter 4 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", " <a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18300' target='_blank'>Midterm 1</a>"],
+	
+		
+	"Week 8":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: <a  href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a>" ],
 
-	"Week 9":["Intro to Special and General Relativity"],
-	
-	"Week 10":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday: <a  class='disabled' href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
-	
-	"Week 11":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46#/27/fullscreen' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
+	"Week 9":["Chapter 4 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a  class='disabled' href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: TBD"],
 
-	"Week 12":["Chapters 14-17 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  class='disabled' href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
+	"Week 10":["Intro to Special and General Relativity"],
 	
-	"Week 13":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a   class='disabled' href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams </a>"],
+	"Week 11":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday: <a  class='disabled' href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
 	
-	"Week 14 & 15":["","TBD"],
+	"Week 12":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46#/27/fullscreen' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
+
+	"Week 13":["Chapters 14-17 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  class='disabled' href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
+	
+	"Week 14":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a   class='disabled' href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams </a>"],
+	
+	"Week 15 ":["","TBD"],
 
 	"Week 16":["", "Finals week"],
 
