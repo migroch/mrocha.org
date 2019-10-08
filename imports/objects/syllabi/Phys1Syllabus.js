@@ -43,11 +43,11 @@ export default  Phys1Syllabus ={
 
 	"Week 6: Composition of The Universe and Properties of Matter":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", ""],
 	
-	"Week 7":["Chapters: 15-18", "<a class='disabled' href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a> ", "Assignments due Friday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a> and <a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
+	"Week 7: Temperature, Heat and Phase Transitions":["Chapters: 15-18", "<a  href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Phase Transitions and Thermodynamics</a> ", "Assignments due Friday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a> and <a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
 
 	    // <a class = 'disabled' class='disabled' class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class = 'disabled' class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
 	
-	"Week 8":["Chapters: 19-21", "<a  class='disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"," Assigments due Friday: <a class='disabled' href='https://ilearn.gavilan.edu' target='_blank'>HW 5</a>, <a class='disabled' href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a  class='disabled' href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> "],
+	"Week 8":["Chapters: 19-21", "<a  class='disabled'  href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"," Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/7263/quizzes/18294' target='_blank'>HW 5</a>, <a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> "],
 	//<a class = 'disabled' href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>
 	
 	// , "<a class = 'disabled' class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'></a>"	
