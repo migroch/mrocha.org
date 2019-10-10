@@ -43,7 +43,7 @@ export default  Phys1Syllabus ={
 
 	"Week 6: Composition of The Universe and Properties of Matter":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", ""],
 	
-	"Week 7: Temperature, Heat and Phase Transitions":["Chapters: 15-18", "<a  href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a  href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Phase Transitions and Thermodynamics</a> ", "Assignments due Friday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a> and <a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
+	"Week 7: Temperature, Heat and Phase Transitions":["Chapters: 15-18", "<a  href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a  href='http://slides.com/migroch/deck-1-3-7-11-17/fullscreen' target='_blank'>Phase Transitions and Thermodynamics</a> ", "Assignments due Friday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a> and <a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
 
 	    // <a class = 'disabled' class='disabled' class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class = 'disabled' class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
 	
