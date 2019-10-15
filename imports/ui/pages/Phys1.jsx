@@ -21,10 +21,8 @@ export default class Phys1 extends React.Component {
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>   */}
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-
 	 
-	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>
-	 <p><a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a></p>
+	 <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a></p>
 
 	 <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
@@ -57,7 +55,7 @@ export default class Phys1 extends React.Component {
 		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
 	    </div>
-	    <div className="container  text-center col-md-8 my-auto">
+	    <div className="container text-center col-md-8 my-auto">
 	      <br/>
 	      <br/>
 	      <h2>{syllabus.CourseName}</h2>
@@ -85,7 +83,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 7: Temperature, Heat and Phase Transitions", syllabus.CourseSchedule)} 
+	    {this.renderWeekEvents("Week 8: Heat Transfer and Waves", syllabus.CourseSchedule)} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
