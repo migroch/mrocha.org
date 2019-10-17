@@ -47,10 +47,10 @@ export default  Phys1Syllabus ={
 
 	    // <a class = 'disabled' class='disabled' class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class = 'disabled' class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
 	
-	"Week 8: Heat Transfer and Waves":["Chapters: 19-21", "<a href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"," Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/7263/quizzes/18294' target='_blank'>HW 5</a>, <a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> "],
+	"Week 8: Heat Transfer and Waves":["Chapters: 19-21", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17/fullscreen#/18' target='_blank'>Thermodynamics</a>, <a href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>"," Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/7263/quizzes/18294' target='_blank'>HW 5</a>, <a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a> and <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> "],
 	
 	// , "<a class = 'disabled' class='disabled' class='disabled' href='Phys1-Midterm2_answers.pdf' target='_blank'></a>"	
-	"Week 9":[ "Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>","Assigments due Friday: <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a class='disabled' href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a>" ],
+	"Week 9":[ "Chapters: 22-23", "<a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>","Assigments due Friday: <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a>" ],
 
 	// <a  class='disabled' href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a>
 
