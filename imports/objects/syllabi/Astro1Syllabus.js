@@ -47,9 +47,9 @@ export default  Astro1Syllabus ={
 
 	"Week 8: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
 
-	"Week 9":["Intro to Special and General Relativity"],
+	"Week 9: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
 	
-	"Week 10":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
+	"Week 10":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday:"],
 	
 	"Week 11":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  class='disabled' href='https://slides.com/migroch/deck-46#/27/fullscreen' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 
