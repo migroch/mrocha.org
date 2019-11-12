@@ -85,7 +85,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 11: Electricity and Electric Current", syllabus.CourseSchedule)} 
+	    {this.renderWeekEvents("Week 12: Magnetism and EM Induction", syllabus.CourseSchedule)} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">

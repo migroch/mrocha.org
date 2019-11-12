@@ -53,7 +53,7 @@ export default  Astro1Syllabus ={
 	
 	"Week 11: EM Waves & Light":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday:"],
 	
-	"Week 12":[ "Chapter 5 and 6 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46#/27/fullscreen' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
+	"Week 12: Telescopes":[ "Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen#/34' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 
 	"Week 13":["Chapters 14-17 (Cosmic Perspective), <a class='disabled' href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  class='disabled' href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  class='disabled' href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
 	

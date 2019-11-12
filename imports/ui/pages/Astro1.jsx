@@ -84,7 +84,7 @@ export default class Astro1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 11: EM Waves & Light", syllabus.CourseSchedule)} 
+	    {this.renderWeekEvents("Week 12: Telescopes", syllabus.CourseSchedule)} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
