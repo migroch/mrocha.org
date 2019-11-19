@@ -22,9 +22,7 @@ export default class Phys1 extends React.Component {
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 	 
-	 <p><a  href='Phys1-Lab15.pdf' >Lab 15: Magnetic Field Lines</a></p>
-
-	 <p><a  href='Phys1-Lab15-2.pdf' target='_blank'>Lab 15.2: Electromagnetic Induction</a></p>
+	 <p><a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a></p>
 
 	 <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 
@@ -87,7 +85,7 @@ export default class Phys1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 12: Magnetism and EM Induction", syllabus.CourseSchedule)} 
+	    {this.renderWeekEvents("Week 13: EM Waves", syllabus.CourseSchedule)} 
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
