@@ -62,13 +62,15 @@ export default  Phys1Syllabus ={
 	
 	"Week 13: EM Waves":["Chapters: 27-29", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>,  <a href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a href='Phys1-Lab15.pdf' >Lab 15: Magnetic Field Lines</a>, <a  href='Phys1-Lab15-2.pdf' target='_blank'>Lab 15.2: Electromagnetic Induction</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18273'>HW 7</a>"],
 	
-	"Week 14":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>, <a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>", "Assigments due Friday: <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>"],
-	
-	"Week 15":["Chapters: 30-31",  "<a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>, <a  class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  " <a  class='disabled' href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a> and <a  class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday"],
-	
-	"Week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Friday"],
+	"Week 14: Properties of Light Waves":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>"],
 
-	"Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, Dec 10th", "<a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, May 24th"]
+	//<a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>
+	
+	"Week 15":["Chapters: 30-31",  "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a  class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  " <a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a> and <a  href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday"],
+	
+	//"Week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Friday"],
+
+	"Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, Dec 10th", "<a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "All assigments due Friday, Dec 13th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday
 	
