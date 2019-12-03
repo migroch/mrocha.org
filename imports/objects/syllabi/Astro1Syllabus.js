@@ -59,11 +59,11 @@ export default  Astro1Syllabus ={
 
 	"Week 14: Stellar Evolution":["Chapters 14-17 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
 	
-	"Week 15":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due Tuesday: <a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams </a>"],
+	"Week 15: Cosmology":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due this Tuesday: <a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams</a> and <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18299' target='_blank'>Midterm 2</a"],
 
 	//"Week 15":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: TBD" ],
 	
-	"Week 16":["", "Finals week", "All assigments due Friday Dec 13th "],
+	"Week 16":["", "Finals week", "All assigments due Friday Dec 13th "]
 
 	// <a class='disabled' href='http://slides.com/migroch/deck-1-3-7-11-17' target='_blank'>Change of Phase and Thermodynamics</a>","<a class='disabled' href='https://ilearn.gavilan.edu/courses/2425/assignments/20667' target='_blank'>HW 5</a
     },
