@@ -70,7 +70,7 @@ export default  Phys1Syllabus ={
 	
 	//"Week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Friday"],
 
-	"Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, Dec 10th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, Dec 13th"]
+	"Week 16: Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, Dec 10th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, Dec 13th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday
 	

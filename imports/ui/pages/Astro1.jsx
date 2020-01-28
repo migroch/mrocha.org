@@ -3,43 +3,81 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import PropTypes from 'prop-types';
+import {weekNumberSun} from 'weeknumber';
 
 export default class Astro1 extends React.Component {
   constructor(props) {
     super(props);
   }
 
-  renderWeekEvents(key, schedule){
-    let weekEvents = schedule[key]
+  renderWeekEvents(weekKey, schedule){
+    let weekEvents = schedule[weekKey]
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
-	<h3 className="bg-info text-center">{key}</h3>
+	<h3 className="bg-info text-center">{weekKey}</h3>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-
-	<p><a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18301' target='_blank'>Midterm 3</a></p>
-
+	
 	{/* <p  className="bg-warning">Assigments due next Tuesday: <a  href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a  href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a></p> */}
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
 
-	<p className="text-danger">Late assigments due Friday, Dec 13th</p>
+	{/* <p><a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18301' target='_blank'>Midterm 3</a></p>*/}
+	{/* <p className="text-danger">Late assigments due Friday, Dec 13th</p> */}
       </div>
     )
+  }
+
+  getThisWeek(schedule){
+
+    const startDate = new Date('2020-1-27' );
+    const holidayweekDate = new Date('2020-4-6');
+    
+    let weekNumber = weekNumberSun();
+    let startWeek =  weekNumberSun(startDate);
+    let holidayWeek =  weekNumberSun(holidayweekDate);
+
+    let index =  weekNumber - startWeek;
+    if (weekNumber > holidayWeek) index += 1 ;
+    let indexMax =  Object.keys(schedule).length - 1;
+
+    let key = Object.keys(schedule)[0];
+
+    if (index <= indexMax) {
+      key = Object.keys(schedule)[index];
+    } else {
+      key = Object.keys(schedule)[indexMax]
+    }
+    return  {key:key, index:index};
+  }
+
+  componentDidUpdate(){
+    let schedule = this.props.syllabus.CourseSchedule;
+    let thisWeek = this.getThisWeek(schedule);
+    Object.keys(schedule).forEach((key, index) => {
+      if (index > thisWeek.index + 1)  $('#week'+index+' a').addClass('disabled')
+    })    
   }
 
   render(){
     const { loading, syllExists, syllabus } = this.props;
     const motive = syllabus.CourseMotive ? syllabus.CourseMotive : 'loading...';
     const objectives = syllabus.LearningObjectives ? syllabus.LearningObjectives : [];
-    const schedule = syllabus.CourseSchedule ? syllabus.LearningObjectives : {};
+    const schedule = syllabus.CourseSchedule ? syllabus.CourseSchedule : {};
+    
     if(loading){
       return(
 	<p>loading ...</p>
       )
     }else{
+
+      const startDate = new Date('2020-1-27' );
+      const holidayweekDate = new Date('2020-4-6');
+      const thisWeek = this.getThisWeek(syllabus.CourseSchedule);
+      const WeekEvents = this.renderWeekEvents(thisWeek.key, syllabus.CourseSchedule);
+      
       return (
 	<div className="container syllabus">
 	  <Helmet>
@@ -83,7 +121,7 @@ export default class Astro1 extends React.Component {
 	  <div className="container-fluid row bpadding">
 
 	   
-	    {this.renderWeekEvents("Week 15: Cosmology", syllabus.CourseSchedule)} 
+	    {WeekEvents}  
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
@@ -98,7 +136,7 @@ export default class Astro1 extends React.Component {
 	      {
 		Object.keys(syllabus.CourseSchedule).map((key, index) =>{
 		  return (
-		    <div key={index}>
+		    <div key={index} id={"week"+index}>
 		      <dt><p>{key}</p></dt>
 		      <dd>
 			{
