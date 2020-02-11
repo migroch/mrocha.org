@@ -31,7 +31,7 @@ export default  Phys1Syllabus ={
 	"Describe, compare and contrast electric and magnetic fields, resistance, current, and voltage."	
     ],
     CourseSchedule:{
-	"Week 1: Intro to Physics and Scientific Measurements":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics, What is Science and Scientific Measurements</a>", "<a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a>"],
+	"Week 1: Intro to Physics and Scientific Measurements":["Chapters: 1", "<a href='http://slides.com/migroch/deck-2-4/fullscreen' target='_blank'>What is Physics, What is Science and Scientific Measurements</a>", "<a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a>", "<a href='https://student.desmos.com?prepopulateCode=55fw68' target='_blank'>Desmos Activity for Lab 1</a>"],
 
 	"Week 2: Inertia and Newton's Laws of Motion":["Chapters: 2, 3, 4, 5", "<a  href='http://slides.com/migroch/deck-1-3-5/fullscreen' target='_blank'>Newton's Laws of Motion</a>","Assignments due Friday: <a href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the diameter of the Sun</a> and <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a> "],
 

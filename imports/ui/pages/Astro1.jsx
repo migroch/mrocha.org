@@ -19,10 +19,8 @@ export default class Astro1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a href="https://student.desmos.com?prepopulateCode=55fw68" target='_blank'>Desmos Activity for Lab 1</a></p>
+	<p><a  href='SkyView_2-11-2020_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a></p>
 
-	 <p  className="bg-warning">Assigments due next Tuesday: <a  href='Phys1-Lab1.pdf' target='_blank'>Lab 1: Measuring the Diameter of the Sun</a> and <a  href='Phys1-Hw1.pdf' target='_blank'>HW 1: Units Conversion Practice</a></p> 
-	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
 
