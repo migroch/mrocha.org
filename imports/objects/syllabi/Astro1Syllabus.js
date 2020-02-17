@@ -39,9 +39,11 @@ export default  Astro1Syllabus ={
 
 	// (<a href='HW1-Solutions.pdf' target='_blank'>HW 1 Solutions</a>)
 
-	"Week 4: The Moon, Eclipses and Tides":["Chapter 2 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System</a>", "Assignments due Tuesday: <a  href='SkyView_2-11-2020_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
+	"Week 4: The Moon-Earth System, Eclipses and Tides":["Chapter 2 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Early-Astronomy/The-Night-Sky/' target='_blank'>Chapter 2 & 5 (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/' target='_blank'>The Moon, Eclipses, Tides and The Solar System</a>", "Assignments due Tuesday: <a  href='SkyView_2-11-2020_20hrs.pdf' target='_blank'>Lab 2: Reading a Sky Chart </a>"],
 	
-	"Week 5: The Solar System":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Tuesday: <a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>" ],
+	"Week 5: The Solar System":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>" , "Assignments due Tuesday: <a  href='MoonPhasesActivity.pdf' target='_blank'>Lab 3: Moon Phases </a> " ],
+
+//<a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>
 	
 	"Week 6: Formation of Solar System and Midterm 1":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>", "Assignments due Tuesday: <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a> "],
 

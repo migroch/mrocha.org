@@ -41,7 +41,7 @@ export default  Phys1Syllabus ={
 
 	"Week 4: Rotational and Projectile Motion":["Chapters: 8, 9, 10", "<a  href='https://slides.com/migroch/deck-2-4-9/fullscreen' target='_blank'>Rotational Motion</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11/fullscreen' target='_blank'>Gravity and Projectile Motion</a>","Assignments due Friday: <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18284'>HW 3</a>, <a  href='Phys1-Lab4.pdf' target='_blank'>Lab 4: Conservation of Momentum</a> and <a href='Phys1-Lab5.pdf' target='_blank'>Lab 5: Conservation of Energy</a>" ],
 	
-	"Week 5: Midterm 1":[ "<a  href='Phys1-Midterm1.pdf' target='_blank' >Midterm 1 (Ch 1-10)</a> on Thursday Sept 26th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Friday: <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18282' target='_blank'>HW 4</a>, <a href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18270?module_item_id=214624' target='_blank'>Midterm 1 Practice Quiz</a>"],
+	"Week 5: Midterm 1":[ "<a  href='Phys1-Midterm1.pdf' target='_blank' >Midterm 1 (Ch 1-10)</a> on Thursday Feb 27th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Friday: <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18282' target='_blank'>HW 4</a>, <a href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18270?module_item_id=214624' target='_blank'>Midterm 1 Practice Quiz</a>"],
 
 	"Week 6: Composition of The Universe and Properties of Matter":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", ""],
 	
@@ -55,7 +55,7 @@ export default  Phys1Syllabus ={
 	"Week 9: Waves, Sound and Music":["Chapters: 19-21", "<a href='http://slides.com/migroch/deck-2-4-9-12-18/fullscreen' target='_blank'>Waves and Sound</a>","Assigments due Friday: <a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a> and <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a>" ],
 
 
-	"Week 10: Midterm 2":["<a href='Phys1-Midterm2_F2019.pdf'  target='_blank'> Mid Term 2 (Ch 11-21)</a> on Thursday Oct 31st", "<a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a>", "Assigments due Friday: <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18290?module_item_id=214637'>HW 6 (Midterm 2 Practice Quiz)</a>"],
+	"Week 10: Midterm 2":["<a href='Phys1-Midterm2_F2019.pdf'  target='_blank'> Mid Term 2 (Ch 11-21)</a> on Thursday, April 2nd", "<a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a>", "Assigments due Friday: <a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18290?module_item_id=214637'>HW 6 (Midterm 2 Practice Quiz)</a>"],
 
 	
 	"Week 11: Electricity and Electric Current":[ "Chapters: 22-23", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen' target='_blank'>Electricity</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20/fullscreen#/22' target='_blank'>Electric Current</a>"," "],
@@ -72,7 +72,7 @@ export default  Phys1Syllabus ={
 	
 	//"Week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Friday"],
 
-	"Week 16: Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, Dec 10th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, Dec 13th"]
+	"Week 16: Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, May 19th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, Dec 13th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday
 	
