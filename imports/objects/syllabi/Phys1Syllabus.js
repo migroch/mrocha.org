@@ -43,7 +43,7 @@ export default  Phys1Syllabus ={
 	
 	"Week 5: Midterm 1":[ "<a  href='Phys1-Midterm1.pdf' target='_blank' >Midterm 1 (Ch 1-10)</a> on Thursday Feb 27th","<a  href='https://slides.com/migroch/deck-2-4-9-12/fullscreen' target='_blank'>Midterm 1 Study Guide</a>", "Assignments due Friday: <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21511' target='_blank'>HW 4</a>, <a href='Phys1-Lab6.pdf' target='_blank'>Lab 6: Rotational Inertia</a>, <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21516' target='_blank'>Midterm 1 Practice Quiz</a>"],
 
-	"Week 6: Composition of The Universe and Properties of Matter":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", ""],
+	"Week 6: Composition of The Universe and Properties of Matter":["Chapters: 11-15", "<a href='http://slides.com/migroch/deck-1-3-7-11-13/fullscreen' target='_blank'>Composition of The Universe and Properties of Matter</a>", "Assignments due Friday: <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21511' target='_blank'>HW 4</a>"],
 	
 	"Week 7: Temperature, Heat and Phase Transitions":["Chapters: 15-18", "<a  href='http://slides.com/migroch/deck-2-4-9-12-16/fullscreen' target='_blank'>Temprature, Heat and Heat Transfer</a>, <a  href='http://slides.com/migroch/deck-1-3-7-11-17/fullscreen' target='_blank'>Phase Transitions and Thermodynamics</a> ", "Assignments due Friday: <a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a> and <a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a> "],
 

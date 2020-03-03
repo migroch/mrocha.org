@@ -24,7 +24,7 @@ export default class Phys1 extends React.Component {
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	 <p><a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21516' target='_blank'>Midterm 1 Practice Quiz</a></p>
+	 <p><a  href='https://www.youtube.com/watch?v=yfS1lr8FW1A' target='_blank'>Lab 7: The Standard Model Through History</a></p>
 	 
 	 <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	 
@@ -40,9 +40,10 @@ export default class Phys1 extends React.Component {
 
   getThisWeek(schedule){
 
-    const startDate = new Date('2020-1-27' );
-    const holidayweekDate = new Date('2020-4-6');
-    
+    const startDate = new Date('2020/01/27' );
+    const holidayweekDate = new Date('2020/04/06');
+
+    console.log(startDate)
     let weekNumber = weekNumberSun();
     let startWeek =  weekNumberSun(startDate);
     let holidayWeek =  weekNumberSun(holidayweekDate);

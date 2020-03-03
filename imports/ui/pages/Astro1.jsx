@@ -19,7 +19,7 @@ export default class Astro1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21982' target='_blank'>Lab 4: Observing Venus</a></p>
+	<p><a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21591' target='_blank'>Midterm 1</a></p>
 		
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}

@@ -45,7 +45,9 @@ export default  Astro1Syllabus ={
 
 //<a  href='craters.pdf' target='_blank'>Lab 3: Impact Craters </a>
 	
-	"Week 6: Formation of Solar System and Midterm 1":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>", "Assignments due Tuesday: <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a> "],
+	"Week 6: Formation of Solar System and Midterm 1":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>", " Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21982' target='_blank'>Lab 4: Observing Venus</a>"],
+
+// <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>	
 
 	"Week 7: Kepler's Laws":["Chapter 4 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", " <a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18300' target='_blank'>Midterm 1</a>"],
 
