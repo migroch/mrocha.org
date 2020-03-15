@@ -24,7 +24,9 @@ export default class Phys1 extends React.Component {
 
 	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	 <p><a  href='Phys1-Lab8.pdf' target='_blank'>Lab 8: Hooke's Law</a></p>
+	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>
+
+	 <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a></p>
 
 	 {/*	 <p><a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a></p> */}
 	 
@@ -84,8 +86,6 @@ export default class Phys1 extends React.Component {
       )
     }else{
 
-      const startDate = new Date('2020-1-27' );
-      const holidayweekDate = new Date('2020-4-6');
       const thisWeek = this.getThisWeek(syllabus.CourseSchedule);
       const WeekEvents = this.renderWeekEvents(thisWeek.key, syllabus.CourseSchedule);
       

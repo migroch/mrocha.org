@@ -19,7 +19,7 @@ export default class Astro1 extends React.Component {
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
 	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21591' target='_blank'>Midterm 1</a></p>
+	<p><a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion</a></p>
 		
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
@@ -32,8 +32,8 @@ export default class Astro1 extends React.Component {
 
   getThisWeek(schedule){
 
-    const startDate = new Date('2020-1-27' );
-    const holidayweekDate = new Date('2020-4-6');
+    const startDate = new Date('2020/01/27' );
+    const holidayweekDate = new Date('2020/04/06');
     
     let weekNumber = weekNumberSun();
     let startWeek =  weekNumberSun(startDate);
@@ -73,8 +73,6 @@ export default class Astro1 extends React.Component {
       )
     }else{
 
-      const startDate = new Date('2020-1-27' );
-      const holidayweekDate = new Date('2020-4-6');
       const thisWeek = this.getThisWeek(syllabus.CourseSchedule);
       const WeekEvents = this.renderWeekEvents(thisWeek.key, syllabus.CourseSchedule);
       
