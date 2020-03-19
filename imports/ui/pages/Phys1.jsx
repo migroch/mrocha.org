@@ -26,7 +26,9 @@ export default class Phys1 extends React.Component {
 	
 	Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 	
-	Labs:<p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a></p>
+      Labs: <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>  (<a href="https://sciencing.com/science-effect-color-heat-absorption-8118565.html">Optional do it at home experiments</a>)</p>
+						  
+      
 	
 	{/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
 	 
