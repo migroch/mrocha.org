@@ -22,13 +22,13 @@ export default class Phys1 extends React.Component {
 	
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>   */}
 
-	 <p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-
-	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>
-
-	 <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a></p>
-
-	 {/*	 <p><a  href='Phys1-Lab9.pdf' target='_blank'>Lab 9: Temperature Mix</a></p> */}
+	Zoom Meeting Link:<p><a href="https://cccconfer.zoom.us/j/754755229"> https://cccconfer.zoom.us/j/754755229</a></p>
+	
+	Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
+	
+	Labs:<p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a></p>
+	
+	{/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
 	 
 	 <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	 
@@ -132,7 +132,7 @@ export default class Phys1 extends React.Component {
 	    {WeekEvents} 
 
 	    <div className="container-fluid col-md-6 calendar">
-	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ko0gmi48tb2rbh591cuu8qnb80%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="250" frameBorder="0" scrolling="no" fontSize="500"></iframe>
+	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ko0gmi48tb2rbh591cuu8qnb80%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="350" frameBorder="0" scrolling="no" fontSize="500"></iframe>
 	    </div>
 	   
 	  </div>
