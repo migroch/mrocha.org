@@ -16,29 +16,32 @@ export default class Phys1 extends React.Component {
     return(
       <div className="container-fluid col-md-6 announcements bpadding">
 
-	<h3 className="bg-info text-center">{weekKey}</h3>
-
+      <h3 className="bg-info text-center">{weekKey}</h3>
+      
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
-	
+      
 	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>   */}
 
-	Zoom Meeting Link:<p><a href="https://cccconfer.zoom.us/j/754755229"> https://cccconfer.zoom.us/j/754755229</a></p>
-	
-	Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
-	
-      Labs: <p><a href='Phys1-Lab10.pdf' target='_blank'>Lab 10: Heat Transfer by Radiation</a>  (<a href="https://sciencing.com/science-effect-color-heat-absorption-8118565.html">Optional do it at home experiments</a>)</p>
-						  
-      
-	
-	{/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
-	 
-	 <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
-	 
-	 {/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
+      <p>Zoom Meeting Link: <br />
+      <a href='https://cccconfer.zoom.us/j/4119451947'  target='_blank'>cccconfer.zoom.us/j/4119451947</a>
+      </p>
 
-	 {/* <p className="bg-danger">Midterm 2 next Tuesday, October 29th - <a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a> - <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18290?module_item_id=214637'>HW 6 (Midterm 2 Practice Quiz)</a></p> */}
+      <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
+	
+      <p>Labs: <br />
+      <a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> <br />
+      <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a>
+      </p>
+	
+      {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
+	 
+      <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
+	 
+      {/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
 
-	 {/* <p><a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href="https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656">Midterm 3 Practice Quiz</a></p> */}
+      {/* <p className="bg-danger">Midterm 2 next Tuesday, October 29th - <a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a> - <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18290?module_item_id=214637'>HW 6 (Midterm 2 Practice Quiz)</a></p> */}
+
+      {/* <p><a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href="https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656">Midterm 3 Practice Quiz</a></p> */}
 	
       </div>
     )

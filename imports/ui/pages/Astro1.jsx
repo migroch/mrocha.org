@@ -17,10 +17,17 @@ export default class Astro1 extends React.Component {
 	<h3 className="bg-info text-center">{weekKey}</h3>
 
 	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
-	<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p>
 
-	<p><a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion</a></p>
-		
+	<p>Zoom Meeting Link: <br />
+	  <a href='https://cccconfer.zoom.us/j/4119451947'  target='_blank'>cccconfer.zoom.us/j/4119451947</a>
+	</p>
+	
+	<p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
+
+	  <p>Labs: <br />
+	    <p><a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion</a></p>
+	</p>
+	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
 
@@ -123,7 +130,7 @@ export default class Astro1 extends React.Component {
 	   
 	    
 	    <div className="container-fluid col-md-6 calendar">
-	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hblk46ei531je1apnrhrm6uaco@group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="250" frameBorder="0" scrolling="no" fontSize="500"></iframe>
+	      <iframe  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hblk46ei531je1apnrhrm6uaco@group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" style={{borderWidth:0}} width="100%" height="350" frameBorder="0" scrolling="no" fontSize="500"></iframe>
 	    </div>
 	    
 	  </div>

@@ -49,16 +49,17 @@ export default  Astro1Syllabus ={
 	"Week 7: Formation of Solar System and Midterm 1":["Chapter 7-13 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3, 6-9  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/the-solar-system/fullscreen/#/32' target='_blank'>The Solar System</a>", " Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21982' target='_blank'>Lab 4: Observing Venus</a>"],
 
 // <a  href='ObservingPlanets.pdf' target='_blank'>Lab 4: Observing Planets</a>	
-
-	"Week 8: Kepler's Laws":["Chapter 4 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", " <a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18300' target='_blank'>Midterm 1</a>"],
-
-	"Week 9: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
-
-	"Week 10: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
+	"Week 8":["Class cancelled" ],
 	
-	"Week 11: EM Waves & Light":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday:"],
+	"Week 9: Kepler's Laws":["Chapter 4 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", " <a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: "],
+	
+	"Week 10: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
 
-	"Week 12 Observing the Moon":["Moon observation night", "Assignments due Tuesday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
+	"Week 11: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
+	
+	"Week 12: EM Waves & Light":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday:"],
+
+//	"Week 13 Observing the Moon":["Moon observation night", "Assignments due Tuesday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 	
 	"Week 13: Telescopes":[ "Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen#/34' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: "],
 
