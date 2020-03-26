@@ -30,7 +30,7 @@ export default class Phys1 extends React.Component {
 	
       <p>Labs: <br />
 	<a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> (<a  href='https://www.thoughtco.com/cool-dry-ice-projects-606405' target='_blank'>Optional do it a home projects</a>) <br />
-      <a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a>
+	<a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> ( <a href="https://phet.colorado.edu/en/simulation/wave-interference"  target='_blank'>Wave Intereference Simulation</a>  )
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
