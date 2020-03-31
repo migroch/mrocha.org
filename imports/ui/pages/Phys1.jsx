@@ -29,8 +29,7 @@ export default class Phys1 extends React.Component {
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
 	
       <p>Labs: <br />
-	<a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a> (<a  href='https://www.thoughtco.com/cool-dry-ice-projects-606405' target='_blank'>Optional do it a home projects</a>) <br />
-	<a href='Phys1-Lab12.pdf' target='_blank'>Lab 12: Water Waves Simulation</a> ( <a href="https://phet.colorado.edu/en/simulation/wave-interference"  target='_blank'>Wave Intereference Simulation</a>  )
+	<a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> (<a  href='https://academo.org/demos/virtual-oscilloscope/' target='_blank'>Virtual Oscilloscope</a>, <a href="https://musiclab.chromeexperiments.com/Experiments" target='_blank'>Music Lab Experiments</a>) 
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}

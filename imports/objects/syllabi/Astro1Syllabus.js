@@ -55,7 +55,7 @@ export default  Astro1Syllabus ={
 	
 	"Week 10: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
 
-	"Week 11: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Measuring g </a>"],
+	"Week 11: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Free Fall</a>"],
 	
 	"Week 12: EM Waves & Light":[ "Chapter 5 and 6 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen' target='_blank'>EM Waves, Light and Telescopes</a>", "Assignments due Tuesday:"],
 
