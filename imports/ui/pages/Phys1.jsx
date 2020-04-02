@@ -18,16 +18,18 @@ export default class Phys1 extends React.Component {
 
       <h3 className="bg-info text-center">{weekKey}</h3>
       
-	<p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
+      <p  className="border border-danger"><a href="https://ilearn.gavilan.edu/courses/9302/quizzes/21507">Midterm 2 Practice Quiz</a>, <a href="https://ilearn.gavilan.edu/courses/9302/quizzes/22829">Take Home Midterm 2 (Due April 13th)</a></p>
       
-	{/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>   */}
+      <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
+      
+      {/* <p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>   */}
 
       <p>Zoom Meeting Link: <br />
       <a href='https://cccconfer.zoom.us/j/4119451947'  target='_blank'>cccconfer.zoom.us/j/4119451947</a>
       </p>
 
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
-	
+ 
       <p>Labs: <br />
 	<a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> (<a  href='https://academo.org/demos/virtual-oscilloscope/' target='_blank'>Virtual Oscilloscope</a>, <a href="https://musiclab.chromeexperiments.com/Experiments" target='_blank'>Music Lab Experiments</a>) 
       </p>
@@ -35,7 +37,7 @@ export default class Phys1 extends React.Component {
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
 	 
       <p className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
-	 
+      
       {/* <p className="bg-warning">Assigment due Friday: <a href='Phys1-Hw1.pdf' target='_blank'>HW 1: Unit Conversion Practice</a></p>  */}
 
       {/* <p className="bg-danger">Midterm 2 next Tuesday, October 29th - <a  href='https://slides.com/migroch/deck-1-3-7-11-34/fullscreen#/' target='_blank'>Midterm 2 Study Guide</a> - <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18290?module_item_id=214637'>HW 6 (Midterm 2 Practice Quiz)</a></p> */}
