@@ -25,7 +25,7 @@ export default class Astro1 extends React.Component {
 	<p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
 
 	  <p>Labs: <br />
-	    <p> <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Free Fall</a> ( Go to <a href="https://www.explorelearning.com/">Explore Learning</a> and use teacher code: CWBJQF )</p>
+	    <p> <a href='Astro1-Lab7_GravityPitch.pdf' target='_blank'>Lab 7: Gravity Pitch</a> ( Go to <a href="https://www.explorelearning.com/">Explore Learning</a> and use teacher code: CWBJQF )</p>
 	</p>
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
@@ -47,7 +47,7 @@ export default class Astro1 extends React.Component {
     let holidayWeek =  weekNumberSun(holidayweekDate);
 
     let index =  weekNumber - startWeek;
-    if (weekNumber > holidayWeek) index += 1 ;
+    if (weekNumber > holidayWeek) index -= 1 ;
     let indexMax =  Object.keys(schedule).length - 1;
 
     let key = Object.keys(schedule)[0];

@@ -31,7 +31,8 @@ export default class Phys1 extends React.Component {
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
  
       <p>Labs: <br />
-	<a  href='Phys1-Lab13.pdf' target='_blank'>Lab 13: Sound and Music</a> (<a  href='https://academo.org/demos/virtual-oscilloscope/' target='_blank'>Virtual Oscilloscope</a>, <a href="https://musiclab.chromeexperiments.com/Experiments" target='_blank'>Music Lab Experiments</a>) 
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/23051' target='_blank'>Lab 14: Electrostatics</a>
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/23055' target='_blank'>Lab 15: Basic Circuits</a>
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
@@ -59,7 +60,7 @@ export default class Phys1 extends React.Component {
     let holidayWeek =  weekNumberSun(holidayweekDate);
 
     let index =  weekNumber - startWeek;
-    if (weekNumber > holidayWeek) index += 1 ;
+    if (weekNumber > holidayWeek) index -= 1 ;
     let indexMax =  Object.keys(schedule).length - 1;
 
     let key = Object.keys(schedule)[0];
