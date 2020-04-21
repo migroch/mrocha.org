@@ -25,7 +25,7 @@ export default class Astro1 extends React.Component {
 	<p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
 
 	  <p>Labs: <br />
-	    <p> <a href='Astro1-Lab7_GravityPitch.pdf' target='_blank'>Lab 7: Gravity Pitch</a> ( Go to <a href="https://www.explorelearning.com/">Explore Learning</a> and use teacher code: CWBJQF )</p>
+	    <p> <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934?module_item_id=269026' target='_blank'>Lab 8: The Electromagnetic Spectrum</a></p>
 	</p>
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>

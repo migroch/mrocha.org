@@ -18,7 +18,7 @@ export default class Phys1 extends React.Component {
 
       <h3 className="bg-info text-center">{weekKey}</h3>
       
-      <p  className="border border-danger"><a href="https://ilearn.gavilan.edu/courses/9302/quizzes/21507">Midterm 2 Practice Quiz</a>, <a href="https://ilearn.gavilan.edu/courses/9302/quizzes/22829">Take Home Midterm 2 (Due April 13th)</a></p>
+      {/* <p  className="border border-danger"><a href="https://ilearn.gavilan.edu/courses/9302/quizzes/21507">Midterm 2 Practice Quiz</a>, <a href="https://ilearn.gavilan.edu/courses/9302/quizzes/22829">Take Home Midterm 2 (Due April 13th)</a></p> */}
       
       <p dangerouslySetInnerHTML={{__html: weekEvents[0]}}></p>
       
@@ -31,8 +31,8 @@ export default class Phys1 extends React.Component {
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
  
       <p>Labs: <br />
-	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/23051' target='_blank'>Lab 14: Electrostatics</a>
-	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/23055' target='_blank'>Lab 15: Basic Circuits</a>
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21528' target='_blank'>Lab 15: Magnetic Field Lines</a> <br />
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21534' target='_blank'>Lab 15.2: Electromagnetic Induction</a>
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
