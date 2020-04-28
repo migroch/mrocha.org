@@ -24,8 +24,10 @@ export default class Astro1 extends React.Component {
 	
 	<p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
 
-	  <p>Labs: <br />
-	    <p> <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934?module_item_id=269026' target='_blank'>Lab 8: The Electromagnetic Spectrum</a></p>
+	<p>Labs: <br />
+	  <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/106938' target='_blank'>Lab 9: The Wave Model of Light</a> 
+	  <br />
+	  <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934' target='_blank'>Lab 8: The Electromagnetic Spectrum</a>
 	</p>
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
@@ -88,33 +90,21 @@ export default class Astro1 extends React.Component {
 	  <Helmet>
             <title>{syllabus.CourseName}</title>
           </Helmet>
-
-	 
 	  
 	  <div className="row bpadding">
- 	    
-	    <div className="container  text-center col-md-4" >
+
+	    <div className="container  text-center col-md-4 pb-2" >
 	      <a href="http://www.gavilan.edu">
-		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
+		<img className="img-fluid p-2"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
+	      <h3>{syllabus.CourseName}</h3>
 	    </div>
-	    <div className="container  text-center col-md-8 my-auto">
-	      <br/>
-	      <br/>
-	      <h2>{syllabus.CourseName}</h2>
-	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
-	      <h4>Time: {syllabus.Time}</h4>
-	      <h4>Room: {syllabus.Room}</h4>
-	      <h4>Term: {syllabus.Term}</h4>
-	      <h4>Units: {syllabus.Units}</h4>*/}
+	    <div className="container text-center text-md-right  col-md-8 mt-auto">
+	      <h5>{syllabus.InstructorName} | { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h5>
+	      <p>Office Hours: {syllabus.OfficeHour} <br />  Course Website/Syllabus: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></p>
 	    </div>
 	  </div>
-	  
-	  <div className="container-fluid text-center">
-	    <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
-	    <h4>Office Hours: {syllabus.OfficeHour}</h4>
-	    <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
-	  </div>
+	    
 
 	  <div className="container">
 	    <blockquote className="blockquote">

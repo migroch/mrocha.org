@@ -4,7 +4,7 @@
 export default  Astro1Syllabus ={
     ShortName: "Astro1",
     SchoolName: "Gavilan College",
-    CourseName: "Astronomy 1: Intro to General Astronomy",
+    CourseName: "Astronomy 1",
     CourseLink: "https://mrocha.org/astro1",
     SectionCode: "",
     SectionLink: "",
@@ -61,9 +61,11 @@ export default  Astro1Syllabus ={
 
 //	"Week 13 Observing the Moon":["Moon observation night", "Assignments due Tuesday: <a  href='Astro1-Lab7.pdf' target='_blank'>Lab 7: Emission Spectra </a>"],
 	
-	"Week 13: Telescopes":[ "Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen#/34' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934?module_item_id=269026' target='_blank'>Lab 8: The Electromagnetic Spectrum</a>"],
+	"Week 13: Mirrors, Lenses & Telescopes":[ "Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen#/34' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934?module_item_id=269026' target='_blank'>Lab 8: The Electromagnetic Spectrum</a>"],
 
-	"Week 14: Stellar Evolution":["Chapters 14-17 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>"],
+	"Week 14: Stellar Evolution":["Chapters 14-17 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/106938' target='_blank'>Lab 9: The Wave Model of Light</a> "],
+
+	//<a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>
 	
 	"Week 15: Cosmology":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due this Tuesday: <a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams</a> and <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18299' target='_blank'>Midterm 2</a"],
 

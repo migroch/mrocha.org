@@ -31,8 +31,8 @@ export default class Phys1 extends React.Component {
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
  
       <p>Labs: <br />
-	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21528' target='_blank'>Lab 15: Magnetic Field Lines</a> <br />
-	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21534' target='_blank'>Lab 15.2: Electromagnetic Induction</a>
+	<a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106581?module_item_id=270876' target='_blank'>Lab 16: The Electromagnetic Spectrum</a> <br />
+	<a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106584?module_item_id=270879' target='_blank'>Lab 17: Wave Model of Light</a>
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
@@ -104,27 +104,16 @@ export default class Phys1 extends React.Component {
 
 	  <div className="row bpadding">
  	    
-	    <div className="container  text-center col-md-4" >
+	    <div className="container  text-center col-md-4 pb-2" >
 	      <a href="http://www.gavilan.edu">
-		<img className="img-fluid"  src="Gavilan_College_Logo_Wide_300dpi.png" />
+		<img className="img-fluid p-2"  src="Gavilan_College_Logo_Wide_300dpi.png" />
 	      </a>
+	      <h3>{syllabus.CourseName}</h3>
 	    </div>
-	    <div className="container text-center col-md-8 my-auto">
-	      <br/>
-	      <br/>
-	      <h2>{syllabus.CourseName}</h2>
-	      {/* <h4>Section: <a href={syllabus.SectionLink}>{syllabus.SectionCode}</a></h4>
-	      <h4>Time: {syllabus.Time}</h4>
-	      <h4>Room: {syllabus.Room}</h4>
-	      <h4>Term: {syllabus.Term}</h4>
-	      <h4>Units: {syllabus.Units}</h4>*/}
+	    <div className="container text-center text-md-right  col-md-8 mt-auto">
+	      <h5>{syllabus.InstructorName} | { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h5>
+	      <p>Office Hours: {syllabus.OfficeHour} <br />  Course Website/Syllabus: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></p>
 	    </div>
-	  </div>
-
-	  <div className="container-fluid text-center">
-	    <h3>{syllabus.InstructorName} - { <a href="mailto:{syllabus.InstructorEmail}">{syllabus.InstructorEmail}</a>}</h3>
-	    <h4>Office Hours: {syllabus.OfficeHour}</h4>
-	    <h4>Course Website: <a href={syllabus.CourseLink}>{syllabus.CourseLink}</a></h4>
 	  </div>
 	    
 	  <div className="container-fluid">

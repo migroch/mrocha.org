@@ -12,7 +12,7 @@ export default  Phys1Syllabus ={
     Units: "4",
     Room: "PS 102",
     Time: "",
-    OfficeHour: "Tu 1-2:15pm (MA 102), Th 5-6:30pm (PS 103)",
+    OfficeHour: "Th 5-6:30pm (Zoom ID: 411-945-1947)",
     InstructorName: "Miguel E. Rocha",
     InstructorEmail: "mrocha@gavilan.edu",
     RequiredText: "Conceptual Physics 12th Edition by Paul G. Hewitt",
@@ -66,12 +66,13 @@ export default  Phys1Syllabus ={
 
 	"Week 12: Magnetism and EM Induction": ["Chapters: 23-26", " <a href='http://slides.com/migroch/deck-2-4-9-12-18-22/fullscreen' target='_blank'>Magnetism and Electromagnetic Induction</a>","Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/23051' target='_blank'>Lab 14: Electrostatics</a>, <a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21517' target='_blank'>Lab 14.2: Basic Circuits</a> and <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21525'>HW 7</a>"],
 	
-	"Week 13: EM Waves":["Chapters: 27-29", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>,  <a href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21528' >Lab 15: Magnetic Field Lines</a>, <a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21534' target='_blank'>Lab 15.2: Electromagnetic Induction</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18273'>HW 7</a>"],
+	"Week 13: EM Waves & Light":["Chapters: 27-29", "<a  href='http://slides.com/migroch/deck-1-3-7-11-17-20-23/fullscreen' target='_blank'>Electromagnetic Waves, Light and Color</a>,  <a href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21528' >Lab 15: Magnetic Field Lines</a>, <a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21534' target='_blank'>Lab 15.2: Electromagnetic Induction</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18273'>HW 7</a>"],
 
 	// <a href='Phys1-Lab15.pdf' >Lab 15: Magnetic Field Lines</a>, <a  href='Phys1-Lab15-2.pdf' target='_blank'>Lab 15.2: Electromagnetic Induction</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18273'>HW 7</a>
 	
-	"Week 14: Properties of Light Waves":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>"],
+	"Week 14: Properties of Light Waves":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106581?module_item_id=270876' target='_blank'>Lab 16: Electromagnetic Spectrum</a> and <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106584?module_item_id=270879' target='_blank'>Lab 17: Wave Model of Light</a> "],
 
+	//<a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>
 	//<a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>
 	
 	"Week 15: Light Quanta and Radioactivity":["Chapters: 30-34",  "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  " Assigments due Friday: <a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a>"],
