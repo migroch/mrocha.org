@@ -70,16 +70,18 @@ export default  Phys1Syllabus ={
 
 	// <a href='Phys1-Lab15.pdf' >Lab 15: Magnetic Field Lines</a>, <a  href='Phys1-Lab15-2.pdf' target='_blank'>Lab 15.2: Electromagnetic Induction</a> and <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18273'>HW 7</a>
 	
-	"Week 14: Properties of Light Waves":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen'>Properties of Light Waves</a>", "Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106581?module_item_id=270876' target='_blank'>Lab 16: Electromagnetic Spectrum</a> and <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106584?module_item_id=270879' target='_blank'>Lab 17: Wave Model of Light</a> "],
+	"Week 14: Properties of Light Waves & Light Quanta (Photons)":["Chapters: 28-29", "<a  href='http://slides.com/migroch/deck-2-4-9-12-18-22-26/fullscreen' target='_blank'>Properties of Light Waves</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>", "Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106581?module_item_id=270876' target='_blank'>Lab 16: Electromagnetic Spectrum</a> and <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106584?module_item_id=270879' target='_blank'>Lab 17: Wave Model of Light</a> "],
 
 	//<a href='Phys1-Lab16.pdf' target='_blank'>Lab 16: Light Dispersion</a> and <a href='Phys1-Lab17.pdf' target='_blank'>Lab 17: Convex Lens Magnification</a>
 	//<a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>
 	
-	"Week 15: Light Quanta and Radioactivity":["Chapters: 30-34",  "<a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27/fullscreen' target='_blank'>Light Emission and Light Quanta (Photons)</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  " Assigments due Friday: <a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a>"],
+	"Week 15: Quantum Mechanics and Radioactivity":["Chapters: 30-34",  "<a class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-18-22-26-28/fullscreen' target='_blank'>Quantum Physics</a>, <a  href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>",  "Assigments due Friday: <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106586' target='_blank'>Lab 18: Light and Polarization</a>, <a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106585' target='_blank'>Lab 19: Atomic Structure & Light Emission (Quantum Models)</a> and <a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/21512' target='_blank'>Homework 8</a> "],
+
+//<a  href='Phys1-Lab18.pdf' target='_blank'>Lab 18: Laser Diffraction with a Ruler</a>
 	
 	//"Week 16":["Chapters: 32-34", "<a class='disabled' href='https://slides.com/migroch/deck-1-3-7-11-17-20-23-27-29/fullscreen' target='_blank'>The Atomic Nucleus and Radioactivity</a>, <a  class='disabled' href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>", "HW8 due Friday"],
 
-	"Week 16: Finals week":[ "Final/Midterm 3 (Ch 22-34) on Tuesday, May 19th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/7263/quizzes/18281?module_item_id=214656'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, Dec 13th"]
+	"Week 16: Finals week":[ "Final/Midterm 3 (Ch 22-34) due Friday, May 22th", "<a  href='https://slides.com/migroch/deck-2-4-9-12-36/fullscreen' target='_blank'>Midterm 3 Study Guide</a>, <a href='https://ilearn.gavilan.edu/courses/9302/quizzes/21508'  target='_blank'>Midterm 3 Practice Quiz</a>", "All assigments due Friday, May 22th"]
 
 //HW8, HW9 and <a class='disabled' href='Phys1-Lab19.pdf' target='_blank'>Lab 19: Emission Spectra</a> due Friday
 	

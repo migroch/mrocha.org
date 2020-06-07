@@ -53,7 +53,7 @@ export default  Astro1Syllabus ={
 	
 	"Week 9: Kepler's Laws":["Chapter 4 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", " <a  href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Kepler's Laws of Planetary Motion</a>", "Assignments due Tuesday: "],
 	
-	"Week 10: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
+	"Week 10: Gravity":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/13' target='_blank'>Gravity, Sattelites and Newtons Laws of Motion</a>","Assignments due Tuesday: <a href='KeplersLab.pdf' target='_blank'>Lab 5: Kepler's Laws of Planetary Motion </a> "],
 
 	"Week 11: Gravity (Continued)":["Chapter 4 (Cosmic Perspective), <a href='https://www.teachastronomy.com/textbook/The-Copernican-Revolution' target='_blank'>Chapter 3  (Teach Astronomy)</a>", "<a href='https://slides.com/migroch/deck-45/fullscreen#/48' target='_blank'>Sattelites and Black Holes</a>", "Assignments due Tuesday: <a href='FreeFallLab.pdf' target='_blank'>Lab 6: Free Fall</a>"],
 	
@@ -63,16 +63,20 @@ export default  Astro1Syllabus ={
 	
 	"Week 13: Mirrors, Lenses & Telescopes":[ "Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>","<a  href='https://slides.com/migroch/deck-46/fullscreen#/34' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934?module_item_id=269026' target='_blank'>Lab 8: The Electromagnetic Spectrum</a>"],
 
-	"Week 14: Stellar Evolution":["Chapters 14-17 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/106938' target='_blank'>Lab 9: The Wave Model of Light</a> "],
+	"Week 14: Telescopes":["Chapter 5 and 6 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Detecting-Radiation-from-Space' target='_blank'>Chapter 10  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-46/fullscreen#/46' target='_blank'>Mirrors, Lenses and Telescopes</a>", "Assignments due Tuesday: <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/106938' target='_blank'>Lab 9: The Wave Model of Light</a> "],
 
 	//<a  href='Astro1-Lab8.pdf' target='_blank'>Lab 8: Building a Simple Telescope</a>
-	
-	"Week 15: Cosmology":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due this Tuesday: <a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams</a> and <a  href='https://ilearn.gavilan.edu/courses/7804/quizzes/18299' target='_blank'>Midterm 2</a"],
 
+	"Week 15: Stellar Evolution":["Chapters 14-17 (Cosmic Perspective), <a  href='https://www.teachastronomy.com/textbook/Our-Sun-The-Nearest-Star/The-Sun/' target='_blank'>Chapter 11-13  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/deck-47/fullscreen' target='_blank'>Stars, Stellar Evolution and H-R Diagrams </a>", "Assignments due this Friday:  <a  href='https://ilearn.gavilan.edu/courses/9762/quizzes/21593' target='_blank'>Midterm 2</a>"],
+	
+	"Week 16: Cosmology & Final Midterm":["Chapters 19-23 (Cosmic Perspective), <a https://www.teachastronomy.com/textbook/The-Milky-Way/The-Distribution-of-Stars-in-Space/ target='_blank'>Chapter 14-17  (Teach Astronomy)</a>", "<a  href='https://slides.com/migroch/galaxy/fullscreen#/' target='_blank'>Galaxies, Cosmology and Galaxy Evolution</a>", "Assignments due:  <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/99573' target='_blank'>Lab 10: H-R Diagrams (Due Tuesday May 19th)</a> and <a href='https://ilearn.gavilan.edu/courses/9762/quizzes/21589' target='_blanks'>Midterm 3 (Due Friday May 22th)</a> "],
+
+	//<a  href='Astro1-Lab9.pdf' target='_blank'>Lab 9: H-R Diagrams</a>
 	//"Week 15":["TBD" ],
 	//"Week 15":["History of Astronomy and the Cosmology of Ancient Civilisations", "Assignments due Tuesday: TBD" ],
+
 	
-	"Week 16: Finals":["", "Finals week", "All assigments due Friday Dec 13th "]
+	"Week 16: Finals":["", "Finals week", "All assigments due Friday May 22th "]
 	
     },
     Homework:"Your will have homework assigned every week and due the next class meeting (Tuesdays).",

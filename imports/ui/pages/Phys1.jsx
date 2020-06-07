@@ -31,8 +31,9 @@ export default class Phys1 extends React.Component {
       <p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
  
       <p>Labs: <br />
-	<a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106581?module_item_id=270876' target='_blank'>Lab 16: The Electromagnetic Spectrum</a> <br />
-	<a  href='https://ilearn.gavilan.edu/courses/9302/assignments/106584?module_item_id=270879' target='_blank'>Lab 17: Wave Model of Light</a>
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/24209' target='_blank'>Lab 20: The Interpretations of Quantum Mechanics</a>
+	<br />
+	<a  href='https://ilearn.gavilan.edu/courses/9302/quizzes/24317' target='_blank'>Lab 21: Radioactive Half-Life</a>
       </p>
 	
       {/*	 <p><a  href='Phys1-Lab11.pdf' target='_blank'>Lab 11: Dry Ice Fun!</a></p>  */}
@@ -75,10 +76,12 @@ export default class Phys1 extends React.Component {
 
   componentDidUpdate(){
     let schedule = this.props.syllabus.CourseSchedule;
-    let thisWeek = this.getThisWeek(schedule);
-    Object.keys(schedule).forEach((key, index) => {
-      if (index > thisWeek.index + 1)  $('#week'+index+' a').addClass('disabled')
-    })    
+    if (schedule){
+      let thisWeek = this.getThisWeek(schedule);
+      Object.keys(schedule).forEach((key, index) => {
+	if (index > thisWeek.index + 1)  $('#week'+index+' a').addClass('disabled')
+      })    
+    }
   }
 
   render(){

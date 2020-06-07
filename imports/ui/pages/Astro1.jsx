@@ -24,11 +24,13 @@ export default class Astro1 extends React.Component {
 	
 	<p>Lecture Slides:<p dangerouslySetInnerHTML={{__html: weekEvents[1]}}></p></p>
 
-	<p>Labs: <br />
-	  <a  href='https://ilearn.gavilan.edu/courses/9762/assignments/106938' target='_blank'>Lab 9: The Wave Model of Light</a> 
-	  <br />
-	  <a href='https://ilearn.gavilan.edu/courses/9762/assignments/106934' target='_blank'>Lab 8: The Electromagnetic Spectrum</a>
+	<p>Midterms: <br />
+	   <a href="https://ilearn.gavilan.edu/courses/9762/quizzes/21589" target="_blanks">Midterm 3 (Due Friday May 22th)</a>
 	</p>
+	
+	{/* <p>Labs: <br />
+	<a  href='https://ilearn.gavilan.edu/courses/9762/assignments/99573' target='_blank'>Lab 10: H-R Diagrams (Due Tuesday May 19th)</a> 
+	</p> */}
 	
 	<p  className="bg-warning" dangerouslySetInnerHTML={{__html: weekEvents[2]}}></p>
 	{/*<p className="bg-danger" dangerouslySetInnerHTML={{__html: weekEvents[3]}}></p> */}
@@ -64,10 +66,12 @@ export default class Astro1 extends React.Component {
 
   componentDidUpdate(){
     let schedule = this.props.syllabus.CourseSchedule;
-    let thisWeek = this.getThisWeek(schedule);
-    Object.keys(schedule).forEach((key, index) => {
-      if (index > thisWeek.index + 1)  $('#week'+index+' a').addClass('disabled')
-    })    
+    if (schedule){
+      let thisWeek = this.getThisWeek(schedule);
+      Object.keys(schedule).forEach((key, index) => {
+	if (index > thisWeek.index + 1)  $('#week'+index+' a').addClass('disabled')
+      })    
+    }
   }
 
   render(){
