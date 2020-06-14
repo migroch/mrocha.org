@@ -51,11 +51,9 @@ export default class Phys1 extends React.Component {
   }
 
   getThisWeek(schedule){
-
     const startDate = new Date('2020/01/27' );
     const holidayweekDate = new Date('2020/04/06');
 
-    console.log(startDate)
     let weekNumber = weekNumberSun();
     let startWeek =  weekNumberSun(startDate);
     let holidayWeek =  weekNumberSun(holidayweekDate);
@@ -90,13 +88,13 @@ export default class Phys1 extends React.Component {
     const objectives = syllabus.LearningObjectives ? syllabus.LearningObjectives : [];
     const schedule = syllabus.CourseSchedule ? syllabus.CourseSchedule : {};
     
-    if(loading){
+    if(loading && !syllabus.CourseSchedule){
       return(
 	<p>loading ...</p>
       )
     }else{
 
-      const thisWeek = this.getThisWeek(syllabus.CourseSchedule);
+      let thisWeek =  this.getThisWeek(syllabus.CourseSchedule);
       const WeekEvents = this.renderWeekEvents(thisWeek.key, syllabus.CourseSchedule);
       
       return (
