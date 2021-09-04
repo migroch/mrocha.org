@@ -80,7 +80,7 @@ export default class Astro1 extends React.Component {
     const objectives = syllabus.LearningObjectives ? syllabus.LearningObjectives : [];
     const schedule = syllabus.CourseSchedule ? syllabus.CourseSchedule : {};
     
-    if(loading && !schedule){
+    if(loading && !syllabus.CourseSchedule){
       return(
 	<p>loading ...</p>
       )
